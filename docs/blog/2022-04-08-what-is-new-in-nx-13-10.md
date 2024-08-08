@@ -125,7 +125,7 @@ By assigning tags to your projects you can then configure which relationships am
 }
 ```
 
-Read more about it in this article: [https://blog.nrwl.io/mastering-the-project-boundaries-in-nx-f095852f5bf4](https://medium.com/mastering-the-project-boundaries-in-nx-f095852f5bf4)
+Read more about it in this article: [blog/mastering-the-project-boundaries-in-nx)
 
 So far you have only been able to specify which tags a library is allowed to depend on using the `onlyDepndOnLibsWithTags` property. This made it cumbersome to define in some situations. Now you have a brand new property `notDependOnLibsWithTags`
 
@@ -265,4 +265,4 @@ Then wait for Nx v14 to land 😉.
 - Follow us [on Twitter](https://twitter.com/NxDevTools), and
 - subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), [Nx](https://nx.dev/), and more!
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services).
+

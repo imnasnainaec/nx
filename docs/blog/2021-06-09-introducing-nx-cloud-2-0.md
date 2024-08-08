@@ -89,6 +89,6 @@ Next, click the provided link to connect your workspace to Nx Cloud.
 
 This gives you a fully hosted/managed Nx Cloud organization to use. View your run details, cache stats, and other information without additional infrastructure.
 
-We also have [**Nx Private Cloud**](https://nx.app/private-cloud) that can be deployed internally within our organization with the same assurances and security of the hosted/managed Nx Cloud provided by [Nrwl](https://nrwl.io).
+We also have [**Nx Private Cloud**](https://nx.app/private-cloud) that can be deployed internally within our organization with the same assurances and security of the hosted/managed Nx Cloud.
 
-Visit [nx.app](https://nx.app) to learn more about Nx Cloud and how it can enhance your usage of Nx.
+Visit [nx.app](https://nx.dev/nx-cloud) to learn more about Nx Cloud and how it can enhance your usage of Nx.

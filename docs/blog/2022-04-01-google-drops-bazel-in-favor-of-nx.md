@@ -40,6 +40,6 @@ then definitely reach out. Go to
 - Nx website: [https://nx.dev](https://nx.dev)
 - Connect on Twitter: [https://twitter.com/nxdevtools](https://twitter.com/nxdevtools)
 - Youtube: [https://www.youtube.com/nrwl_io](https://www.youtube.com/nrwl_io)
-- Join the Nx Community: [https://go.nrwl.io/join-slack](https://go.nrwl.io/join-slack)
+- Join the Nx Community: [https://go.nx.dev/community](https://go.nx.dev/community)
 
 **And note, today is a special day (April 1st), so don’t take everything too seriously 😉**

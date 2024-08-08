@@ -85,7 +85,7 @@ The initial Webpack build with Nx CLI takes ~10s, the following cache hit build 
 
 Being tied to Webpack, Angular’s cache is just local to your workstation and only for builds. Nx instead is able to cache any custom operation you specify, including your builds, lint, and tests. In addition, you have the ability to split your project into smaller consumable units, that can also be tested and linted. This means we can take advantage of parallelization to run tests and lints in parallel and take better advantage of the cache of any projects that have not changed! All of this results in faster CI times and a better local developer experience.
 
-By integrating with [Nx Cloud](https://nx.app) you also get the opportunity to
+By integrating with [Nx Cloud](https://nx.dev/nx-cloud) you also get the opportunity to
 
 - [distribute the cache remotely](https://nx.dev/nx-cloud/set-up/set-up-caching) such that other co-workers, as well as your CI system, can leverage it to speed up operations
 - [automatically distribute your task execution](https://nx.dev/nx-cloud/set-up/set-up-dte) across multiple agents on CI
@@ -125,7 +125,7 @@ While this can allow for the splitting of large applications into smaller manage
 
 Nx, on the other hand, embraces this separation of applications and libraries, encouraging the concept that an application is a composition of small, focused chunks (or libraries). This lends itself well to a Domain-driven architecture. Breaking down our applications into these smaller, domain-focused libraries, not only helps with the overall architecture and maintainability of the application but allows Nx at the same time to increase the number of cacheable units within your workspace to dramatically reduce testing and lint times.
 
-In addition, Nx comes with tooling such as custom lint rules which can also enforce some rules around what libraries can be used by other libraries and applications. You can read more about that here: [https://blog.nrwl.io/mastering-the-project-boundaries-in-nx-f095852f5bf4](https://medium.com/mastering-the-project-boundaries-in-nx-f095852f5bf4)
+In addition, Nx comes with tooling such as custom lint rules which can also enforce some rules around what libraries can be used by other libraries and applications. You can read more about that [here](/blog/mastering-the-project-boundaries-in-nx).
 
 ## Extensibility
 

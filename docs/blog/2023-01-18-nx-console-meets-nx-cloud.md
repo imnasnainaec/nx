@@ -110,7 +110,7 @@ To set it up, just click on the button in the Nx Console cloud view and follow t
 \- 🧠 \[Nx Docs\]([https://nx.dev/](https://nx.dev/))  
 \- 👩‍💻 \[Nx GitHub\]([https://github.com/nrwl/nx](https://github.com/nrwl/nx))  
 \- 🎮 \[Nx Console GitHub\]([https://github.com/nrwl/nx-console](https://github.com/nrwl/nx-console))  
-\- 💬 \[Nx Community Slack\]([https://go.nrwl.io/join-slack](https://go.nrwl.io/join-slack))  
+\- 💬 \[Nx Community Slack\]([https://go.nx.dev/community](https://go.nx.dev/community))  
 \- 📹 \[Nx Youtube Channel\]([https://www.youtube.com/@nxdevtools](https://www.youtube.com/@nxdevtools))
 
 Also, if you liked this, click the 👏 and make sure to follow [Max](https://twitter.com/MaxKless) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

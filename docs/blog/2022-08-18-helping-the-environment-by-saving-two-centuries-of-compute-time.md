@@ -20,7 +20,7 @@ Here are the raw numbers:
 - **Last 30 days:** 23 years 8 months 25 days 8 hours 57 minutes 19 seconds
 - **Since the beginning of Nx Cloud:** 200 years 10 months 13 days 19 hours 37 minutes 57 seconds
 
-We’re soon having a page on [nx.app](https://nx.app/) where you can inspect the live numbers as they keep growing in a lightning-fast manner!! (no wonder, [Nx is about to hit 2.5 million downloads / week](https://twitter.com/NxDevTools/status/1559540784730292224?s=20&t=lawBciDmuc4ojkz_OZNmlQ))
+We’re soon having a page on [nx.app](https://nx.dev/nx-cloud/) where you can inspect the live numbers as they keep growing in a lightning-fast manner!! (no wonder, [Nx is about to hit 2.5 million downloads / week](https://twitter.com/NxDevTools/status/1559540784730292224?s=20&t=lawBciDmuc4ojkz_OZNmlQ))
 
 ## The Effect on the Environment
 
@@ -72,7 +72,7 @@ Whenever a hash matches, the computation is not run, but rather the previous res
 
 By default, the Nx computation cache is stored locally (usually within the `node_modules/.cache/nx` folder). The real benefits come from sharing it with others, that being your co-workers or CI agents.
 
-[Nx Cloud](https://nx.app/) allows to distribute the Nx computation cache across machines.
+[Nx Cloud](https://nx.dev/nx-cloud/) allows to distribute the Nx computation cache across machines.
 
 ![](/blog/images/2022-08-18/0*0uisxJ76ycdSZdA1.avif)
 
@@ -86,7 +86,7 @@ nx connect-to-nx-cloud
 
 ## Bonus! Lerna can do this too!!
 
-[Nrwl](https://nrwl.io/), the company behind [Nx](https://nx.dev/), recently [took over stewardship of Lerna](https://dev.to/nrwl/lerna-is-dead-long-live-lerna-3jal). Meanwhile, Lerna 5.4 just got released which features a nice integration with Nx, allowing existing Lerna users to keep using the very same commands, but still benefit from the improved task scheduling and caching abilities Nx comes with.
+[Nrwl](/company), the company behind [Nx](https://nx.dev/), recently [took over stewardship of Lerna](https://dev.to/nrwl/lerna-is-dead-long-live-lerna-3jal). Meanwhile, Lerna 5.4 just got released which features a nice integration with Nx, allowing existing Lerna users to keep using the very same commands, but still benefit from the improved task scheduling and caching abilities Nx comes with.
 
 How to enable it? [Read more on the Lerna docs](https://lerna.js.org/docs/features/cache-tasks)
 
@@ -94,9 +94,8 @@ How to enable it? [Read more on the Lerna docs](https://lerna.js.org/docs/featur
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-- 🧐 [Need help with Angular, React or Nx? Talk to us 😃](https://nrwl.io/contact-us)
 
 Also, if you liked this, click the ❤️ and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

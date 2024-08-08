@@ -17,7 +17,7 @@ The two applications consist of a ToDo app, which will be non-functional and who
 - **Build and Deploy the Remote Applications to Netlify**
 - [Integrate the Remote apps with the Dashboard](https://medium.com/integrate-the-remote-apps-with-the-dashboard-ce8efc61ebce?sk=e82e0ebf5895feaab6ef8866ea9fd88b)
 
-or [subscribe to the newsletter](https://go.nrwl.io/nx-newsletter) to get notified when new articles get published.
+or [subscribe to the newsletter](https://go.nx.dev/nx-newsletter) to get notified when new articles get published.
 
 ## Build ToDo App
 

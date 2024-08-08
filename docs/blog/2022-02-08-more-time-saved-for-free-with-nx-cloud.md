@@ -8,7 +8,7 @@ tags: [nx, nx-cloud]
 
 ### New Pricing changes make the Nx Cloud opt-in a no-brainer
 
-One of the greatest challenges of maintaining popular open-source software is finding a way to sustain its long-term development, which is how we came to develop [Nx Cloud](https://nx.app/): a commercial tool that expands upon Nx. Nx Cloud provides additional features for collaboration, scalability, and the various needs of large and enterprise-scale monorepo management.
+One of the greatest challenges of maintaining popular open-source software is finding a way to sustain its long-term development, which is how we came to develop [Nx Cloud](https://nx.dev/nx-cloud/): a commercial tool that expands upon Nx. Nx Cloud provides additional features for collaboration, scalability, and the various needs of large and enterprise-scale monorepo management.
 
 Nx users do _not_ have to use Nx Cloud. By default Nx’s computation cache is local to your developer machine, sitting in the node_modules folder. Nx Cloud sits on top of Nx, taking its computation cache to another level by making it distributed. This allows CI agents, dev team members, and other tools and stakeholders to benefit from it as well.
 
@@ -86,4 +86,4 @@ If you already have an existing workspace simply run
 npx nx connect-to-nx-cloud
 ```
 
-Both of these operations set up your workspace and connect it with Nx Cloud. Finally, go to [https://nx.app](https://nx.app/), create a user account and claim your existing workspace 🙂.
+Both of these operations set up your workspace and connect it with Nx Cloud. Finally, go to [https://nx.app](https://nx.dev/nx-cloud/), create a user account and claim your existing workspace 🙂.

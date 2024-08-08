@@ -236,7 +236,6 @@ Another useful feature of Nx is the ability to visualize your project dependency
 
 ![](/blog/images/2020-05-14/0*a8DFg8YzZUCajyip.avif)
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services/consulting).
 
 ![](/blog/images/2020-05-14/0*O6F9Rz6kOKakFvtO.avif)
 

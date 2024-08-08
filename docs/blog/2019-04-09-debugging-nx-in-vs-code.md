@@ -8,8 +8,6 @@ tags: [nx, jest]
 
 It’s a common practice for developers to rely on console.log when troubleshooting their code, but for complex scenarios, attaching a debugger might be more effective. In this article we will show how to set up debugging for both Nx Node applications and Nx Jest libs in VS Code.
 
-### **Be sure to sign-up to Nrwl’s Live Broadcast all about Nx!** [**https://go.nrwl.io/nrwl-connect-live-nx-toronto**](https://go.nrwl.io/nrwl-connect-live-nx-toronto)
-
 ## Jest
 
 Jest has become a very popular testing framework, but unlike Karma, Jest doesn’t execute in a browser. This means there is no built in debugger. Instead we have to attach a debugger to the underlying node process that runs the tests. In the following sections we will show you how.
@@ -60,8 +58,8 @@ See the screenshot below:
 
 For completeness we are listing the complete launch.json with both entries below:
 
-[**Torgeir**](https://twitter.com/helgevold) **is an Angular Architect at** [**Nrwl**](https://nrwl.io/)**.** _Follow_ [_@helgevold_](https://twitter.com/helgevold) _and_ [**_Nrwl.io_**](https://medium.com/@nrwl_io) _to read more about Angular._
+[**Torgeir**](https://twitter.com/helgevold) **is an Angular Architect at** [**Nrwl**](/company)**.** _Follow_ him at [_@helgevold_](https://twitter.com/helgevold).
 
 ![](/blog/images/2019-04-09/0*cwhdETxwq79C3zpO.avif)
 
-_Be sure to download our new book at_ [_go.nrwl.io/monorepo_](http://go.nrwl.io/monorepo)
+_Be sure to download our new book at_ [_go.nx.dev/monorepo_](http://go.nx.dev/monorepo)

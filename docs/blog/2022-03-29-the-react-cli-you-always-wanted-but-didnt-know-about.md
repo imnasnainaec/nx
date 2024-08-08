@@ -32,7 +32,7 @@ Taking the time to set up a starter kit or template would work. But it is time-c
 
 What you usually want is a CLI, a command-line interface that helps you develop and deal with the underlying build infrastructure, something that sets you up with modern up-to-date tooling and also keeps those updated!
 
-Nx comes with such a CLI, it is widely adopted by the Angular, React and Node community currently being downloaded more than 1.3 million times a week. Nx is [fully open source](https://github.com/nrwl/nx) (MIT licensed), baked by [Nrwl](https://nrwl.io/) and the [community](https://go.nrwl.io/join-slack).
+Nx comes with such a CLI, it is widely adopted by the Angular, React and Node community currently being downloaded more than 1.3 million times a week. Nx is [fully open source](https://github.com/nrwl/nx) (MIT licensed), baked by [Nrwl](/company) and the [community](https://go.nx.dev/community).
 
 From a bird’s eye view, Nx comes with
 
@@ -105,7 +105,7 @@ _Output folder assets when building the React app_
 
 Nx has another nice feature that basically comes for free: [computation caching](https://nx.dev/using-nx/caching). For every command Nx runs, it computes a unique hash that contains information about the involved source code, environment variables and the command itself. Next time the same conditions are met, the command is not executed again, but rather pulled out of a cache. As you can imagine, this drammatically speeds up things.
 
-If you’re curious and want to learn more, check out the docs page on [computation caching](https://nx.dev/using-nx/caching) and how to leverage [Nx Cloud](https://nx.app/) to store the cache remotely for sharing it with your team members. Also, Nx Cloud pricing recently changed, which [makes it basically free for everyone](https://medium.com/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca).
+If you’re curious and want to learn more, check out the docs page on [computation caching](https://nx.dev/using-nx/caching) and how to leverage [Nx Cloud](https://nx.dev/nx-cloud/) to store the cache remotely for sharing it with your team members. Also, Nx Cloud pricing recently changed, which [makes it basically free for everyone](https://medium.com/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca).
 
 ## Code Generators!
 
@@ -297,7 +297,7 @@ It is not even only about upgrading the frameworks such as React or Angular them
 
 ## Common Questions
 
-Here are some common questions developers have. Have some more? Feel free to ping me on Twitter ([@juristr](https://twitter.com/juristr)), the official Nx account ([@NxDevtools](https://twitter.com/nxdevtools)) or in the [Nx community Slack](https://go.nrwl.io/join-slack).
+Here are some common questions developers have. Have some more? Feel free to ping me on Twitter ([@juristr](https://twitter.com/juristr)), the official Nx account ([@NxDevtools](https://twitter.com/nxdevtools)) or in the [Nx community Discord](https://go.nx.dev/community).
 
 ## Q: How can I customize how my project is built and served?
 
@@ -441,7 +441,7 @@ Congrats, you made it to the end of this article. By now you should have gotten 
 
 Where to go from here?
 
-- [join the community Slack](https://go.nrwl.io/join-slack)
+- [join the community Slack](https://go.nx.dev/community)
 - [follow me on Twitter](https://twitter.com/juristr)
 - [follow Nx on Twitter](https://twitter.com/nxdevtools)
 - learn more about Nx on [https://nx.dev](https://nx.dev/)

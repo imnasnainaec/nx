@@ -81,7 +81,7 @@ You should be all setup and ready now! Here are some related resources to explor
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nx Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
 

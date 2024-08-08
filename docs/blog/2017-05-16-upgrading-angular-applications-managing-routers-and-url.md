@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-05-16/1*vjkgb2luo1VpqGvC62RsZg.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
 
 **Many organizations have large AngularJS 1.x applications deployed to production.** These applications may be built by multiple teams from different lines of business. They may use different routers and state management strategies. **Rewriting such applications all at once, or big bang migrations, is not just impractical, it is often impossible**, and mainly for business reasons. **We need to do gradually,** and this is what this series of articles is about.
 
@@ -98,8 +98,8 @@ Then we looked at the Sibling Outlets strategy we often use to upgrade applicati
 
 This article is based on the Upgrading Angular Applications book, which you can find here [https://leanpub.com/ngupgrade](https://leanpub.com/ngupgrade). If you enjoy the article, check out the book!
 
-### Victor Savkin is a co-founder of [Nrwl — Enterprise Angular Consulting.](http://nrwl.io)
+### Victor Savkin is a co-founder of Nx.
 
 ![](/blog/images/2017-05-16/1*s76h75v7CB7g4EuxVNaGkg.avif)
 
-_If you liked this, click the💚 below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about Angular._
+

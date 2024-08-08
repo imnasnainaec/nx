@@ -48,7 +48,7 @@ We were grateful to receive and merge various documentation improvements from th
 
 Since we took over the project, a **massive 84 issues have been closed so far** (none of which were done by any kind of automated process). We have additionally been working on some automated messaging for very old, non-upvoted issues (those without any activity of any kind since before June 2021) in order to assist with scaling our efforts to modernize the codebase and focus on what really matters to Lerna users.
 
-We want to help the community flourish and as part of that created a new `#lerna` channel to the Nrwl community slack: [join here](https://go.nrwl.io/join-slack)
+We want to help the community flourish and as part of that created a new `#lerna` channel to the Nrwl community slack: [join here](https://go.nx.dev/community)
 
 ## An all-new Website — powered by Docusaurus
 
@@ -86,6 +86,6 @@ Here are some more things to explore:
 - [Lerna 2022 roadmap](https://github.com/lerna/lerna/discussions/3140)
 - follow us on [Twitter](https://twitter.com/nxdevtools) _(we’re announcing also all Lerna related things alongside our Nx twitter account)_
 - subscribe to our [Youtube channel](https://www.youtube.com/nrwl_io) for new tutorials & announcements around Lerna, Nx, Monorepos and tooling
-- join the `#lerna` channel on the [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- join the `#lerna` channel on the [Nrwl Community Slack](https://go.nx.dev/community)
 
 Like it? Make sure to tweet about it and let the community know 😃

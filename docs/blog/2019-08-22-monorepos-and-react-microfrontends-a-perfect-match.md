@@ -161,7 +161,7 @@ Using a monorepo can benefit your team in ways outside of the realm of microfron
 - Learn more about how to [develop like Facebook, Microsoft, and Google](https://medium.com/how-to-develop-react-apps-like-facebook-microsoft-and-google-bdcafcfbc9be)
 - Learn more about [using Nx for React Development](https://medium.com/powering-up-react-development-with-nx-cf0a9385dbec)
 
-**Jason Jean is a Senior Angular Engineer at** [**Nrwl**](https://nrwl.io) **who works on** [**Nx**](https://nx.dev)**. Nrwl helps companies develop like Google. If you are looking for consulting,** [**click here**](https://nrwl.io/services/consulting) **to learn more.**
+**Jason Jean is a Senior Angular Engineer at Nx**
 
 ![[object HTMLElement]](/blog/images/2019-08-22/0*gHZXttJL3u_VRDVs.avif)
 _Nrwl logo_

@@ -236,4 +236,4 @@ This article is based on this book. The title “Enterprise Integration Patterns
 
 ![](/blog/images/2017-07-13/0*q6ZqZheBvPYxR2FP.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

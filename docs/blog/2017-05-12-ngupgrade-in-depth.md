@@ -162,4 +162,4 @@ This article is based on the Upgrading Angular Applications book, which you can 
 
 ![](/blog/images/2017-05-12/0*KdwqYwr3GbqHinYx.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

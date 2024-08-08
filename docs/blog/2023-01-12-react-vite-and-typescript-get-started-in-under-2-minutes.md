@@ -446,7 +446,7 @@ In the `.eslintrc.base.json` you can then define the rules. Here for instance we
 
 If some of these lint rules need to be followed, your editor will show it right in your code, and you can also run lint checks for each PR on CI.
 
-If you’re curious, you can read more here: [https://blog.nrwl.io/mastering-the-project-boundaries-in-nx-f095852f5bf4](https://medium.com/mastering-the-project-boundaries-in-nx-f095852f5bf4)
+If you’re curious, you can read more [here](/blog/mastering-the-project-boundaries-in-nx).
 
 ## Hidden gem: Just run what changed
 
@@ -528,7 +528,7 @@ And let us know what you think :)
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
 - 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us 😃](https://nx.app/enterprise)

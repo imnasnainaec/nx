@@ -302,6 +302,6 @@ Make sure you don’t miss anything by
 
 - Following us [on Twitter](https://twitter.com/NxDevTools), and
 - Subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), [Nx](https://nx.dev/), and more!
-- Subscribing to [our newsletter](https://go.nrwl.io/nx-newsletter)!
+- Subscribing to [our newsletter](https://go.nx.dev/nx-newsletter)!
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services).
+

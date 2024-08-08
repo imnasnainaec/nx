@@ -635,6 +635,6 @@ Now clearly this was a simple example of how you could build your own CRA using 
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nx Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🚀 [Speed up your CI](https://nx.app/)
+- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)

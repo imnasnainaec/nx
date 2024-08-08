@@ -6,7 +6,7 @@ cover_image: '/blog/images/2022-03-14/1*eOsf4SjQilvuMClPC0Isyw.png'
 tags: [nx, ssr, angular]
 ---
 
-Nx is a Smart, Fast and Extensible Build System, which we developed at [Nrwl](https://nrwl.io) based on our experience working at Google, and helping Fortune 500 enterprises build ambitious Angular applications.
+Nx is a Smart, Fast and Extensible Build System, which we developed at [Nrwl](/company) based on our experience working at Google, and helping Fortune 500 enterprises build ambitious Angular applications.
 
 If you are not familiar with Nx, check our website to know what it is capable to do for your project at [https://nx.dev](https://nx.dev).
 

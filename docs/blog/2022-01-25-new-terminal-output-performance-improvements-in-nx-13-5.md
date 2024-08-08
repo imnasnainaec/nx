@@ -111,4 +111,4 @@ nx migrate --run-migrations
 
 Be sure to click the 👏 so other people will see it. Follow us [on Twitter](https://twitter.com/NxDevTools), and subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), [Nx](https://nx.dev/), and more!
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services).
+

@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-05-04/1*aW8snyXZEw1fM6rfozXY2Q.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
 
 Many organizations have large AngularJS 1.x applications deployed to production. These applications may be built by multiple teams from different lines of business. They may use different routers and state management strategies. Rewriting such applications all at once, or big bang migrations, is not just impractical, it is often impossible, and mainly for business reasons. We need to do gradually, and this is what this series of articles is about.
 
@@ -55,8 +55,8 @@ This strategy is a good first step of upgrading an app. It takes five minutes to
 
 This article is based on the Upgrading Angular Applications book, which you can find here [https://leanpub.com/ngupgrade](https://leanpub.com/ngupgrade). If you enjoy the article, check out the book!
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-05-04/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

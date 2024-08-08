@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-07-21/1*gSBFvuLWky8Mgb8gLIZeSg.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/IAi7JWß)_. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_
 
 Building a web application involves coordinating multiple backends, web workers, and UI components, all of which update the application’s state concurrently. This makes it easy to introduce bugs due to race conditions. In this article I will show an example of such a bug, how to expose it in unit tests using RxJS marbles, and, finally, how to fix it.
 
@@ -80,8 +80,8 @@ You can find the source code in [this repo](https://github.com/vsavkin/marble_te
 
 In this article we have looked at an example of a bug caused by a race condition. We used marbles, a powerful way to test async code, to expose this bug in a unit test. We then fixed the bug by refactoring our code to use a single observable of observables, which we applied _switchMap_ to.
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-07-21/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

@@ -15,7 +15,7 @@ This is the second article in a series of articles that aims to showcase the pro
 - [Build and Deploy the Remote Applications to Netlify](https://medium.com/build-and-deploy-the-remote-applications-to-netlify-430ee350573a)
 - [Integrate the Remote apps with the Dashboard](https://medium.com/integrate-the-remote-apps-with-the-dashboard-ce8efc61ebce?sk=e82e0ebf5895feaab6ef8866ea9fd88b)
 
-or [subscribe to the newsletter](https://go.nrwl.io/nx-newsletter) to get notified when new articles get published.
+or [subscribe to the newsletter](https://go.nx.dev/nx-newsletter) to get notified when new articles get published.
 
 ## Scaffold the Dashboard
 

@@ -8,7 +8,7 @@ tags: [nx, angular]
 
 ![](/blog/images/2019-01-14/1*9McDGpqiVh3sZ_CK74sxXw.avif)
 
-Here at [Nrwl](https://nrwl.io/), we’ve been sharing a lot of insights about Angular Ivy, as there is anticipation about what it will enable us and our clients to do. Angular Ivy is a new Angular renderer, which is radically different from anything we have seen in mainstream frameworks, because it uses incremental DOM.
+Here at [Nrwl](/company), we’ve been sharing a lot of insights about Angular Ivy, as there is anticipation about what it will enable us and our clients to do. Angular Ivy is a new Angular renderer, which is radically different from anything we have seen in mainstream frameworks, because it uses incremental DOM.
 
 **What is incremental DOM? How is it different from virtual DOM?**
 
@@ -84,10 +84,8 @@ Given this, plus the tree shakability and memory footprint of incremental DOM, I
 
 ![](/blog/images/2019-01-14/0*m1IN8FG0qRCUBohc.avif)
 
-As always, if you’re looking for Angular consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services/consulting).
-
 ### Victor Savkin is a co-founder of Nrwl. We help companies develop like Google, Facebook, and Microsoft since 2016. We provide consulting, engineering and tools.
 
 ![](/blog/images/2019-01-14/0*Num3x4vfVXNoDs7v.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

@@ -252,9 +252,9 @@ Here are the things that we covered:
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-- 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us 😃](https://nrwl.io/contact-us)
+
 
 Also, if you liked this, click the 👏 and make sure to follow [Chau](https://twitter.com/Nartc1410) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

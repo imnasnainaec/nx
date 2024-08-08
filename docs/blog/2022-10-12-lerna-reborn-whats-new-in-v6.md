@@ -26,7 +26,7 @@ Lerna v6 is out!! Here’s everything you need to know about the **new Lerna exp
 
 ## Lerna continues to evolve
 
-If you already know this, feel free to skip ahead. But surprisingly many still haven’t heard that **Lerna is back**, far from obsolete or deprecated and is getting brand new features. We from [Nrwl](https://nrwl.io/) are the creators of Nx and given our long history in the monorepo space, we offered to [take over stewardship of Lerna](https://medium.com/lerna-is-dead-long-live-lerna-61259f97dbd9?sk=60349b9dc0be3ff730ad052c4cf69df3) when it was declared “dead” in April 2022.
+If you already know this, feel free to skip ahead. But surprisingly many still haven’t heard that **Lerna is back**, far from obsolete or deprecated and is getting brand new features. We from [Nrwl](/company) are the creators of Nx and given our long history in the monorepo space, we offered to [take over stewardship of Lerna](https://medium.com/lerna-is-dead-long-live-lerna-61259f97dbd9?sk=60349b9dc0be3ff730ad052c4cf69df3) when it was declared “dead” in April 2022.
 
 Since we took over, in May 2022, it has been an absolute rollercoaster. We launched [a brand new website](https://lerna.js.org/), updated the content of the docs, and [made Lerna 10x faster](https://dev.to/nx/lerna-used-to-walk-now-it-can-fly-3661). And now, **Lerna v6 is out!**
 
@@ -73,7 +73,7 @@ npx lerna add-caching
 
 By using Nx as the task scheduler for Lerna it inherits all the capabilities Nx comes with. That not only just includes local caching, but also the possibility of having **remote caching** and **distributed task execution**.
 
-Remote caching allows you to distribute your local cache with your co-workers and your CI system. This is done via [Nx Cloud](https://nx.app/). But distributed caching is just one aspect. Nx Cloud also comes with a “run view” that visualizes your CI run with easy grouping and filtering capabilities, but in particular, it comes with the ability to distribute your tasks dynamically across multiple machines. All by optimizing for the best parallelization and machine utilization.
+Remote caching allows you to distribute your local cache with your co-workers and your CI system. This is done via [Nx Cloud](https://nx.dev/nx-cloud/). But distributed caching is just one aspect. Nx Cloud also comes with a “run view” that visualizes your CI run with easy grouping and filtering capabilities, but in particular, it comes with the ability to distribute your tasks dynamically across multiple machines. All by optimizing for the best parallelization and machine utilization.
 
 ![](/blog/images/2022-10-12/0*CtvU5Me27YRidzG1.avif)
 
@@ -83,7 +83,7 @@ All you need to set this up is to run..
 npx nx connect-to-nx-cloud
 ```
 
-..in your Lerna workspace, which will guide you through a couple of questions and set you up with an [Nx Cloud](https://nx.app/).
+..in your Lerna workspace, which will guide you through a couple of questions and set you up with an [Nx Cloud](https://nx.dev/nx-cloud/).
 
 Read more [on the docs](https://lerna.js.org/docs/features/cache-tasks#distributed-computation-caching).
 
@@ -191,7 +191,7 @@ npx lerna add-caching
 
 ..to enable and configure caching for your workspace.
 
-Are you stuck or need help? There is also a community-organized Slack channel where also Nx and Lerna core members hang out. Join [https://go.nrwl.io/join-slack](https://go.nrwl.io/join-slack) and enter the `#lerna` channel.
+Are you stuck or need help? There is also a community-organized Slack channel where also Nx and Lerna core members hang out. Join [https://go.nx.dev/community](https://go.nx.dev/community) and enter the `#lerna` channel.
 
 ## Lerna is using Nx now. Can I keep using my Lerna commands?
 
@@ -210,8 +210,7 @@ That said, as an open-source maintainer you also get unlimited free computation 
 
 - 🧠 [Lerna Docs](https://lerna.js.org/)
 - 👩‍💻 [Lerna GitHub](https://github.com/lerna/lerna)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack) (join the `#lerna` channel)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community) (join the `#lerna` channel)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
-- 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us](https://nrwl.io/contact-us)!
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Lerna](https://twitter.com/lernajs) on Twitter for more!

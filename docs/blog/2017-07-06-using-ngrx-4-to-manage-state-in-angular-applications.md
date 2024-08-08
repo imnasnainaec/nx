@@ -277,10 +277,10 @@ In this post I wanted to show that if you add a handful of utilities, the amount
 - [Creator functions](https://medium.com/ngrx/announcing-ngrx-version-8-ngrx-data-create-functions-runtime-checks-and-mock-selectors-a44fac112627) reduce boilerpate.
 - [Nx](https://nx.dev/angular) is a set of extensible dev tools for monorepos that extends the Angular CLI. Nx comes with a set of utilities that help writing effects dealing with the router and server communication simpler
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-07-06/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
 
 ![](/blog/images/2017-07-06/1*pbElIZt9YeORNw8m142z6w.avif)

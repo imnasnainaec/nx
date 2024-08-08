@@ -117,7 +117,7 @@ Tusky will also be able to provide organizational-level insights to your codebas
 
 Versioning and publishing packages is always a bit tricky. Mix in the added complexity of having multiple packages — sometimes with different versioning or publishing strategies — inside the same codebase, and things can get weird quick!
 
-For a long time, Nx has been purposefully versioning and publishing agnostic, but given our time spent as [stewards of Lerna](https://blog.nrwl.io/lerna-is-dead-long-live-lerna-61259f97dbd9) (the OG Javascript monorepo tool), we’ve been able to take alot of that experience and finally feel confident creating our own versioning and publishing implementation.
+For a long time, Nx has been purposefully versioning and publishing agnostic, but given our time spent as [stewards of Lerna](/blog/lerna-is-dead-long-live-lerna) (the OG Javascript monorepo tool), we’ve been able to take alot of that experience and finally feel confident creating our own versioning and publishing implementation.
 
 Therefore, we’ve been working on a new command to the Nx CLI: [nx release](/recipes/nx-release/get-started-with-nx-release#get-started-with-nx-release). We launched this on Friday of our Launch Nx week!
 
@@ -145,4 +145,4 @@ That’s all for now folks! We’re just starting up a new iteration of developm
 - [Nx GitHub](https://github.com/nrwl/nx)
 - [Nx Official Discord Server](https://go.nx.dev/community)
 - [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- [Speed up your CI](https://nx.app/)
+- [Speed up your CI](https://nx.dev/nx-cloud/)

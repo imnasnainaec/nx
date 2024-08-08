@@ -6,8 +6,6 @@ cover_image: '/blog/images/2018-11-05/1*5bxmfkHU6iEBjFk7_ml0-w.png'
 tags: [nx, angular]
 ---
 
-This recommendation about Angular Elements is a sneak peek at some of the premium content that our Connect clients at Nrwl will have access to _all the time_, plus invitations to live events and premium support tools for Angular. If you like this recommendation and you want to get more as a Nrwl Connect subscriber in the future (once we’re fully live), please **sign up at** [**nrwl.io/connect**](https://nrwl.io/connect).
-
 ![](/blog/images/2018-11-05/1*3KcN8XEiOGRurVItKG2Eiw.avif)
 
 **From Day 1 the Angular team at Google had the goal of building the world’s preeminent next-generation framework on top of web standards.** As a corollary to that larger mission, we had countless meetings with the folks from the Chrome team to figure out how to handle custom elements in the best possible way.
@@ -106,10 +104,8 @@ The Ivy renderer, which should become available soon, benefits custom elements i
 
 ![](/blog/images/2018-11-05/1*3KcN8XEiOGRurVItKG2Eiw.avif)
 
-This recommendation about Angular Elements is a sneak peek at some of the premium content that our Connect clients at Nrwl will have access to _all the time_, plus invitations to live events and premium support tools for Angular. If you like this recommendation and you want to get more as a Nrwl Connect subscriber in the future (once we’re fully live), please **sign up at** [**nrwl.io/connect**](https://blog.nrwl.io/r/?url=https%3A%2F%2Fnrwl.io%2Fconnect).
-
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2018-11-05/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

@@ -18,7 +18,7 @@ Often, when writing about Nx, we talk about the benefits of monorepos, dependenc
 
 ## Starting by Creating a New Workspace
 
-After we have installed [Nx](https://nrwl.io/nx/guide-getting-started%60), let’s create a new workspace.
+After we have installed [Nx](https://nx.dev/getting-started/intro), let’s create a new workspace.
 
 `create-nx-workspace myorg`
 
@@ -268,4 +268,4 @@ If you find all the generate, serve, build commands a bit intimidating, you aren
 
 ![](/blog/images/2018-10-09/0*NSLFXiKLN4PAjCOW.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

@@ -8,7 +8,7 @@ tags: [nx, lerna]
 
 If you’re in a hurry, here’s the **TL;DR:**
 
-> _We,_ [_Nrwl_](https://nrwl.io)_, the company behind_ [_Nx_](https://nx.dev)_, are taking over the stewardship of Lerna.js, the popular JS monorepo tool._ [_Here’s the official announcement on the Lerna repo_](https://github.com/lerna/lerna/issues/3121)_. We are thrilled and committed to helping the Lerna community move forward!_
+> _We,_ [_Nrwl_](/company)_, the company behind_ [_Nx_](https://nx.dev)_, are taking over the stewardship of Lerna.js, the popular JS monorepo tool._ [_Here’s the official announcement on the Lerna repo_](https://github.com/lerna/lerna/issues/3121)_. We are thrilled and committed to helping the Lerna community move forward!_
 
 ## Who is Nrwl?
 
@@ -51,6 +51,6 @@ Make sure you don’t miss anything by
 
 - Following us [on Twitter](https://twitter.com/NxDevTools)
 - Subscribing to our [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1)
-- Subscribing to [our newsletter](https://go.nrwl.io/nx-newsletter)!
+- Subscribing to [our newsletter](https://go.nx.dev/nx-newsletter)!
 
 ✌️

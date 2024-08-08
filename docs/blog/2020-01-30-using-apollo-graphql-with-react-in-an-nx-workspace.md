@@ -84,7 +84,7 @@ Modify your `app.tsx` to provide the Apollo Client:
 
 ## Create React libraries
 
-Nx helps you break down your code into well-organized libraries for consumption by apps, so create a couple of React libraries to organize your work. Create a `data-access` library that handles communication with the backend and a `feature-sets` library that includes container components for displaying the Lego set data. In a real app, you might also create a `ui` library that includes reusable presentational components, but that is not part of this example. For more information on how to organize your React monorepo using Nx, read our book _Effective React Development with Nx_ by registering at [Nrwl Connect](https://connect.nrwl.io/).
+Nx helps you break down your code into well-organized libraries for consumption by apps, so create a couple of React libraries to organize your work. Create a `data-access` library that handles communication with the backend and a `feature-sets` library that includes container components for displaying the Lego set data. In a real app, you might also create a `ui` library that includes reusable presentational components, but that is not part of this example. For more information on how to organize your React monorepo using Nx, read our book _Effective React Development with Nx_ by registering [here](https://go.nx.dev/react-book)
 
 To create the described libraries, run these commands:
 
@@ -174,7 +174,6 @@ Browse to [http://localhost:4200](http://localhost:4200) and see the results of 
 
 *   [Documentation](https://graphql-code-generator.com/)
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we work with our clients [here](https://nrwl.io/services/consulting).
 
 ![](/blog/images/2020-01-30/0*aUAuxd9gGYwLucIf.avif)
 

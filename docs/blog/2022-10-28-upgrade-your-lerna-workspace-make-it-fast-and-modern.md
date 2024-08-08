@@ -51,7 +51,7 @@ You can optimize these expressions and even reuse them across different targets.
 
 The real benefit of caching is when you distribute and share it with co-workers and your CI. Leveraging previously cached runs (especially on CI) results in huge time savings.
 
-Since Lerna uses Nx as a task runner, the remote cache setup is based on [Nx Cloud](https://nx.app/).
+Since Lerna uses Nx as a task runner, the remote cache setup is based on [Nx Cloud](https://nx.dev/nx-cloud/).
 
 Running the following command sets up your workspace:
 
@@ -63,14 +63,14 @@ More [on the Lerna docs](https://lerna.js.org/docs/features/cache-tasks#distribu
 
 ## Running into Roadblocks when Upgrading?
 
-Join the [Nrwl Community Slack](https://go.nrwl.io/join-slack), in particular, the `#lerna` channel to ask your question and get help.
+Join the [Nrwl Community Slack](https://go.nx.dev/community), in particular, the `#lerna` channel to ask your question and get help.
 
 ## Learn more
 
 - 🧠 [Lerna Docs](https://lerna.js.org/)
 - 👩‍💻 [Lerna GitHub](https://github.com/lerna/lerna)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack) (join the `#lerna` channel)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community) (join the `#lerna` channel)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
-- 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us 😃](https://nrwl.io/contact-us)
+
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Lerna](https://twitter.com/lernajs) on Twitter for more!

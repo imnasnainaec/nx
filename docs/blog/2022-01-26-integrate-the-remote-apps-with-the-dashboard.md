@@ -17,7 +17,7 @@ You can view the code for this part here: [https://github.com/Coly010/nx-mfe-net
 - [Build and Deploy the Remote Applications to Netlify](https://medium.com/build-and-deploy-the-remote-applications-to-netlify-430ee350573a)
 - **Integrate the Remote apps with the Dashboard**
 
-or [subscribe to the newsletter](https://go.nrwl.io/nx-newsletter) to get notified when new articles get published.
+or [subscribe to the newsletter](https://go.nx.dev/nx-newsletter) to get notified when new articles get published.
 
 ## Overview
 

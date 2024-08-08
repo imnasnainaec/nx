@@ -6,7 +6,7 @@ cover_image: '/blog/images/2016-12-21/1*bFpua6ePeJsYTjJQoXyUqQ.png'
 tags: [nx, angular]
 ---
 
-_Jeff Cross is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously Tech Lead of the Angular Mobile team at Google._
+_Jeff Cross is a co-founder of **Nx**. He was previously Tech Lead of the Angular Mobile team at Google._
 
 Much of Angular’s magic is in its compiler, both in Angular 1 and Angular 2. The compiler is what takes an application’s directives and components, along with their corresponding HTML and CSS, and creates component factories to quickly stamp out instances with all of their view creation logic.
 
@@ -90,6 +90,6 @@ The cited examples in this article can all be found at [https://aot-examples.fir
 3.  Angular CLI blank with AOT: [https://www.webpagetest.org/result/161221_Y0_BCKA/](https://www.webpagetest.org/result/161221_Y0_BCKA/)
 4.  Angular CLI without AOT: [https://www.webpagetest.org/result/161221_FS_BCKC/](https://www.webpagetest.org/result/161221_FS_BCKC/)
 
-### Jeff Cross is a co-founder of [Nrwl — Enterprise Angular Consulting.](http://nrwl.io)
+### Jeff Cross is a co-founder of Nx
 
 ![](/blog/images/2016-12-21/1*s76h75v7CB7g4EuxVNaGkg.avif)

@@ -48,7 +48,7 @@ First things first! We start by creating a new **Nx** workspace where our applic
 
 > Passing the `--packageManager` (or `--pm`) flag allows us to change the package manager. If not passed, it defaults to `npm`.
 
-The above command creates a workspace called `angular-tailwind-nx` and asks us a few questions to help us set up the workspace. We chose the `angular` preset, provided `app1` for the initial **Angular** application name, chose `css` as the stylesheet to use, and this time chose not to use [**Nx Cloud**](https://nx.app/) but feel free to opt-in to use the **Nx Cloud** free tier to benefit from distributing the computation caching of your projects.
+The above command creates a workspace called `angular-tailwind-nx` and asks us a few questions to help us set up the workspace. We chose the `angular` preset, provided `app1` for the initial **Angular** application name, chose `css` as the stylesheet to use, and this time chose not to use [**Nx Cloud**](https://nx.dev/nx-cloud/) but feel free to opt-in to use the **Nx Cloud** free tier to benefit from distributing the computation caching of your projects.
 
 > Any of the stylesheet options can be used. Also, using **Nx Cloud** or not doesn’t affect setting up **Tailwind CSS**.
 

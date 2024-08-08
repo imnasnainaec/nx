@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-01-11/1*4vRt7euWTTHxX6FHxtheJA.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
 
 One of the design goals of Angular is to make testing easy. That’s why the framework relies on dependency injection, separates the user code from the framework code, and comes with a set of tools for writing and running tests. In this article I will look at four ways to test Angular components: isolated tests, shallow tests, integration tests, and protractor tests.
 
@@ -82,8 +82,8 @@ In this article we looked at four ways to test Angular components: isolated test
 
 This article is based on the Essential Angular book, which you can find here [https://leanpub.com/essential_angular](https://leanpub.com/essential_angular). If you enjoy the article, check out the book!
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-01-11/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

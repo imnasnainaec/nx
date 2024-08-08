@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-02-24/1*mF3ulz7qZCuJPD0PATCSng.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
 
 Web applications heavily rely on forms. In many ways Angular is so successful because two-way bindings and _ng-model_ made creating dynamic forms easy.
 
@@ -251,8 +251,8 @@ Finally, [_@angular/forms_](http://twitter.com/angular/forms) comes with a set o
 
 This article is based on the Essential Angular book, which you can find here [https://leanpub.com/essential_angular](https://leanpub.com/essential_angular). If you enjoy the article, check out the book!
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-02-24/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

@@ -124,4 +124,4 @@ Binning has been supported from Day 1 and works well for a variety of workspaces
 
 Nx Cloud distributed task execution addresses the drawbacks.
 
-Learn more about Nx Cloud 2.0 and its support for distributed task execution at [nx.app](https://nx.app/).
+Learn more about Nx Cloud 2.0 and its support for distributed task execution at [nx.app](https://nx.dev/nx-cloud/).

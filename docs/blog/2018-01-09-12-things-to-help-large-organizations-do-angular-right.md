@@ -106,7 +106,7 @@ This is mainly because they have to explicitly define what a feature depends on 
 
 ![](/blog/images/2018-01-09/1*H2zgVGgEhBCNadIZindBtg.avif)
 
-Nx is an open source, smart, fast and extensible build system that comes with first class support for Angular, React, Node and more. It uses the monorepo approach, where many applications and libraries are stored in the same source code repository (read more about it [here](https://nrwl.io/nx/why-a-workspace))
+Nx is an open source, smart, fast and extensible build system that comes with first class support for Angular, React, Node and more. It uses the monorepo approach, where many applications and libraries are stored in the same source code repository.
 
 With Nrwl/Nx developers can:
 
@@ -185,4 +185,4 @@ Unsurprisingly Nrwl Nx helps with a lot of these. After all, that’s why we cre
 
 ![](/blog/images/2018-01-09/0*NSLFXiKLN4PAjCOW.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

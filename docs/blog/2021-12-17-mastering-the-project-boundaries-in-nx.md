@@ -8,7 +8,7 @@ tags: [nx]
 
 As your repository grows, it becomes more challenging to organize and name the applications and libraries. This organization, when done right, feels intuitive and allows team members to easily find projects and understand how they work together. When done poorly, it results in a mess we eventually end up calling “the legacy software”. This article will show you different ways how you can prevent your repo from descending into chaos.
 
-Our book [Enterprise Angular Monorepo Patterns](https://go.nrwl.io/angular-enterprise-monorepo-patterns-new-book) presents an in-depth guide to assist you with naming and organization. If you still haven’t read this book, we warmly recommend you do. Don’t let the name fool you, though — the architecture guidelines explained in this book apply to any framework.
+Our book [Enterprise Angular Monorepo Patterns](https://go.nx.dev/angular-enterprise-monorepo-patterns-new-book) presents an in-depth guide to assist you with naming and organization. If you still haven’t read this book, we warmly recommend you do. Don’t let the name fool you, though — the architecture guidelines explained in this book apply to any framework.
 
 On large projects, you will most likely find multiple teams working on different parts of the solution. Those projects are usually split into logical domains, where each team focuses on a single domain. Each domain block can have a clear public API which other domains can use to consume the information.
 

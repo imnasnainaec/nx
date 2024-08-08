@@ -6,7 +6,7 @@ cover_image: '/blog/images/2019-11-08/1*iCu-DaUaRn9txX9vhY1UJQ.png'
 tags: [nx, nx-console]
 ---
 
-Today I am happy to announce some new improvements for [Angular Console](http://Angularconsole.com), a tool that the team at [Nrwl](http://Nrwl.io) hopes will be useful for every Angular developer.
+Today I am happy to announce some new improvements for [Angular Console](https://nx.dev/getting-started/editor-setup), a tool that the team at [Nrwl](/company) hopes will be useful for every Angular developer.
 
 In this post, I’ll be going over all the new features of our new release for Angular Console on Visual Studio Code. I’ll also inform you about Angular Console’s future.
 
@@ -86,11 +86,8 @@ Thanks for reading! That’s all folks!
 
 ![](/blog/images/2019-11-08/0*WL5InnWDnAuqfbfZ.avif)
 
-As always, if you are looking for enterprise consulting, training and support, you can find out more about how we at Nrwl work with our clients [here](https://nrwl.io/services/consulting).
 
 ![](/blog/images/2019-11-08/0*sUuN-NoTZiZ4cg22.avif)
-
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [Daniel Muller](https://blog.nrwl.io/@mrmeku) _and_ [_@nrwl_io_](https://medium.com/@nrwl_io) _to read more about Nx and Nrwl._
 
 _Check out Nrwl’s extensible dev tools for monorepos: Nx!_
 

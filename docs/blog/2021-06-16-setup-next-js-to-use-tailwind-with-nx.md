@@ -22,7 +22,7 @@ This article is part of a series around building a blog with Nx, Next.js, Tailwi
 - [Use Cypress with Next.js and Nx to battle test your React Components](https://medium.com/use-cypress-with-next-js-and-nx-to-battle-test-your-react-components-da273f664f81?sk=c739a97960b93a6f7b0df3e7c1944735)
 - [Publishing a Next.js site to Vercel with Nx](https://medium.com/publishing-a-next-js-app-to-vercel-with-nx-df81916548f5?sk=395c447331c55a6c0ea61964dda4fd7d)
 
-or [subscribe to the newsletter](https://go.nrwl.io/nx-newsletter) to get notified when new articles get published.
+or [subscribe to the newsletter](https://go.nx.dev/nx-newsletter) to get notified when new articles get published.
 
 ## Table of Contents
 

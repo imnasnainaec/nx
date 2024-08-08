@@ -6,7 +6,7 @@ cover_image: '/blog/images/2016-12-23/1*xPcwZa8goiiPDZGGwrefbA.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._
 
 One of the design goals we had in mind when starting on Angular v2 was to make it browser and DOM independent. The DOM is complicated, so having components decoupled from it makes them easier to understand, test, and refactor; which is good in itself. But there is more: because of this decoupling we can run Angular applications on other platforms (e.g., Node.js, WebWorkers, NativeScript) without rewriting them. In this article I will show how easy it is to build your own Angular renderer and your own Angular platform.
 
@@ -80,8 +80,8 @@ In this article, by implementing an in-memory renderer, I showed how easy it is 
 
 I encourage you to experiment: build renderers using canvas and WebGL, and share your thoughts in the comments below.
 
-### Victor Savkin is a co-founder of [Nrwl — Enterprise Angular Consulting.](http://nrwl.io)
+### Victor Savkin is a co-founder of Nx.
 
 ![](/blog/images/2016-12-23/1*s76h75v7CB7g4EuxVNaGkg.avif)
 
-_If you liked this, click the💚 below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about Angular._
+

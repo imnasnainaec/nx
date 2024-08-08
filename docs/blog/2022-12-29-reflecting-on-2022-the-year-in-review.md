@@ -52,7 +52,7 @@ Both were a huge success, and we had some fantastic in-depth talks around Nx, Le
 
 ## Nx Funding and New Focus on Product Development
 
-[Nrwl](https://nrwl.io/), the company behind Nx, is fully bootstrapped. Our work is divided into roughly 80% consulting for some of the biggest companies in the world and 20% open source work on Nx and Nx Cloud.
+[Nrwl](/company), the company behind Nx, is fully bootstrapped. Our work is divided into roughly 80% consulting for some of the biggest companies in the world and 20% open source work on Nx and Nx Cloud.
 
 Seeing the traction Nx got in 2022, we wanted to invest more and hence in November 2022 we raised the first round of funding of $8.6 million.
 
@@ -80,19 +80,19 @@ Here’s some more:
 - **Vite support** — The Vite community is growing fast, and many of our users asked for an Nx plugin coming from the core team. Even though you could use Nx in a package-based monorepo with Vite already, we wanted to make it the best experience for developing React applications with Nx and beyond. Check out [our Vite docs](https://nx.dev/packages/vite) for all the details.
 - **Nx Watch** — Watching for changes in a monorepo (especially package-based) can be tricky or require some weird hacks involving 3rd-party packages. In Nx 15.4 we added a native `nx watch` command. See [the docs](https://nx.dev/recipes/other/workspace-watching).
 
-And these are just some of the highlights. Want all the details? Check out our release blog posts: [https://blog.nrwl.io/changelog/home](https://blog.nrwl.io/changelog/home)
+And these are just some of the highlights. Want all the details? Check out our [release blog posts](/blog?filterBy=release).
 
 ## Things to look forward to in 2023
 
 We have some huge plans for 2023 for Nx, Nx Cloud, Lerna, and beyond. Let’s make 2023 even more epic than 2022 has been 😉.
 
-Make sure you follow us on our socials not to miss anything. We are on [Twitter](https://twitter.com/nxdevtools), [LinkedIn](https://www.linkedin.com/company/nrwl), [Youtube](https://www.youtube.com/@nxdevtools), [TikTok](https://www.tiktok.com/@nxdevtools), our [blog](https://blog.nrwl.io/) and [dev.to](https://dev.to/nx).
+Make sure you follow us on our socials not to miss anything. We are on [Twitter](https://twitter.com/nxdevtools), [LinkedIn](https://www.linkedin.com/company/nrwl), [Youtube](https://www.youtube.com/@nxdevtools), [TikTok](https://www.tiktok.com/@nxdevtools), and our [blog](/blog).
 
 ## Learn more
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

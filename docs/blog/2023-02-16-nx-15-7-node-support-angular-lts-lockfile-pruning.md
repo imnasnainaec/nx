@@ -29,7 +29,7 @@ It’s almost a tradition to have some stats at the beginning of our Nx release 
 
 ![](/blog/images/2023-02-16/0*s8uTPTC3X01sE3u2.avif)
 
-Apart from delivering high-quality engineering work, we’re very invested in producing educational content around developer tooling and monorepos. We’ve been almost consistently shipping new content every week, whether that is blog posts on the [Nx blog](https://blog.nrwl.io/) or on [dev.to](https://dev.to/nx) or in the form of new videos and live streams on our channel. Seeing our audience grow on Youtube confirms we’re on the right track and gives us new fuel to keep pushing!!
+Apart from delivering high-quality engineering work, we’re very invested in producing educational content around developer tooling and monorepos. We’ve been almost consistently shipping new content every week, whether that is blog posts on the [Nx blog](/blog) or in the form of new videos and live streams on our channel. Seeing our audience grow on Youtube confirms we’re on the right track and gives us new fuel to keep pushing!!
 
 If you haven’t subscribed yet, please do 🙏: [https://www.youtube.com/@nxdevtools](https://www.youtube.com/@nxdevtools). We also announce most of our new videos and live streams [on Twitter](https://twitter.com/nxdevtools).
 
@@ -122,7 +122,7 @@ const lockFile = createLockFile(packageJson);
 // save files using e.g. \`fs.writeFileSync\`
 ```
 
-Stay tuned for a more in-depth blog post coming soon to [our blog](https://blog.nrwl.io/).
+Stay tuned for a more in-depth blog post coming soon to [our blog](blog).
 
 ## Storybook 7.0 beta support
 
@@ -169,15 +169,15 @@ We are currently working on some exciting stuff, including
 - Nx for non-JS environments
 - …
 
-So keep an eye on our [Twitter](https://twitter.com/nxdevtools), [Youtube](https://www.youtube.com/@nxdevtools) and [blog](https://blog.nrwl.io/) to not miss those announcements.
+So keep an eye on our [Twitter](https://twitter.com/nxdevtools), [Youtube](https://www.youtube.com/@nxdevtools) and [blog](/blog) to not miss those announcements.
 
 ## Learn more
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-- 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us 😃](https://nrwl.io/contact-us)
+
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

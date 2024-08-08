@@ -6,7 +6,7 @@ cover_image: '/blog/images/2017-01-03/1*4vRt7euWTTHxX6FHxtheJA.png'
 tags: [nx, angular]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/IAi7JWß)_. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_
 
 \_.\_This is the fourth post in the Essential Angular series, which aims to be a short, but at the same time, fairly complete overview of the key aspects of Angular. In this post I’ll cover change detection and data flow.
 
@@ -122,8 +122,8 @@ Using this change-detection strategy restricts when Angular has to check for upd
 
 This article is based on the Essential Angular book, which you can find here [https://leanpub.com/essential_angular](https://leanpub.com/essential_angular). If you enjoy the article, check out the book!
 
-### Victor Savkin is a co-founder of [Nrwl](https://nrwl.io). We help companies develop like Google since 2016. We provide consulting, engineering and tools.
+### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 
 ![](/blog/images/2017-01-03/0*4HpWdaQEPIQr1EDw.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

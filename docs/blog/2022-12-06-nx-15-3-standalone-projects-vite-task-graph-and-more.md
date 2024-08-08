@@ -26,7 +26,7 @@ Prefer **a video version?**
 
 ## Funding — Nx raises $8.6M
 
-In case you missed it, we raised $8.6 million a couple of weeks ago. Here’s the official blog post from our CEO Jeff: [https://blog.nrwl.io/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76](https://medium.com/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76)
+In case you missed it, we raised $8.6 million a couple of weeks ago. Here’s the official blog post from our CEO Jeff: [/blog/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76](/blog/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76)
 
 It is exciting for us as we can now have more employees focused on pushing Nx and Nx Cloud forward, which will significantly boost development speed!  
 For most of our workforce, working on Nx and Nx Cloud was only part of their “20% project”. Yet we released terrific features over the last years and have seen tremendous growth with Nx (which brings us to the next section)
@@ -407,8 +407,8 @@ npx nx migrate --run-migrations
 
 - 🧠 [Nx Docs](https://nx.dev/)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-- 💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+- 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🧐 [Need help with Angular, React, Monorepos, Lerna or Nx? Talk to us 😃](https://nrwl.io/contact-us)
+
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

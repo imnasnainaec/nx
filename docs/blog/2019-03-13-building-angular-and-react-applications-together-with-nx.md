@@ -214,4 +214,4 @@ In this example we looked at a library of web components that we used in Angular
 
 ![](/blog/images/2019-03-13/0*w_6huKCzIoB9lW5v.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

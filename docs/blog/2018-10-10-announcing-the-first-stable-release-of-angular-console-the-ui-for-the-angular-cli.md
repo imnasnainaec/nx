@@ -6,7 +6,7 @@ cover_image: '/blog/images/2018-10-10/1*M6a-RLNqxo_DftgfDHZHJQ.png'
 tags: [nx, nx-console]
 ---
 
-_Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google._
+_Victor Savkin is a co-founder of **Nx**. He was previously on the Angular core team at Google._
 
 ![](/blog/images/2018-10-10/1*TigvMknUeSYC2BWKvnDCTw.avif)
 
@@ -68,7 +68,7 @@ Jeff Cross and I \[Victor Savkin\] are giving two talks about about Angular Cons
 
 ## Learn More
 
-- [angularconsole.com](http://angularconsole.com/) — the official site of the project
+- [angularconsole.com](https://nx.dev/getting-started/editor-setup/) — the official site of the project
 - [Watch Angular Console 5-minute overview video by Angular Firebase folks](https://www.youtube.com/watch?time_continue=18&v=d2K2Cp8BJx0)
 - [Angular CLI course by John Papa](https://www.pluralsight.com/courses/angular-cli) — the Angular CLI course by John Papa has a video on Angular Console
 - Watch [this episode of Angular Air](https://www.youtube.com/watch?v=rzQzrkKYS0c) about Angular Console.
@@ -83,4 +83,4 @@ Try it out at [angularconsole.com](https://angularconsole.com/)
 
 ![](/blog/images/2018-10-10/0*NSLFXiKLN4PAjCOW.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._

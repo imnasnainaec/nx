@@ -237,10 +237,10 @@ To learn more about Nx and what else it can do, refer to the [intro page](https:
 
 *   🧠 [Nx Docs](https://nx.dev/)
 *   👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
-*   💬 [Nrwl Community Slack](https://go.nrwl.io/join-slack)
+*   💬 [Nrwl Community Slack](https://go.nx.dev/community)
 *   📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
 *   🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-*   🚀 [Speed up your CI](https://nx.app)
+*   🚀 [Speed up your CI](https://nx.dev/nx-cloud)
 
 Also, if you liked this, click the 👏 and make sure to follow [Jack](https://twitter.com/jay_soo) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!
 ```

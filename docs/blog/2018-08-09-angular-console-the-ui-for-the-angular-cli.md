@@ -12,7 +12,7 @@ Today we are happy to announce Angular Console — the UI for the Angular CLI.
 
 Angular CLI transformed the Angular ecosystem. We no longer have to spend time maintaining our webpack configurations, figuring out how to make tests run, fixing source maps — the CLI does this for us. It also helps us enforce consistent development practices by generating components, services, and state management modules. Since the CLI does so much, it can be intimidating and hard to learn. Most developers only use a fraction of the CLI’s capabilities.
 
-Last year, we at Nrwl built a set of tools, [Nx](http://nrwl.io/nx), on top of the Angular CLI. And we saw firsthand that we can only go so far until the developers get overwhelmed and lost.
+Last year, we at Nrwl built a set of tools, [Nx](https://nx.dev/getting-started/intro), on top of the Angular CLI. And we saw firsthand that we can only go so far until the developers get overwhelmed and lost.
 
 We realized that most developers don’t need more sophisticated commands — **they need a more approachable way to use what the Angular CLI already does**. And that’s what Angular Console is.
 
@@ -40,7 +40,7 @@ That’s why the Nrwl and Angular teams decided to work on it together. We will 
 
 ## Try it Out
 
-Check out [angularconsole.com](http://angularconsole.com) to download the binary and start getting more productive.
+Check out [angularconsole.com](https://nx.dev/getting-started/editor-setup) to download the binary and start getting more productive.
 
 ![](/blog/images/2018-08-09/1*TigvMknUeSYC2BWKvnDCTw.avif)
 
@@ -48,4 +48,4 @@ Check out [angularconsole.com](http://angularconsole.com) to download the binary
 
 ![](/blog/images/2018-08-09/0*NSLFXiKLN4PAjCOW.avif)
 
-_If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
+_If you liked this, follow_ [_@victorsavkin_](http://twitter.com/victorsavkin) _to read more about monorepos, Nx, Angular, and React._
