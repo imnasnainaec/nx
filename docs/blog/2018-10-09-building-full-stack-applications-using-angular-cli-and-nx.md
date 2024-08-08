@@ -3,7 +3,7 @@ title: 'Building Full-Stack Applications Using Angular CLI and Nx'
 slug: 'building-full-stack-applications-using-angular-cli-and-nx'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-10-09/1*2EmPxA1HJtmUCoCVVgxGEw.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools._

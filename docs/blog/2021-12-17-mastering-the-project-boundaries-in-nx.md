@@ -3,7 +3,7 @@ title: 'Taming Code Organization with Module Boundaries in Nx'
 slug: 'mastering-the-project-boundaries-in-nx'
 authors: ['Miroslav Jonaš']
 cover_image: '/blog/images/2021-12-17/1*PIUl1QGk7mOpSFdEwFQ8OA.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 As your repository grows, it becomes more challenging to organize and name the applications and libraries. This organization, when done right, feels intuitive and allows team members to easily find projects and understand how they work together. When done poorly, it results in a mess we eventually end up calling “the legacy software”. This article will show you different ways how you can prevent your repo from descending into chaos.

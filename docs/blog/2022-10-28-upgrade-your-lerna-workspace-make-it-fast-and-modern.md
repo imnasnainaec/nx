@@ -3,7 +3,7 @@ title: 'Upgrade your Lerna Workspace — Make it Fast and Modern!'
 slug: 'upgrade-your-lerna-workspace-make-it-fast-and-modern'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-10-28/1*t3i1a7CL500_YOicB2Erag.png'
-tags: [nx, release]
+tags: [lerna]
 ---
 
 Currently experiencing a slow Lerna workspace? Feels old and you’re looking for alternatives? Keep on reading, because all it might need to get a fast and modern experience is to upgrade your Lerna package.

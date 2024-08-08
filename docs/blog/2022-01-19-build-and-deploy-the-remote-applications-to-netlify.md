@@ -3,7 +3,7 @@ title: 'Build and Deploy the Remote Applications to Netlify'
 slug: 'build-and-deploy-the-remote-applications-to-netlify'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-01-19/0*HQzdmymbKGiCBVgn.png'
-tags: [nx, release]
+tags: [nx, microfrontends]
 ---
 
 This is the third article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using [Nx](https://nx.dev/) and [Netlify](https://netlify.com/). We are going to develop and independently deploy two applications to Netlify.

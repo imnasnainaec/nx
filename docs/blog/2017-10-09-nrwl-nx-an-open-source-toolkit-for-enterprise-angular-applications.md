@@ -3,7 +3,7 @@ title: 'Nrwl Nx — An open source toolkit for enterprise Angular applications.'
 slug: 'nrwl-nx-an-open-source-toolkit-for-enterprise-angular-applications'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-10-09/0*44TVT2Pa3jrEkaXJ.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 Nx is designed to help you create and build enterprise grade Angular applications. It provides an opinionated approach to application project structure and patterns.

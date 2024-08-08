@@ -3,7 +3,7 @@ title: 'Battle-Testing Nx Console with E2E Tests'
 slug: 'battle-testing-nx-console-with-e2e-tests'
 authors: ['Max Kless']
 cover_image: '/blog/images/2022-11-11/1*UzvS9ABZtlLL7ESSDrM00A.png'
-tags: [nx, release]
+tags: [nx, nx-console, e2e]
 ---
 
 Nx Console is the UI for Nx & Lerna. It’s available as a VSCode extension (and more IDEs coming soon!) and with it, you get powerful features like:

@@ -3,7 +3,7 @@ title: '**NgRx: Patterns and Techniques**'
 slug: 'ngrx-patterns-and-techniques'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-07-13/1*Nn3DwudY7hF0fVwOYBoJmg.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools._

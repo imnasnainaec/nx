@@ -3,7 +3,7 @@ title: 'Lerna 5.1 — New website, new guides, new Lerna example repo, distribut
 slug: 'lerna-5-1-new-website-new-guides-new-lerna-example-repo-distributed-caching-support-and-speed'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-06-15/1*s9oVnruUc2KKd8lkkWAVxw.png'
-tags: [nx, release]
+tags: [nx, lerna, release]
 ---
 
 Almost exactly a month ago we (Nrwl & the Nx team) [took over stewardship of Lerna](https://medium.com/lerna-is-dead-long-live-lerna-61259f97dbd9?sk=60349b9dc0be3ff730ad052c4cf69df3).

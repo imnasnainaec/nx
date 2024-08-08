@@ -3,7 +3,7 @@ title: 'What’s New With Lerna 6.5?'
 slug: 'whats-new-with-lerna-6-5'
 authors: ['Zack DeRose']
 cover_image: '/blog/images/2023-02-22/1*izlWzEYnkZ9myXi58Rmv8A.png'
-tags: [nx, release]
+tags: [lerna, release]
 ---
 
 In case you missed it, Lerna version 6.5 recently launched. We’ll catch you up on the latest Lerna news and newest features.

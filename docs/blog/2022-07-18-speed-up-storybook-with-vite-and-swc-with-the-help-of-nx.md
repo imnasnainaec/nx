@@ -3,7 +3,7 @@ title: 'Speed up Storybook with Vite and SWC — with the help of Nx'
 slug: 'speed-up-storybook-with-vite-and-swc-with-the-help-of-nx'
 authors: ['Katerina Skroumpelou']
 cover_image: '/blog/images/2022-07-18/1*suutOd685sJtw3uKjMbwhg.png'
-tags: [nx, release]
+tags: [nx, storybook, vite, swc]
 ---
 
 ## Vite for Storybook in your Nx workspace

@@ -3,7 +3,7 @@ title: 'Jumpstart your Angular 14 development with Storybook, Tailwind and Nx'
 slug: 'jumpstart-your-angular-14-development-with-storybook-tailwind-and-nx'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-06-28/1*AqGzDU7J__u99mwZbcO8GA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 With Angular 14 having just been released recently, let us discuss how you can take advantage of some of the most popular tools in the JavaScript ecosystem to increase your efficiency and productivity when building Angular applications.

@@ -3,7 +3,7 @@ title: 'Essential Angular: Change Detection'
 slug: 'essential-angular-change-detection'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-01-03/1*4vRt7euWTTHxX6FHxtheJA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/IAi7JWß)_. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_

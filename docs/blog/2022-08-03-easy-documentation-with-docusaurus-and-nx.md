@@ -3,7 +3,7 @@ title: 'Easy documentation with Docusaurus and Nx'
 slug: 'easy-documentation-with-docusaurus-and-nx'
 authors: ['Chau Tran']
 cover_image: '/blog/images/2022-08-03/1*2jZKx8W5I3v5bpCsAUqlvQ.png'
-tags: [nx, release]
+tags: [nx, docusaurus]
 ---
 
 With its tight integration with the ecosystem, Nx is extremely powerful when it comes to authoring publishable Javascript/Typescript libraries. However, Nx doesn’t have a built-in documentation solution, which is essential to good libraries. But that does not mean we need to stop using Nx. In this blog, we will explore the power and flexibility of Nx that allows us to integrate some of the most popular documentation solutions out there. Docusaurus is one of them.

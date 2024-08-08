@@ -3,7 +3,7 @@ title: 'Nx Console meets Nx Cloud'
 slug: 'nx-console-meets-nx-cloud'
 authors: ['Max Kless']
 cover_image: '/blog/images/2023-01-18/1*Mkqkadhkk7DydWvPg5L0bA.png'
-tags: [nx, release]
+tags: [nx, nx-cloud, nx-console, release]
 ---
 
 We just released Nx Console 17.28.0 and it comes with a huge new feature: Nx Cloud Integration, right in VSCode! 🎉

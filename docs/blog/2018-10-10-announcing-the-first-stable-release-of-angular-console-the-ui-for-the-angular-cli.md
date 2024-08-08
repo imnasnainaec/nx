@@ -3,7 +3,7 @@ title: 'Announcing the First Stable Release of Angular Console — The UI for th
 slug: 'announcing-the-first-stable-release-of-angular-console-the-ui-for-the-angular-cli'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-10-10/1*M6a-RLNqxo_DftgfDHZHJQ.png'
-tags: [nx, release]
+tags: [nx, nx-console]
 ---
 
 _Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google._

@@ -3,7 +3,7 @@ title: 'Introducing Nx Cloud 2.0'
 slug: 'introducing-nx-cloud-2-0'
 authors: ['Brandon Roberts']
 cover_image: '/blog/images/2021-06-09/0*nygtBNy1HVP4ZAHk.png'
-tags: [nx, release]
+tags: [nx, nx-cloud]
 ---
 
 Introducing Nx Cloud 2.0 — a cloud companion for your [Nx](https://nx.dev) monorepo helping ensure you are enabling your teams to work as efficiently as possible.

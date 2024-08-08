@@ -3,7 +3,7 @@ title: 'Using NgRx Standalone APIs with Nx'
 slug: 'using-ngrx-standalone-apis-with-nx'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2023-02-21/1*pJHhA04d6jIjOb5vpCDjyw.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 Version 15 of [NgRx](https://ngrx.io/) introduced Standalone APIs to the package, enabling usage of the NgRx with Standalone Component-based [Angular](https://angular.io/) applications. This allows for a simpler integration of NgRx to your application.

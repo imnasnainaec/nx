@@ -3,7 +3,7 @@ title: 'Expanding Nx Console to JetBrains IDEs'
 slug: 'expanding-nx-console-to-jetbrains-ides'
 authors: ['Max Kless']
 cover_image: '/blog/images/2023-03-02/1*lEAhfd3d17hGichyT-oGbw.png'
-tags: [nx, release]
+tags: [nx, nx-console, release]
 ---
 
 **_Co-authored by_** [**_Jon Cammisuli_**](https://twitter.com/jcammisuli)

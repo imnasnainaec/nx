@@ -206,7 +206,6 @@ In this example we looked at a library of web components that we used in Angular
 
 ## Learn More
 
-- Learn more about Nx at [nx.dev](https://nx.dev)
 - You can find the example application [here](https://github.com/nrwl/nx-angular-and-react).
 - Learn how to build full-stack applications using Angular and NestJS [here](https://medium.com/robust-backends-with-nx-7-3-and-nestjs-8fe1611375e6).
 - [Check out Angular Console VS Code plugin](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)—UI for the Angular CLI — that works well for Nx and supports both Angular and React.

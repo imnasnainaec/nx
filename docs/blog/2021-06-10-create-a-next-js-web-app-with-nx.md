@@ -3,7 +3,7 @@ title: 'Create a Next.js web app with Nx'
 slug: 'create-a-next-js-web-app-with-nx'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2021-06-10/1*lRONx5QTItRxVPuv7jzGkA.png'
-tags: [nx, release]
+tags: [nx, next-js]
 ---
 
 _In this article, we’re going to explore how to create our very first web application with Next.js and Nx. We’re going to learn about the anatomy of a Nx based workspace, how to generate one, and specifically how to setup our Next.js application. Finally, we’re also going to create our blog’s about page and learn about some handy Next.js features._

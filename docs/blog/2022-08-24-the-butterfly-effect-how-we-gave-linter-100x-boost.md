@@ -3,7 +3,7 @@ title: 'The Butterfly Effect: How we gave the Linter a 100x boost'
 slug: 'the-butterfly-effect-how-we-gave-linter-100x-boost'
 authors: ['Miroslav Jonaš']
 cover_image: '/blog/images/2022-08-24/1*35XfnZjiqBfG41WCxJ4MHw.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 Recently we had a significant performance improvement in our linter rule. In some benchmarks, the increase was **up to 100x**! While one would expect such a dramatic change to result from implementing a sophisticated algorithm, the reality is that this resulted from minor tweaks. Like **the butterfly effect** — changing a few lines of code created a ripple effect that tremendously improved the overall performance.

@@ -3,7 +3,7 @@ title: '5 Reasons to Use Angular Elements'
 slug: '5-reasons-to-use-angular-elements'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-11-05/1*5bxmfkHU6iEBjFk7_ml0-w.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 This recommendation about Angular Elements is a sneak peek at some of the premium content that our Connect clients at Nrwl will have access to _all the time_, plus invitations to live events and premium support tools for Angular. If you like this recommendation and you want to get more as a Nrwl Connect subscriber in the future (once we’re fully live), please **sign up at** [**nrwl.io/connect**](https://nrwl.io/connect).

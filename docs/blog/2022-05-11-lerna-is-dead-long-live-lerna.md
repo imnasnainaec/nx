@@ -3,7 +3,7 @@ title: 'Lerna is dead — Long Live Lerna'
 slug: 'lerna-is-dead-long-live-lerna'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-05-11/1*__gtsrJ-tMDZf9bvDLVSjQ.png'
-tags: [nx, release]
+tags: [nx, lerna]
 ---
 
 If you’re in a hurry, here’s the **TL;DR:**

@@ -3,7 +3,7 @@ title: 'Determine your User Location with Netlify Edge Functions'
 slug: 'determine-your-user-location-with-netlify-edge-functions'
 authors: ['Nicholas Cunningham']
 cover_image: '/blog/images/2023-05-26/1*G2ynKDm6DIKLcZ2fJlV0dw.png'
-tags: [nx, release]
+tags: [nx, netlify]
 ---
 
 Today, we will explore how to use `@nx/netlify` serverless functions to determine a user’s location. This can be an incredibly useful feature in various applications, such as customizing user experiences based on their region, displaying localized content, or tracking user demographics for marketing purposes. In this post, we’ll walk you through a step-by-step guide on implementing this functionality using `@nx/netlify` serverless functions.

@@ -3,7 +3,7 @@ title: 'Using NgUpgrade Like a Pro: Lazy Loading AngularJS Applications'
 slug: 'using-ngupgrade-like-a-pro-lazy-loading-angularjs-applications'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-05-25/1*m9s9gYY2Lnx6Lmi-V_hChQ.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._

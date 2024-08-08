@@ -3,7 +3,7 @@ title: '12 Things to Help Large Organizations Do Angular Right'
 slug: '12-things-to-help-large-organizations-do-angular-right'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-01-09/1*mt1GWICoGwBsuRU78HMN0Q.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools._

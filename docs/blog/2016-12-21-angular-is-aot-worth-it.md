@@ -3,7 +3,7 @@ title: 'Angular: Is AOT Worth It?'
 slug: 'angular-is-aot-worth-it'
 authors: ['Jeff Cross']
 cover_image: '/blog/images/2016-12-21/1*bFpua6ePeJsYTjJQoXyUqQ.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Jeff Cross is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously Tech Lead of the Angular Mobile team at Google._

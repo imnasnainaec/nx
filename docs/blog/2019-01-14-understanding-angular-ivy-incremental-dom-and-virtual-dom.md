@@ -3,7 +3,7 @@ title: '**Understanding Angular Ivy: Incremental DOM and Virtual DOM**'
 slug: 'understanding-angular-ivy-incremental-dom-and-virtual-dom'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2019-01-14/1*wl1I1WxI70Zoc3Hs9G101g.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 ![](/blog/images/2019-01-14/1*9McDGpqiVh3sZ_CK74sxXw.avif)

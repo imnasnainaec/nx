@@ -3,7 +3,7 @@ title: 'Announcing monorepo.tools'
 slug: 'announcing-monorepo-tools'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-01-26/1*qvO9lFXStvjcqkd9XL0Zsg.png'
-tags: [nx, release]
+tags: [nx, monorepos]
 ---
 
 Monorepos have been around for a while. Googled, Facebook, Microsoft, and so on are commonly mentioned when it comes to discussing monorepos. All three are known for having gigantic monorepos where they scale development across their large teams. Now, not many reach those levels and thus disregard monorepos for only being about scaling to the masses. Wrongly so!

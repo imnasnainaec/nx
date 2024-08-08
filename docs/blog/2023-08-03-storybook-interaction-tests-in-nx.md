@@ -3,7 +3,7 @@ title: 'Storybook Interaction Tests in Nx'
 slug: 'storybook-interaction-tests-in-nx'
 authors: ['Katerina Skroumpelou']
 cover_image: '/blog/images/2023-08-03/1*NfJA7VBZvDwyyZHmV8qsiw.png'
-tags: [nx, release]
+tags: [nx, storybook]
 ---
 
 In Nx 16.6 we are introducing our new generators for [Storybook interaction tests](https://storybook.js.org/docs/react/writing-tests/interaction-testing)! These new generators replace the default Cypress tests we used to generate along with a project’s Storybook configuration, particularly for those already using Storybook. The intention is that if a user chooses to use Storybook and generate Storybook configuration, to integrate in that experience Storybook Interaction testing, and skip generating Cypress tests, to keep everything in one place, in an integrated experience.

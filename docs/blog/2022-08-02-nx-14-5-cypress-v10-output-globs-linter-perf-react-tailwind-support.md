@@ -1,5 +1,5 @@
 ---
-title: 'Nx 14.5 — Cypess v10, Output globs, Linter perf, React Tailwind support'
+title: 'Nx 14.5 — Cypress v10, Output globs, Linter perf, React Tailwind support'
 slug: 'nx-14-5-cypess-v10-output-globs-linter-perf-react-tailwind-support'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-08-02/1*ZUzLD-4JgrEBIZb3dXOvag.png'

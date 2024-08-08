@@ -3,7 +3,7 @@ title: 'NgUpgrade in Depth'
 slug: 'ngupgrade-in-depth'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-05-12/1*aW8snyXZEw1fM6rfozXY2Q.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools._

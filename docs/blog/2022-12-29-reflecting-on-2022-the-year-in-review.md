@@ -3,7 +3,7 @@ title: 'Reflecting on 2022 — The Year in Review'
 slug: 'reflecting-on-2022-the-year-in-review'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-12-29/1*J5ESi2dVo2V-kdtLJdSQqw.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 As clichéd as it is to start a “year in review” post by stating how exciting the year has been… 2022 was an exciting year for Nx! In 2022 we’ve seen amazing growth in Nx usage, and in the community, we hosted our first in-person event and received our first round of funding so we can focus our efforts on making Nx and Nx Cloud better than ever.

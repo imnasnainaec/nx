@@ -3,7 +3,7 @@ title: 'Component-First Architecture with Standalone Components and Nx'
 slug: 'component-first-architecture-with-standalone-components-and-nx'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-11-03/1*qD9Wz2o4WIbhKfw9VZvb6g.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 When [Angular](https://angular.io/) 2 released its first pre-release versions, it had no concept of `NgModule`. We attached `Components` as `Directives` to Components that needed them.

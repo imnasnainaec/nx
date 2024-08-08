@@ -3,7 +3,7 @@ title: 'Configuration Files and Potholes in Your Codebase'
 slug: 'configuration-files-and-potholes-in-your-codebase'
 authors: ['Isaac Mann']
 cover_image: '/blog/images/2023-01-31/0*T-xiDccBOxMQpDrG.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 Let’s talk about configuration. The detractors call it boilerplate while proponents call it scaffolding or infrastructure. No matter what your feelings are, configuration code is all the setup that needs to be done before you can work on the features that actually accomplish something for your business. Like road maintenance, infrastructure code is often unnoticed when it is done well, but as soon as problems crop up, everyone feels the pain. How can this crucial configuration code be effectively maintained without dragging down the productivity of your development team?

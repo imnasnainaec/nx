@@ -3,7 +3,7 @@ title: 'Lerna reborn — What’s new in v6?'
 slug: 'lerna-reborn-whats-new-in-v6'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-10-12/1*RGQCNNO-SSQ8PHnIZ4BVTQ.png'
-tags: [nx, release]
+tags: [lerna, release]
 ---
 
 Lerna v6 is out!! Here’s everything you need to know about the **new Lerna experience!**

@@ -3,7 +3,7 @@ title: 'Helping the Environment by Saving Two Centuries of Compute time'
 slug: 'helping-the-environment-by-saving-two-centuries-of-compute-time'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-08-18/1*FBQVoC9YXF7wlq3dhxfQMQ.png'
-tags: [nx, release]
+tags: [nx, nx-cloud]
 ---
 
 Among the core features of Nx is the ability to save computation time by applying different strategies. Scroll to the end of the article for some more info, but first, **how much time is actually being saved?**

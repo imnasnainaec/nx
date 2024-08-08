@@ -3,7 +3,7 @@ title: 'From Bootstrapped to Venture-Backed: Nx Raises $8.6M'
 slug: 'from-bootstrapped-to-venture-backed-nx-raises-8-6m'
 authors: ['Jeff Cross']
 cover_image: '/blog/images/2022-11-17/0*a3eT-mjLsXTiHU5m.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 I’m excited to let the Nx Community know about our first round of outside financing, led by [Nexus Venture Partners](https://nexusvp.com/) and [A16z](https://a16z.com/), with several amazing angel investors. We’ve raised a seed round of $8.6M to scale the growth of open source [Nx](https://nx.dev), [Nx Cloud](https://nx.app), and [Nx Enterprise](https://nx.app/enterprise). With this new capital, we’re able to allocate significantly more resources to rapidly evolving our open source and commercial products to help development teams **ship faster at any scale**.

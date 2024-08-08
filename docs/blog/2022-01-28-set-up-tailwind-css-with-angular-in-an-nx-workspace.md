@@ -3,7 +3,7 @@ title: 'Set up Tailwind CSS with Angular in an Nx workspace'
 slug: 'set-up-tailwind-css-with-angular-in-an-nx-workspace'
 authors: ['Leosvel Pérez Espinosa']
 cover_image: '/blog/images/2022-01-28/1*igoocYqr8gj8n9t8qr5cuA.png'
-tags: [nx, release]
+tags: [nx, angular, tailwind]
 ---
 
 [**Tailwind CSS**](https://tailwindcss.com/) is a utility-first CSS framework packed with a lot of good functionality out of the box while providing a high level of customization. It has gained a lot of attention since it came out and it’s a good option when it comes to styling our applications.

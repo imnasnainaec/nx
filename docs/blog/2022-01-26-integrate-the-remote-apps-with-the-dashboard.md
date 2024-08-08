@@ -3,7 +3,7 @@ title: 'Integrate the Remote apps with the Dashboard'
 slug: 'integrate-the-remote-apps-with-the-dashboard'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-01-26/0*A5_NtQzXqV9NHmz7.png'
-tags: [nx, release]
+tags: [nx, microfrontends]
 ---
 
 This is the fourth and final article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using [Nx](https://nx.dev/) and [Netlify](https://netlify.com/). We will build and deploy the remote applications. We’ll build a login app and a todo app and deploy each independently to Netlify.

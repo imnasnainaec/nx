@@ -3,7 +3,7 @@ title: 'Setup React and Tailwind — The Easy Way'
 slug: 'setup-react-and-tailwind-the-easy-way'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2023-02-09/1*TK4Kdj-cc890gQkgUtKNyA.png'
-tags: [nx, release]
+tags: [nx, react, tailwind]
 ---
 
 Developers love to argue about whether Tailwind is good, almost like arguing about code formatting or tabs vs. spaces (I use spaces!!). But whether you love it or hate it, Tailwind has found massive adoption among the frontend developer community. In fact, I’m right now in the process of refreshing and rebuilding my personal site (it will be at [https://juri.dev](https://juri.dev/) soon, so keep an eye on that).

@@ -3,7 +3,7 @@ title: 'Setting up Module Federation with Server-Side Rendering for Angular'
 slug: 'setting-up-module-federation-with-server-side-rendering-for-angular'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2023-01-10/1*kyMChnJ-X6jK9sbuaOdOiw.png'
-tags: [nx, release]
+tags: [nx, ssr, module-federation]
 ---
 
 [Module Federation](https://webpack.js.org/plugins/module-federation-plugin/) is a technology provided by [Webpack](https://webpack.js.org/) that enables modules to be federated across different origins at runtime. This means that Webpack will simply ignore these modules at build time, expecting them to be available to be fetched across the network at runtime.

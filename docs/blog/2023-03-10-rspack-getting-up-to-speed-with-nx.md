@@ -3,7 +3,7 @@ title: 'Rspack — Getting up to speed with Nx'
 slug: 'rspack-getting-up-to-speed-with-nx'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2023-03-10/1*fWQ53mw2itEs3SGAOJVonQ.png'
-tags: [nx, release]
+tags: [nx, rspack]
 ---
 
 At Nx, we are excited to see the JavaScript tooling ecosystem evolve, particularly when it comes to improving speed! Performance is at the core of Nx. Faster tools with which we can integrate make our lives easier and allow us to provide a better experience for developers.

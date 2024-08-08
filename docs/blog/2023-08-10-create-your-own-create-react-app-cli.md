@@ -3,7 +3,7 @@ title: 'Create Your Own create-react-app CLI'
 slug: 'create-your-own-create-react-app-cli'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2023-08-10/1*j2QU-hjxt-1krFST8CGFiA.png'
-tags: [nx, release]
+tags: [nx, react]
 ---
 
 Most technologies have a CLI to create a new workspace. In fact, it is so prevalent that NPM and other package managers support it natively. For example:

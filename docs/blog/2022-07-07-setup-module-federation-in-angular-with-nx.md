@@ -3,7 +3,7 @@ title: 'Setup Module Federation in Angular with Nx'
 slug: 'setup-module-federation-in-angular-with-nx'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-07-07/1*FQ6VwB32j8-8ZiaHQ_ryHA.png'
-tags: [nx, release]
+tags: [nx, angular, module-federation]
 ---
 
 As our [Angular](https://angular.io/) applications grow, building the application takes longer and longer. This means we sometimes spend more time waiting on the application to build than actually writing code. This becomes even more frustrating when we take into consideration that we usually only need to focus on one specific part of the full monolithic application.

@@ -3,7 +3,7 @@ title: 'Evergreen Tooling — More than Just CodeMods'
 slug: 'evergreen-tooling-more-than-just-codemods'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2023-07-26/1*CPiI60mSguYXJzPfAHMbEQ.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 As developers we always want to use the latest shiny tools. There’s a new bundler? Let’s try! A new code editor, I’m in! For your side-project: for sure! At work: nah, not really. Keeping your tooling up to date with the rather fast moving JS ecosystem can be a major challenge. Nx provides a mechanism that can help mitigate that, by providing a command to upgrade your tooling automatically:

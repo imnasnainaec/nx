@@ -3,7 +3,7 @@ title: 'Migrating an AngularJS Project into an Nx Workspace'
 slug: 'migrating-an-angularjs-project-into-an-nx-workspace'
 authors: ['Philip Fulcher']
 cover_image: '/blog/images/2020-06-17/1*CKLoMCkrqGxE7-VhoozoNA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 Nx offers first-class support for Angular and React out-of-the-box. But one of the questions the Nrwl team often hears from the community is how to use AngularJS (Angular 1.x) in Nx. Nx is a great choice for managing an AngularJS to Angular upgrade, or just for consolidating your existing polyrepo approach to AngularJS into a monorepo to make maintenance a little easier.

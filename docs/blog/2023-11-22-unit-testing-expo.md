@@ -3,7 +3,7 @@ title: Unit Testing Expo Apps With Jest
 slug: 'unit-testing-expo-apps-with-jest'
 authors: [Emily Xiong]
 cover_image: '/blog/images/2023-11-22/featured_img.webp'
-tags: [nx, unit testing]
+tags: [nx, expo]
 ---
 
 In my latest [blog](https://dev.to/nx/step-by-step-guide-to-creating-an-expo-monorepo-with-nx-3b17), I successfully navigated through the steps of setting up an Expo Monorepo with [Nx](). The next challenge? Testing! This blog dives into:

@@ -3,7 +3,7 @@ title: 'Introducing Expo Support for Nx'
 slug: 'introducing-expo-support-for-nx'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2022-03-23/1*yYc8g4ifk9RApSjAhQysag.png'
-tags: [nx, release]
+tags: [nx, expo, release]
 ---
 
 We are very excited to announce our support for Expo with our new package `@nrwl/expo`. In addition to the React Native support, with this release of `@nrwl/expo`, you will be able to easily develop mobile apps in the monorepo. If you use Expo in a monorepo then Nx is the tool for you.

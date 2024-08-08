@@ -3,7 +3,7 @@ title: 'Every Repo is a Monorepo'
 slug: 'every-repo-is-a-monorepo'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2022-12-07/1*bi-wuSawGVuteKsIdJugSg.png'
-tags: [nx, release]
+tags: [nx, monorepos]
 ---
 
 When comparing “regular” repos and monorepos we imagine this:

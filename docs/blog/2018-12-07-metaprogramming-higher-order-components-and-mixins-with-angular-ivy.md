@@ -3,7 +3,7 @@ title: 'Metaprogramming, Higher-Order Components and Mixins with Angular Ivy'
 slug: 'metaprogramming-higher-order-components-and-mixins-with-angular-ivy'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-12-07/1*wl1I1WxI70Zoc3Hs9G101g.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 Everyone in the Angular community is excited about the approaching release of Ivy — the new Angular renderer.

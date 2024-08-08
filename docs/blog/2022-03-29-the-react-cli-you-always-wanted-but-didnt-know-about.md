@@ -3,7 +3,7 @@ title: 'The React CLI you always wanted but didn’t know about'
 slug: 'the-react-cli-you-always-wanted-but-didnt-know-about'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-03-29/1*YR6QUEZel3nlNcTo6Pdlwg.png'
-tags: [nx, release]
+tags: [nx, react]
 ---
 
 _In this article, I’d like to specifically talk about developer tooling, why it is so massively important and how you might have missed out on_ [_Nx_](https://nx.dev/) _as your main React CLI for kickstarting new awesome projects._

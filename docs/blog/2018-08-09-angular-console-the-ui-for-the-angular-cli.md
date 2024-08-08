@@ -3,7 +3,7 @@ title: 'Angular Console — The UI for the Angular CLI'
 slug: 'angular-console-the-ui-for-the-angular-cli'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2018-08-09/1*TigvMknUeSYC2BWKvnDCTw.png'
-tags: [nx, release]
+tags: [nx, angular, nx-console]
 ---
 
 Today we are happy to announce Angular Console — the UI for the Angular CLI.

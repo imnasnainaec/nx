@@ -3,7 +3,7 @@ title: 'Essential Angular: Testing'
 slug: 'essential-angular-testing'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-01-11/1*4vRt7euWTTHxX6FHxtheJA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/v4nh0p)_, providing Angular consulting to enterprise teams. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules._

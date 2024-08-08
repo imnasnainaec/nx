@@ -3,7 +3,7 @@ title: 'React, Vite and TypeScript: Get started in under 2 minutes'
 slug: 'react-vite-and-typescript-get-started-in-under-2-minutes'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2023-01-12/1*ucL7YQ2v8aaOy426soLPZA.png'
-tags: [nx, release]
+tags: [nx, react, vite]
 ---
 
 Let’s be honest. Dealing with tooling is not something enjoyable if you have to deliver code. It should just work and not be in the way. So let’s explore how to kickstart your next React project using Vite, in under 2 minutes, without worrying about the setup.

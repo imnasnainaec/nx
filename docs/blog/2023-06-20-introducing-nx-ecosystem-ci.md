@@ -3,7 +3,7 @@ title: 'Introducing Nx Ecosystem CI'
 slug: 'introducing-nx-ecosystem-ci'
 authors: ['Katerina Skroumpelou']
 cover_image: '/blog/images/2023-06-20/1*EffyLKcVe5gE_x3MT8PJUQ.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 The JavaScript ecosystem evolves at a rapid pace, frequently introducing new tools and packages. At Nx, we provide out-of-the-box integrations with the most popular among them so you don’t have to worry when stitching them together. That, however…yes you guessed it… can be a challenging task. There’s just one way to keep up: automation.

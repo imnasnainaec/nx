@@ -3,7 +3,7 @@ title: 'Misconceptions about Monorepos: Monorepo != Monolith'
 slug: 'misconceptions-about-monorepos-monorepo-monolith'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2019-08-13/1*0QO5Z5J40-KlXRLkhli9-Q.png'
-tags: [nx, release]
+tags: [nx, monorepo]
 ---
 
 I’ve been building dev tools for monorepos and helping companies use them for years. **And I’ve been hearing similar objections to the monorepo idea from many teams:**

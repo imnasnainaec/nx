@@ -3,7 +3,7 @@ title: 'Share code between React Web & React Native Mobile with Nx'
 slug: 'share-code-between-react-web-react-native-mobile-with-nx'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2022-02-01/1*lL-fGNaIGYBC_eOBwSvdBw.png'
-tags: [nx, release]
+tags: [nx, react, react-native]
 ---
 
 **A problem I try to solve:** I got this awesome idea, not only do I want to create a web app, but I also want to create a mobile app for it. Usually creating web and mobile apps require totally different tech stacks, and it is pretty hard to share code. This article shows how I added a React web app and a React Native mobile app in the same monorepo using [Nx](https://nx.dev/), and how I optimized codeshare between the two.

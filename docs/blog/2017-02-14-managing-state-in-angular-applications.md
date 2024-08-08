@@ -3,7 +3,7 @@ title: 'Managing State in Angular Applications'
 slug: 'managing-state-in-angular-applications'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-02-14/1*P3b-lB3BUd0T8ktHSoCW5g.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools._

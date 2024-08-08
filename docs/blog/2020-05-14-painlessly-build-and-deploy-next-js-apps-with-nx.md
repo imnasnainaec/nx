@@ -3,7 +3,7 @@ title: 'Painlessly Build and Deploy Next.js Apps With Nx'
 slug: 'painlessly-build-and-deploy-next-js-apps-with-nx'
 authors: ['Jack Hsu']
 cover_image: '/blog/images/2020-05-14/1*jf5YrKObqqmui7e8StHmrA.png'
-tags: [nx, release]
+tags: [nx, next-js]
 ---
 
 _Update (2022–02–23): Also check out our new guide for_ [_deploying Next.js to to the Vercel platform_](https://nx.dev/guides/deploy-nextjs-to-vercel)_. This is the recommended way to deploy you Nx + Next.js apps._

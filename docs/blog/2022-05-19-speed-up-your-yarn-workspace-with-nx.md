@@ -3,7 +3,7 @@ title: 'Speed up your Yarn Workspace with Nx'
 slug: 'speed-up-your-yarn-workspace-with-nx'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2022-05-19/1*V2gUpSRK_LMsjWUJiFkeig.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 If you have a Yarn workspace, you can turn it into an Nx monorepo with a simple command. Below is an example of a Yarn workspace with multiple Expo apps which we will be using to add Nx:

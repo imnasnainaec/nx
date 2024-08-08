@@ -3,7 +3,7 @@ title: 'Google Drops Bazel in favor of Nx (edit: April Fools 😉)'
 slug: 'google-drops-bazel-in-favor-of-nx'
 authors: ['Nx']
 cover_image: '/blog/images/2022-04-01/1*6xqPcYeQnOHvVOXzD9HUww.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 _In an attempt to lower maintenance costs and increase developer productivity, going forward Google has made the decision to fully embrace the open-source monorepo tool Nx._

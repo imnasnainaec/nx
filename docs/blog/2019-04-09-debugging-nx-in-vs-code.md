@@ -3,7 +3,7 @@ title: 'Debugging Nx in VS Code'
 slug: 'debugging-nx-in-vs-code'
 authors: ['Torgeir Helgevold']
 cover_image: '/blog/images/2019-04-09/1*glqkXXIj3Mpms5Oo3_XDIA.png'
-tags: [nx, release]
+tags: [nx, jest]
 ---
 
 It’s a common practice for developers to rely on console.log when troubleshooting their code, but for complex scenarios, attaching a debugger might be more effective. In this article we will show how to set up debugging for both Nx Node applications and Nx Jest libs in VS Code.

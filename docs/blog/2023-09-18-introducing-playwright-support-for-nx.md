@@ -3,7 +3,7 @@ title: 'Introducing Playwright Support for Nx'
 slug: 'introducing-playwright-support-for-nx'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2023-09-18/1*_589bVpPTJ4D4IACBePXWQ.png'
-tags: [nx, release]
+tags: [nx, playwright, release]
 ---
 
 We are very excited to announce our support for Playwright with our new plugin `@nx/playwright`.

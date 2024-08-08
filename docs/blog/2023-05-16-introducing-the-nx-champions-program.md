@@ -3,7 +3,7 @@ title: 'Introducing the Nx Champions Program'
 slug: 'introducing-the-nx-champions-program'
 authors: ['Isaac Mann']
 cover_image: '/blog/images/2023-05-16/0*cVGLh0H-uOpy7-D6.png'
-tags: [nx, release]
+tags: [nx]
 ---
 
 The Nx community is too large to be adequately supported by the Nx team alone. Luckily, there are many people who volunteer their time and expertise to help others and share how they use Nx to solve their problems. We are launching the Nx Champions program as a way of acknowledging the work of key members of the community and supporting them in their ongoing efforts.

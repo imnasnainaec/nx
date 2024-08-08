@@ -3,7 +3,7 @@ title: 'Brand New UI, Custom VSCode Task Support + More in Angular Console 9.0!'
 slug: 'brand-new-ui-custom-vscode-task-support-more-in-angular-console-9-0'
 authors: ['Daniel Muller']
 cover_image: '/blog/images/2019-11-08/1*iCu-DaUaRn9txX9vhY1UJQ.png'
-tags: [nx, release]
+tags: [nx, nx-console]
 ---
 
 Today I am happy to announce some new improvements for [Angular Console](http://Angularconsole.com), a tool that the team at [Nrwl](http://Nrwl.io) hopes will be useful for every Angular developer.

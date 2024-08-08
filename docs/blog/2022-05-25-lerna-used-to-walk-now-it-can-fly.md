@@ -3,7 +3,7 @@ title: 'How Lerna just got 10x faster!'
 slug: 'lerna-used-to-walk-now-it-can-fly'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-05-25/1*WPGHapKqT3IguWjeN5UgWg.png'
-tags: [nx, release]
+tags: [nx, lerna, release]
 ---
 
 **_TL;DR:_** _We released a new beta version of Lerna and it happens that it is now 5.3 times faster than Turbo 👀…by turning on a flag. Keep reading to learn more._

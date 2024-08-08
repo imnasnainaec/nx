@@ -3,7 +3,7 @@ title: 'Why you should switch from Lerna to Nx'
 slug: 'why-you-should-switch-from-lerna-to-nx'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2019-09-03/0*fFokkplT3K7FCCKg.png'
-tags: [nx, release]
+tags: [nx, lerna]
 ---
 
 **UPDATED VERSION OF THIS POST (+ VIDEO) CAN BE FOUND** [**HERE**](https://medium.com/lerna-yarn-nx-faster-build-times-better-dev-ergonomics-2ec28463d3a5?sk=fbaf8243c6bdbc7fad61a47f899eedfd)**.**

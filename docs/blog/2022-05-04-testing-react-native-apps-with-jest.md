@@ -3,7 +3,7 @@ title: 'Testing React Native apps with Jest'
 slug: 'testing-react-native-apps-with-jest'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2022-05-04/1*OXnODpoFXaimLz-m0bDu4g.png'
-tags: [nx, release]
+tags: [nx, jest, react-native]
 ---
 
 ### How to write unit and e2e tests for React Native apps using Jest in an Nx workspace

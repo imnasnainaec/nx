@@ -3,7 +3,7 @@ title: 'Server-side rendering (SSR) with Angular for Nx workspaces'
 slug: 'server-side-rendering-ssr-with-angular-for-nx-workspaces'
 authors: ['Benjamin Cabanes']
 cover_image: '/blog/images/2022-03-14/1*eOsf4SjQilvuMClPC0Isyw.png'
-tags: [nx, release]
+tags: [nx, ssr, angular]
 ---
 
 Nx is a Smart, Fast and Extensible Build System, which we developed at [Nrwl](https://nrwl.io) based on our experience working at Google, and helping Fortune 500 enterprises build ambitious Angular applications.

@@ -3,7 +3,7 @@ title: 'Using Apollo GraphQL with React in an Nx Workspace'
 slug: 'using-apollo-graphql-with-react-in-an-nx-workspace'
 authors: ['Philip Fulcher']
 cover_image: '/blog/images/2020-01-30/1*qO6-3btZuTW7s5-q5nIkew.png'
-tags: [nx, release]
+tags: [nx, react, graphql]
 ---
 
 Nx is a set of extensible dev tools for monorepos. Because of the robust support for a diverse ecosystem of JavaScript development, it enables you to build your entire full-stack application in a single repo. This allows you to share code and interfaces between your frontend and backend and acts as a multiplier on your development velocity.

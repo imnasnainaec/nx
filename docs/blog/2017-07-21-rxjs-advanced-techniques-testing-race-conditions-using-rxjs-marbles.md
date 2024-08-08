@@ -3,7 +3,7 @@ title: 'RxJS Advanced Techniques: Testing Race Conditions Using RxJS Marbles'
 slug: 'rxjs-advanced-techniques-testing-race-conditions-using-rxjs-marbles'
 authors: ['Victor Savkin']
 cover_image: '/blog/images/2017-07-21/1*gSBFvuLWky8Mgb8gLIZeSg.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 _Victor Savkin is a co-founder of_ [_nrwl.io_](https://goo.gl/IAi7JWß)_. He was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules_

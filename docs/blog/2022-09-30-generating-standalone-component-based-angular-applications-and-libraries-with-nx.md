@@ -3,7 +3,7 @@ title: 'Generating Standalone Component-based Angular Applications and Libraries
 slug: 'generating-standalone-component-based-angular-applications-and-libraries-with-nx'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-09-30/1*h0pmKq38FJKyUSIZp14OCA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 [Angular](https://angular.io/) recently released [Standalone Components](https://angular.io/guide/standalone-components) in an effort to address one of their highest voted community issues; to make `NgModule` optional.  

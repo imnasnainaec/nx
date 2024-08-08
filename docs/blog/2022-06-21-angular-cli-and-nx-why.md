@@ -3,7 +3,7 @@ title: 'Angular CLI and Nx — Why?'
 slug: 'angular-cli-and-nx-why'
 authors: ['Colum Ferry']
 cover_image: '/blog/images/2022-06-21/1*m7SsA6SRSlnC_o7YnehmUA.png'
-tags: [nx, release]
+tags: [nx, angular]
 ---
 
 In this blog post, I’ll present a comparison of both the Angular CLI and the Nx CLI and present some evaluations on the current state of each.

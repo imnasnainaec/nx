@@ -3,7 +3,7 @@ title: 'Bundling a Node API with Fastify, esbuild, and Nx'
 slug: 'bundling-a-node-api-with-fastify-esbuild-and-nx'
 authors: ['Jack Hsu']
 cover_image: '/blog/images/2023-02-28/1*PADY_RKrkXj39p4nj79ESw.png'
-tags: [nx, release]
+tags: [nx, node]
 ---
 
 There are many decisions to make when it comes to building a Node API. There are a variety of frameworks to choose from (Express, Fastify, Koa, etc.), and a million different ways to build and deploy the application.

@@ -3,7 +3,7 @@ title: 'Setup a Monorepo with PNPM workspaces and speed it up with Nx!'
 slug: 'setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-07-14/1*ABrBjQPg4SrYzFQQXFxY-Q.png'
-tags: [nx, release]
+tags: [nx, monorepos]
 ---
 
 In this article we’re going to have a deep dive into setting up a new monorepo using [PNPM workspaces](https://pnpm.io/workspaces) that hosts a Remix application as well as a React-based library. We will learn how to run commands with PNPM, how to run them in parallel and finally we’re going to add Nx for a more sophisticated task scheduling, including command caching and more.

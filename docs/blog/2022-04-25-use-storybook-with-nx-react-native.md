@@ -3,7 +3,7 @@ title: 'Use Storybook with Nx React Native'
 slug: 'use-storybook-with-nx-react-native'
 authors: ['Emily Xiong']
 cover_image: '/blog/images/2022-04-25/1*64nWVfUBihlYTLGWOvnc1g.png'
-tags: [nx, release]
+tags: [nx, storybook, react-native]
 ---
 
 ### How to add Storybook to Nx React Native applications

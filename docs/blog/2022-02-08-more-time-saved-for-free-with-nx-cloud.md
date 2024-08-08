@@ -3,7 +3,7 @@ title: 'More time saved, for free — with Nx Cloud 🎉'
 slug: 'more-time-saved-for-free-with-nx-cloud'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2022-02-08/1*yU8Fb6JCSvYPN33vpSFong.png'
-tags: [nx, release]
+tags: [nx, nx-cloud]
 ---
 
 ### New Pricing changes make the Nx Cloud opt-in a no-brainer

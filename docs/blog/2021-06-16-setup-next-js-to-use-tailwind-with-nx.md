@@ -3,7 +3,7 @@ title: 'Setup Next.js to use Tailwind with Nx'
 slug: 'setup-next-js-to-use-tailwind-with-nx'
 authors: ['Juri Strumpflohner']
 cover_image: '/blog/images/2021-06-16/0*sJ8VAJirCGmphACu.png'
-tags: [nx, release]
+tags: [nx, next-js, tailwind]
 ---
 
 _In the_ [_previous article_](https://medium.com/create-a-next-js-web-app-with-nx-bcf2ab54613) _we learned how to set up Next.js in an Nx workspace. In this article, we carry that forward, by adding_ [_TailwindCSS_](https://tailwindcss.com/) _support to our setup._
