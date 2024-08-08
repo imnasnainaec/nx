@@ -6,7 +6,7 @@ cover_image: '/blog/images/2022-01-19/0*HQzdmymbKGiCBVgn.png'
 tags: [nx, microfrontends]
 ---
 
-This is the third article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using [Nx](https://nx.dev/) and [Netlify](https://netlify.com/). We are going to develop and independently deploy two applications to Netlify.
+This is the third article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using Nx and [Netlify](https://netlify.com/). We are going to develop and independently deploy two applications to Netlify.
 
 The two applications consist of a ToDo app, which will be non-functional and whose sole purpose is to be a placeholder to protect behind an authorization guard, and a Login app, which will provide a basic login form along with a shared auth lib containing a stateful service for managing the authed user.
 

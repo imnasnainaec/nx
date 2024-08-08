@@ -12,7 +12,7 @@ And in fact, while monorepos have been around and quite heavily adopted in the e
 
 - [Best of JS](https://bestofjs.org/projects?tags=monorepo) recently added a monorepo listing
 - [State of JS](https://stateofjs.com/) included an entire section about monorepos
-- [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar/tools/nx) included a section expressing a strong preference to use [Nx](https://nx.dev/) for managing JavaScript-based monorepos.
+- [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar/tools/nx) included a section expressing a strong preference to use Nx for managing JavaScript-based monorepos.
 - …
 
 **“But what is a monorepo really?**” “**Why would I want to use one over — say — a polyrepo?**” “**We are using a microfrontend architecture, so monorepos are not for us!**”. These are just some questions and misconceptions that frequently come up.
@@ -21,7 +21,7 @@ Today I’m happy to announce that we launched a new website to address those qu
 
 > [**https://monorepo.tools**](https://monorepo.tools/)
 
-At Nrwl we’ve been using monorepos for years. We even build a fully open-source, smart, fast and extensible build system that is particularly optimized for monorepo scenarios: [Nx](https://nx.dev).
+At Nrwl we’ve been using monorepos for years. We even build a fully open-source, smart, fast and extensible build system that is particularly optimized for monorepo scenarios: Nx.
 
 We work with big enterprises helping them scale their software development efforts, which often also involves supporting them in setting up and structuring a monorepo. We’ve done that for years! Given the recent interest, we wanted to help newcomers enter the space and give them a starting point to explore more.
 

@@ -52,4 +52,4 @@ This is just the first of a series of AI-powered features that we're going to be
 - [Nx GitHub](https://github.com/nrwl/nx)
 - [Nx Official Discord Server](https://go.nx.dev/community)
 - [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- [Speed up your CI](https://nx.dev/nx-cloud/)
+- [Speed up your CI](/nx-cloud)

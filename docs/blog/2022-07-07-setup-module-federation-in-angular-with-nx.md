@@ -16,6 +16,6 @@ The idea of Micro Frontends lends itself well to achieving this, but we do not n
 
 [Webpack 5](https://webpack.js.org/) introduced the [Module Federation Plugin](https://webpack.js.org/concepts/module-federation/) which has rapidly become the go-to solution for splitting large monolithic applications into smaller composable pieces.
 
-In this article, we’ll walk through how [Nx](https://nx.dev/) makes it extremely straightforward to set up Module Federation for an Angular application, both from scratch and also for converting an existing Angular application into multiple composable slices.
+In this article, we’ll walk through how Nx makes it extremely straightforward to set up Module Federation for an Angular application, both from scratch and also for converting an existing Angular application into multiple composable slices.
 
 **Prefer a video walk-through?**

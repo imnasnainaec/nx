@@ -107,7 +107,7 @@ Thanks to [Stefan Van de Vooren](https://www.linkedin.com/in/stefanvandevooren),
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)

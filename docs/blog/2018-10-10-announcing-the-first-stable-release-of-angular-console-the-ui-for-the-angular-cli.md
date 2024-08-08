@@ -68,7 +68,7 @@ Jeff Cross and I \[Victor Savkin\] are giving two talks about about Angular Cons
 
 ## Learn More
 
-- [angularconsole.com](https://nx.dev/getting-started/editor-setup/) — the official site of the project
+- [Get started with Angular Console](/getting-started/editor-setup)
 - [Watch Angular Console 5-minute overview video by Angular Firebase folks](https://www.youtube.com/watch?time_continue=18&v=d2K2Cp8BJx0)
 - [Angular CLI course by John Papa](https://www.pluralsight.com/courses/angular-cli) — the Angular CLI course by John Papa has a video on Angular Console
 - Watch [this episode of Angular Air](https://www.youtube.com/watch?v=rzQzrkKYS0c) about Angular Console.

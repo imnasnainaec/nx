@@ -8,7 +8,7 @@ tags: [nx, angular]
 
 With Angular 14 having just been released recently, let us discuss how you can take advantage of some of the most popular tools in the JavaScript ecosystem to increase your efficiency and productivity when building Angular applications.
 
-In this article, we will set up an Nx workspace that is preconfigured for [Angular](https://angular.io/) development and integrates [Storybook](https://storybook.js.org/) and [Tailwind](https://tailwindcss.com/) using generators provided by [Nx](https://nx.dev/). We will then build a simple Button component using only Storybook and Tailwind.
+In this article, we will set up an Nx workspace that is preconfigured for [Angular](https://angular.io/) development and integrates [Storybook](https://storybook.js.org/) and [Tailwind](https://tailwindcss.com/) using generators provided by Nx. We will then build a simple Button component using only Storybook and Tailwind.
 
 ## Workspace Setup
 

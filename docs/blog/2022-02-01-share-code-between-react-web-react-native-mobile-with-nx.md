@@ -6,7 +6,7 @@ cover_image: '/blog/images/2022-02-01/1*lL-fGNaIGYBC_eOBwSvdBw.png'
 tags: [nx, react, react-native]
 ---
 
-**A problem I try to solve:** I got this awesome idea, not only do I want to create a web app, but I also want to create a mobile app for it. Usually creating web and mobile apps require totally different tech stacks, and it is pretty hard to share code. This article shows how I added a React web app and a React Native mobile app in the same monorepo using [Nx](https://nx.dev/), and how I optimized codeshare between the two.
+**A problem I try to solve:** I got this awesome idea, not only do I want to create a web app, but I also want to create a mobile app for it. Usually creating web and mobile apps require totally different tech stacks, and it is pretty hard to share code. This article shows how I added a React web app and a React Native mobile app in the same monorepo using Nx, and how I optimized codeshare between the two.
 
 I am mostly a web developer, so let’s start with the web app first: [https://xiongemi.github.io/studio-ghibli-search-engine](https://xiongemi.github.io/studio-ghibli-search-engine). It is a search engine for movies and characters under Studio Ghibli:
 
@@ -31,7 +31,7 @@ Now let’s create the corresponding mobile version of this app.
 
 ## Tech Stack
 
-- Monorepo: [Nx](https://nx.dev/)
+- Monorepo: Nx
 - Web Frontend: [React](https://reactjs.org/)
 - API: [https://ghibliapi.herokuapp.com/](https://ghibliapi.herokuapp.com/)
 
@@ -236,7 +236,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';cons
 
 ### Environment Variables
 
-Nx comes with a set of different options for [handling environment variables](https://nx.dev/guides/environment-variables). In our workspace, we have a simple `.env` file at the workspace root:
+Nx comes with a set of different options for [handling environment variables](/guides/environment-variables). In our workspace, we have a simple `.env` file at the workspace root:
 
 ```
 NX\_REQUEST\_BASE\_URL=://ghibliapi.herokuapp.com
@@ -349,7 +349,7 @@ _Screenshots of Mobile App (left: iOS, right: Android)_
 
 ## Conclusion
 
-In this article, we ended up building both, a React-based web application and a corresponding React Native app in the same repository using [Nx](https://nx.dev).
+In this article, we ended up building both, a React-based web application and a corresponding React Native app in the same repository using Nx.
 
 Nx’s architecture promotes the separation of concerns, splitting things into `apps` (which are technology-specific) and `libs` which can be technology-specific or technology-independent. That allows us to easily have our common business logic in a technology-independent library which in turn (thanks to Nx’s setup) be easily linked to both, our React web and React Native mobile app.
 

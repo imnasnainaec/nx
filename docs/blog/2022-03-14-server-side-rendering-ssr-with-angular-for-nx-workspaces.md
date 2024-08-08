@@ -8,13 +8,11 @@ tags: [nx, ssr, angular]
 
 Nx is a Smart, Fast and Extensible Build System, which we developed at [Nrwl](/company) based on our experience working at Google, and helping Fortune 500 enterprises build ambitious Angular applications.
 
-If you are not familiar with Nx, check our website to know what it is capable to do for your project at [https://nx.dev](https://nx.dev).
-
 _Small heads up! This article is about SSR, Nx and Angular. If you are looking for a way to implement SSR with React, Nx has first-class Next.js support. Next.js is a framework to build server-rendered applications, static websites, and more using React._ [_Read more about Nx’s Next.js support here_](https://medium.com/nx-now-supports-next-js-84ae3d0b2aed)_._
 
 **In this article, we will manually add the SSR feature to our Angular application in an Nx workspace.**
 
-This article is not about SSR per sé and assumes you are familiar with the concept as well as with [Angular](https://angular.io) and the [Nx CLI](https://nx.dev). If you are not sure, please read about it on the official Angular documentation: [https://angular.io/guide/universal](https://angular.io/guide/universal).
+This article is not about SSR per sé and assumes you are familiar with the concept as well as with [Angular](https://angular.io) and Nx. If you are not sure, please read about it on the official Angular documentation: [https://angular.io/guide/universal](https://angular.io/guide/universal).
 
 ## Hands on
 

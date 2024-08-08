@@ -18,7 +18,7 @@ Often, when writing about Nx, we talk about the benefits of monorepos, dependenc
 
 ## Starting by Creating a New Workspace
 
-After we have installed [Nx](https://nx.dev/getting-started/intro), let’s create a new workspace.
+After we have installed [Nx](/getting-started/intro), let’s create a new workspace.
 
 `create-nx-workspace myorg`
 

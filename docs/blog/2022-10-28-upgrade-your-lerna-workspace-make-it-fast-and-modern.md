@@ -51,7 +51,7 @@ You can optimize these expressions and even reuse them across different targets.
 
 The real benefit of caching is when you distribute and share it with co-workers and your CI. Leveraging previously cached runs (especially on CI) results in huge time savings.
 
-Since Lerna uses Nx as a task runner, the remote cache setup is based on [Nx Cloud](https://nx.dev/nx-cloud/).
+Since Lerna uses Nx as a task runner, the remote cache setup is based on [Nx Cloud](/nx-cloud).
 
 Running the following command sets up your workspace:
 

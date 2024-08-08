@@ -6,7 +6,7 @@ cover_image: '/blog/images/2022-01-12/1*pOWiZcC6kbhpD2tBw2qD7A.png'
 tags: [nx, microfrontends]
 ---
 
-This is the second article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using [Nx](https://nx.dev/) and [Netlify](https://netlify.com/). We will generate the Dashboard application as a host app and walk through the steps of deploying it to Netlify.
+This is the second article in a series of articles that aims to showcase the process of scaffolding and deploying a Micro Frontend Architecture using Nx and [Netlify](https://netlify.com/). We will generate the Dashboard application as a host app and walk through the steps of deploying it to Netlify.
 
 ### Articles in the Series
 

@@ -37,7 +37,7 @@ If you haven’t subscribed yet, please do 🙏: [https://www.youtube.com/@nxdev
 
 Nx has been designed to be extensible from the ground up. Which is precisely why Nx Plugins are so powerful. They don’t just come as part of an Nx integrated monorepo or standalone setup. Still, you can leverage them in the same way to automate your local workspace or even share them as proper Nx plugins with the community.
 
-Please have a look at our updated guide: [https://nx.dev/plugin-features/create-your-own-plugin](https://nx.dev/plugin-features/create-your-own-plugin)
+Please have a look at our updated guide: [/plugin-features/create-your-own-plugin](/plugin-features/create-your-own-plugin)
 
 [Zack](https://twitter.com/zackderose) from our team wrote a full in-depth blog post on how [to create your own stack with tRPC and Nx](https://medium.com/create-your-own-trpc-stack-de42209f83a3). He was also on the [Nx live stream](https://www.youtube.com/live/W-9cwIn-YSM?feature=share) together with tRPC core member [Ahmed Elsakaan](https://twitter.com/ixahmedxii). An edited version of the livestream [can be found here](https://youtu.be/Wxy898MKguo).
 
@@ -56,7 +56,7 @@ All the features Nx is known for also apply to backend development. That include
 - avoiding monolithic codebases via **modularizing it with local libraries** (with code generation support)
 - Ability to **automatically setup a Dockerfile** for packaging your app
 - **Optionally bundle** your Node app for easy deployment in the case of edge-functions
-- **Speed** via running building, linting, testing for only **(**[**affected**](https://nx.dev/concepts/affected)**) parts of your applications**, via [caching](https://nx.dev/concepts/how-caching-works) and [optimized CI setups](https://nx.dev/core-features/distribute-task-execution)
+- **Speed** via running building, linting, testing for only **(**[**affected**](/concepts/affected)**) parts of your applications**, via [caching](/concepts/how-caching-works) and [optimized CI setups](/core-features/distribute-task-execution)
 - the ability to use and/or expand to a monorepo
 
 This is the first iteration with first-class Node support. But we’re already working on a whole set of improvements for the Nx + Node story. So stay tuned!
@@ -83,7 +83,7 @@ $ nx migrate latest --from=nx@<version>
 
 In particular, we’re working on making that part more intuitive in upcoming versions.
 
-Also, have a look at our [updated docs](https://nx.dev/recipes/other/advanced-update#choosing-optional-package-updates-to-apply) as well as our [Nx and Angular compatibility matrix](https://nx.dev/packages/angular/documents/angular-nx-version-matrix) for more details.
+Also, have a look at our [updated docs](/recipes/other/advanced-update#choosing-optional-package-updates-to-apply) as well as our [Nx and Angular compatibility matrix](/packages/angular/documents/angular-nx-version-matrix) for more details.
 
 ## Bootstrapping a new Angular app with Standalone API support
 
@@ -128,7 +128,7 @@ Stay tuned for a more in-depth blog post coming soon to [our blog](blog).
 
 Nx provides support for Storybook version 7.0 beta, with generators and executors, so that you can try it out now, either in a new or in your existing Nx workspace. Storybook version 7 is a major release that brings a lot of new features and improvements. You can read more about it in the [Storybook 7 beta announcement blog post](https://storybook.js.org/blog/7-0-beta/). Apart from the new features and enhancements, it also brings some breaking changes. You can read more about them in the [Storybook 7 migration docs](https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#from-version-65x-to-700) and the [Storybook 7 migration guide](https://chromatic-ui.notion.site/Storybook-7-migration-guide-dbf41fa347304eb2a5e9c69b34503937). Do note that _version 7 is still in beta_, and so is the Nx support for it.
 
-You can try out Storybook 7.0 beta in a new Nx workspace by passing the `--storybook7betaConfiguration` flag when generating the Storybook configuration for your projects. Read more in our [Storybook 7 setup guide](https://nx.dev/packages/storybook/documents/storybook-7-setup). If you want to migrate your existing Storybook configuration to Storybook 7.0 beta, please read our [migration guide](https://nx.dev/packages/storybook/documents/migrate-storybook-7).
+You can try out Storybook 7.0 beta in a new Nx workspace by passing the `--storybook7betaConfiguration` flag when generating the Storybook configuration for your projects. Read more in our [Storybook 7 setup guide](/packages/storybook/documents/storybook-7-setup). If you want to migrate your existing Storybook configuration to Storybook 7.0 beta, please read our [migration guide](/packages/storybook/documents/migrate-storybook-7).
 
 ## More flexible Webpack config
 
@@ -136,13 +136,13 @@ Previously when you created a new React application with the Nx `@nrwl/react` pl
 
 ![](/blog/images/2023-02-16/0*1rWmKSybkBC8I-0O.avif)
 
-It was for a good reason, but at the same time, it is a thin line to walk between giving more flexibility and ensuring integrity and consistency (not to speak about features such as [automated code migrations](https://nx.dev/core-features/automate-updating-dependencies)). We wrote a [blog post about it last week](https://medium.com/configuration-files-and-potholes-in-your-codebase-f8e0f9f016c2).
+It was for a good reason, but at the same time, it is a thin line to walk between giving more flexibility and ensuring integrity and consistency (not to speak about features such as [automated code migrations](/core-features/automate-updating-dependencies)). We wrote a [blog post about it last week](https://medium.com/configuration-files-and-potholes-in-your-codebase-f8e0f9f016c2).
 
-Inspired by our new [Vite setup](https://nx.dev/packages/vite), which allows for a more modular configuration in the `vite.config.ts`, we wanted to bring some of the same flexibility to our Webpack setup as well. As such, now every Nx Webpack setup (e.g. a new React + Webpack based app) have a `webpack.config.js` in the project root. Old project are automatically migrated to this new setup.
+Inspired by our new [Vite setup](/packages/vite), which allows for a more modular configuration in the `vite.config.ts`, we wanted to bring some of the same flexibility to our Webpack setup as well. As such, now every Nx Webpack setup (e.g. a new React + Webpack based app) have a `webpack.config.js` in the project root. Old project are automatically migrated to this new setup.
 
 ![](/blog/images/2023-02-16/0*emRP2gF7umWc4UE-.avif)
 
-If you want to upgrade but still retain the previous behavior, we introduced an `isolatedConfig` mode that can be set to `false`. More details on our docs: [https://nx.dev/packages/webpack/documents/webpack-config-setup](https://nx.dev/packages/webpack/documents/webpack-config-setup)
+If you want to upgrade but still retain the previous behavior, we introduced an `isolatedConfig` mode that can be set to `false`. More details on our docs: [/packages/webpack/documents/webpack-config-setup](/packages/webpack/documents/webpack-config-setup)
 
 ## How to Update Nx
 
@@ -173,7 +173,7 @@ So keep an eye on our [Twitter](https://twitter.com/nxdevtools), [Youtube](https
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)

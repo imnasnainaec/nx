@@ -10,9 +10,9 @@ tags: [nx, ssr, module-federation]
 
 This technology has enabled a much cleaner approach to Micro Frontend Architecture but also is employable as a strategy to implement incremental builds for large applications, reducing overall build times. This can lead to faster feedback cycles and less money spent on CI workflows.
 
-[Nx](https://nx.dev/) offers great out-of-the-box support and developer experience for Module Federation for Angular and React. You can learn more about it from the resources below:
+Nx offers great out-of-the-box support and developer experience for Module Federation for Angular and React. You can learn more about it from the resources below:
 
-📄 [Module Federation Recipes on Nx](https://nx.dev/recipes/module-federation)  
+📄 [Module Federation Recipes on Nx](/recipes/module-federation)  
 📺 [Speed up your Angular serve and build times with Module Federation and Nx](https://www.youtube.com/watch?v=JkcaGzhRjkc)
 
 However, until now, it has only supported Client-Side Rendering (CSR). Essentially it worked only for Single Page Applications (SPAs). While this is still valuable, it is becoming ever more apparent that Server-Side Rendering (SSR) is becoming the de-facto standard for building web applications, due to the multitude of benefits it provides.

@@ -39,7 +39,7 @@ With the plugin installed, we can generate a React library now. This library is 
 npx nx generate @nrwl/react:lib ui --publishable --import-path="@happyorg-docusaurus/ui"
 ```
 
-> _Publishable Libraries require_ `_importPath_` _to be specified. Read more at_ [_Nx Publishable and Buildable Libraries_](https://nx.dev/structure/buildable-and-publishable-libraries#publishable-libraries)
+> _Publishable Libraries require_ `_importPath_` _to be specified. Read more at_ [_Nx Publishable and Buildable Libraries_](/structure/buildable-and-publishable-libraries#publishable-libraries)
 
 The Nx React library generator gives us a fully set-up library that we can build, test, and lint against.
 
@@ -63,7 +63,7 @@ The Nx React library generator gives us a fully set-up library that we can build
 
 Let’s assume that our library is ready. Next, we are moving on to adding Docusaurus to write documentation for the library.
 
-> _At this point, we can either generate a new React application, leverage standalone_ [_Storybook_](https://storybook.js.org/)_, or_ [_Nx React x Storybook integration_](https://nx.dev/storybook/overview-react) _to render our library._
+> _At this point, we can either generate a new React application, leverage standalone_ [_Storybook_](https://storybook.js.org/)_, or_ [_Nx React x Storybook integration_](/storybook/overview-react) _to render our library._
 
 ## Add Docusaurus to Nx
 
@@ -250,7 +250,7 @@ Here are the things that we covered:
 
 ### Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)

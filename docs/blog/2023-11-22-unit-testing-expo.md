@@ -333,4 +333,4 @@ With Nx, you do not need to explicitly install any testing library, so you can d
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Discord](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+- 🚀 [Speed up your CI](/nx-cloud)

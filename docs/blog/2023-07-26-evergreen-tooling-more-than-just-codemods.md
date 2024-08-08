@@ -42,7 +42,7 @@ The “why” is pretty straightforward. From the perspective of an open-source 
 
 ![](/blog/images/2023-07-26/0*M7X1nddld2oBJ736.avif)
 
-The distribution of Nx installs by version demonstrates the effectiveness of this approach. For instance, v16.5, which accounts for 19.7% of all versions, has already been adopted by many users, despite [its recent release](https://nx.dev/changelog#16.5.0). The latest major accounts for 34.7% already and 41.4% are on the previous v15, a large majority of which is on the latest 15.9 minor. Hence, v16 & v15 make up 3/4 of all Nx installs.
+The distribution of Nx installs by version demonstrates the effectiveness of this approach. For instance, v16.5, which accounts for 19.7% of all versions, has already been adopted by many users, despite [its recent release](/changelog#16.5.0). The latest major accounts for 34.7% already and 41.4% are on the previous v15, a large majority of which is on the latest 15.9 minor. Hence, v16 & v15 make up 3/4 of all Nx installs.
 
 ## How? Database Migration Scripts for Code?
 
@@ -145,9 +145,9 @@ Nx’s modular design helps as each plugin is responsible for a particular area 
 
 ![](/blog/images/2023-07-26/0*LNYWLmdgxQ07bqyt.avif)
 
-_(Source:_ [_https://nx.dev/getting-started/why-nx_](https://nx.dev/getting-started/why-nx)_)_
+_(Source:_ [_/getting-started/why-nx_](/getting-started/why-nx)_)_
 
-These plugins are usually technology-specific, like a plugin to help you manage React, Next, Remix, or Angular projects and tooling like ESLint, Cypress, Playwright, Vite, Jest, and so on. There are no limits as you can [create your own](https://nx.dev/extending-nx/intro/getting-started). They are **optional**, in that you can use Nx and React and set everything up on your own. But it might be worth relying on them for some better DX and automation, such as the update mechanism we’re currently looking at.
+These plugins are usually technology-specific, like a plugin to help you manage React, Next, Remix, or Angular projects and tooling like ESLint, Cypress, Playwright, Vite, Jest, and so on. There are no limits as you can [create your own](/extending-nx/intro/getting-started). They are **optional**, in that you can use Nx and React and set everything up on your own. But it might be worth relying on them for some better DX and automation, such as the update mechanism we’re currently looking at.
 
 Plugins are helpful here, because each plugin has a clearly defined responsibility. Like the `@nx/webpack` we looked at earlier, handles everything related to Webpack. So it’ll be responsible for updating the `webpack` NPM package and adjusting config Webpack-related files.
 
@@ -187,16 +187,16 @@ After that, your codebase should have been updated. Run your (ideally automated)
 That’s it! If you want to dive deeper, here are some potentially helpful links:
 
 - [Watch our YT video about Code Migrations](https://youtu.be/Ss6MfcXi0jE)
-- [https://nx.dev/core-features/automate-updating-dependencies](https://nx.dev/core-features/automate-updating-dependencies)
+- [/core-features/automate-updating-dependencies](/core-features/automate-updating-dependencies)
 
 Also, if you haven’t already, give us a ⭐️ on Github: [https://github.com/nrwl/nx](https://github.com/nrwl/nx). We’d appreciate it 😃.
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+- 🚀 [Speed up your CI](/nx-cloud)
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

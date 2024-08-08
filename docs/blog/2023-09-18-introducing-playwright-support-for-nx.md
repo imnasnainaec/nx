@@ -101,7 +101,7 @@ We get a standalone Nx React app named `nx-react-playwright`:
 ![[object HTMLElement]](/blog/images/2023-09-18/1*-czlvgB1lLaIHb9uuRj9Ig.avif)
 _nx repo created_
 
-What is a [standalone application](https://nx.dev/concepts/integrated-vs-package-based#standalone-applications)? It is like an integrated monorepo setup but with just a single, root-level application. The repo has the same file structure as an app created from Create-React-App, but we can still leverage all the generators and executors and structure your application into libraries or submodules.
+What is a [standalone application](/concepts/integrated-vs-package-based#standalone-applications)? It is like an integrated monorepo setup but with just a single, root-level application. The repo has the same file structure as an app created from Create-React-App, but we can still leverage all the generators and executors and structure your application into libraries or submodules.
 
 ### Run E2E
 
@@ -154,7 +154,7 @@ In `src/app/nx-welcome.tsx`, we need to add a test id to the link:
 
 ```
 <a
-  href="https://nx.dev/getting-started/intro?utm\_source=nx-project"
+  href="/getting-started/intro?utm\_source=nx-project"
   target="\_blank"
   rel="noreferrer"
   className="list-item-link"
@@ -309,12 +309,12 @@ In this blog, we have:
 - Used Nx to run Playwright tests
 - Set up a Playwright configuration for an existing Nx app
 
-Hopefully, this gives you good insight into how to get started with Playwright. The Playwright configuration in this example is pretty simple, to learn more about `@nx/playwright` plugin, check out the Nx documentation: [https://nx.dev/packages/playwright](https://nx.dev/packages/playwright).
+Hopefully, this gives you good insight into how to get started with Playwright. The Playwright configuration in this example is pretty simple, to learn more about `@nx/playwright` plugin, check out the Nx documentation: [/packages/playwright](/packages/playwright).
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+- 🚀 [Speed up your CI](/nx-cloud)

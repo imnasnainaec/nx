@@ -59,7 +59,7 @@ Let’s try it out! Select a task to run and see the results in the run list. Yo
 
 ![](/blog/images/2023-01-18/1*hFG4lqGwEYV3imSFATeKog.avif)
 
-If you rerun the same task, you can see that the time it took to complete is under a second. This is because of Nx’s [advanced computation caching](https://nx.dev/core-features/cache-task-results). Whenever a task is executed, Nx caches it. If the task has been run before, it just restores the result from the cache. By default, this cache is local to your own workstation. However, with Nx Cloud, you can distribute and share it between machines.
+If you rerun the same task, you can see that the time it took to complete is under a second. This is because of Nx’s [advanced computation caching](/core-features/cache-task-results). Whenever a task is executed, Nx caches it. If the task has been run before, it just restores the result from the cache. By default, this cache is local to your own workstation. However, with Nx Cloud, you can distribute and share it between machines.
 
 ![](/blog/images/2023-01-18/1*kMKh30ojVJC-hSkZA5c46A.avif)
 
@@ -67,7 +67,7 @@ To see it in action, push your newly created access token and have a coworker (o
 
 ![](/blog/images/2023-01-18/1*DkuIHQ6engBhAyhN1TTUGQ.avif)
 
-To learn more about Nx Cloud access tokens, head over to the docs: [Access Tokens Documentation](https://nx.dev/nx-cloud/account/access-tokens).
+To learn more about Nx Cloud access tokens, head over to the docs: [Access Tokens Documentation](/nx-cloud/account/access-tokens).
 
 ## Claiming your workspace
 
@@ -75,7 +75,7 @@ If you’ve just started using Nx Cloud, you will probably see this message prom
 
 ![](/blog/images/2023-01-18/1*vNRM1u3J5dixcXjoJWkHLQ.avif)
 
-Out of the box, Nx Cloud works without the need to register. It is, however, highly recommended to create an account and associate it with your workspace. This process is called _claiming your workspace_ and has become much easier with Nx Console! After claiming, you can take full control of your cloud workspace, [manage access restrictions](https://nx.dev/nx-cloud/account/users) and other settings.
+Out of the box, Nx Cloud works without the need to register. It is, however, highly recommended to create an account and associate it with your workspace. This process is called _claiming your workspace_ and has become much easier with Nx Console! After claiming, you can take full control of your cloud workspace, [manage access restrictions](/nx-cloud/account/users) and other settings.
 
 Just click on ‘Login and claim your workspace’ to be redirected to the browser where you can sign in to Nx Cloud or create an account. After successful authentication, you will come back to VSCode, where you can select one of your organizations and connect your workspace to it.
 
@@ -83,13 +83,13 @@ From now on, Nx Console will be able to make authenticated requests to the cloud
 
 ## Distributed Task Execution
 
-Distributed Task Execution (DTE) becomes very important as your workspace grows. With Nx, powerful features like [computation caching](http://√) and [affected analysis](https://nx.dev/concepts/affected) help you drastically cut down your CI times. Most of the time, large parts of your codebase will not need to be rebuilt and retested. However, we also have to consider the worst-case-scenarios. Let’s say you do change a core lib that everything in your monorepo depends on. This could mean hundreds or even thousands of projects needing to be rebuilt and retested, which would mean hours of CI time. This is obviously very impractical and you should consider solutions that allow you to parallelize all this work and keep worst-case CI times at a reasonable level. [There are different approaches to achieving this](https://nx.dev/concepts/dte) but it’s hard to get right and not something most teams want to spend engineering resources on.
+Distributed Task Execution (DTE) becomes very important as your workspace grows. With Nx, powerful features like [computation caching](http://√) and [affected analysis](/concepts/affected) help you drastically cut down your CI times. Most of the time, large parts of your codebase will not need to be rebuilt and retested. However, we also have to consider the worst-case-scenarios. Let’s say you do change a core lib that everything in your monorepo depends on. This could mean hundreds or even thousands of projects needing to be rebuilt and retested, which would mean hours of CI time. This is obviously very impractical and you should consider solutions that allow you to parallelize all this work and keep worst-case CI times at a reasonable level. [There are different approaches to achieving this](/concepts/dte) but it’s hard to get right and not something most teams want to spend engineering resources on.
 
 ![](/blog/images/2023-01-18/1*EZhpRG2t-vp8Y7pGNnuRpA.avif)
 
 Distributed Task Execution with Nx Cloud solves this issue — it allows you to optimally parallelize tasks without thinking about their interdependencies or agent management. You don’t have to use it immediately, but it’s useful if you want to keep your CI times low even as your workspace grows. 🚀
 
-DTE is available for all Nx Cloud workspaces with minimal setup. If you see a yellow DTE status in Nx Console, that just means you haven’t used it yet. [Check out the docs](https://nx.dev/core-features/distribute-task-execution) to [learn more about the motivation for DTE](https://nx.dev/concepts/dte) and [how to test it out in your workspace](https://nx.dev/core-features/distribute-task-execution#set-up).
+DTE is available for all Nx Cloud workspaces with minimal setup. If you see a yellow DTE status in Nx Console, that just means you haven’t used it yet. [Check out the docs](/core-features/distribute-task-execution) to [learn more about the motivation for DTE](/concepts/dte) and [how to test it out in your workspace](/core-features/distribute-task-execution#set-up).
 
 ![](/blog/images/2023-01-18/1*T-GAMsmUCVVeO2ZCGuO3WA.avif)
 
@@ -103,14 +103,14 @@ To take advantage of this valuable information without changing your development
 
 ![](/blog/images/2023-01-18/1*UPAL-352xTPsm-Pf_7sROw.avif)
 
-To set it up, just click on the button in the Nx Console cloud view and follow the prompts in your browser. Read more in the [full guide on connecting your workspace to](https://nx.dev/nx-cloud/set-up/github) VCS.
+To set it up, just click on the button in the Nx Console cloud view and follow the prompts in your browser. Read more in the [full guide on connecting your workspace to](/nx-cloud/set-up/github) VCS.
 
 ## Learn more
 
-\- 🧠 \[Nx Docs\]([https://nx.dev/](https://nx.dev/))  
-\- 👩‍💻 \[Nx GitHub\]([https://github.com/nrwl/nx](https://github.com/nrwl/nx))  
-\- 🎮 \[Nx Console GitHub\]([https://github.com/nrwl/nx-console](https://github.com/nrwl/nx-console))  
-\- 💬 \[Nx Community Slack\]([https://go.nx.dev/community](https://go.nx.dev/community))  
-\- 📹 \[Nx Youtube Channel\]([https://www.youtube.com/@nxdevtools](https://www.youtube.com/@nxdevtools))
+- 🧠 [Nx Docs](/getting-started/intro)  
+- 👩‍💻 [Nx GitHub]([https://github.com/nrwl/nx](https://github.com/nrwl/nx))  
+- 🎮 [Nx Console GitHub]([https://github.com/nrwl/nx-console](https://github.com/nrwl/nx-console))  
+- 💬 [Nx Community Slack]([https://go.nx.dev/community](https://go.nx.dev/community))  
+- 📹 [Nx Youtube Channel]([https://www.youtube.com/@nxdevtools](https://www.youtube.com/@nxdevtools))
 
 Also, if you liked this, click the 👏 and make sure to follow [Max](https://twitter.com/MaxKless) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

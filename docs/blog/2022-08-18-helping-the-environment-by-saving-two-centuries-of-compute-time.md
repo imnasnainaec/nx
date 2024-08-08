@@ -20,7 +20,7 @@ Here are the raw numbers:
 - **Last 30 days:** 23 years 8 months 25 days 8 hours 57 minutes 19 seconds
 - **Since the beginning of Nx Cloud:** 200 years 10 months 13 days 19 hours 37 minutes 57 seconds
 
-We’re soon having a page on [nx.app](https://nx.dev/nx-cloud/) where you can inspect the live numbers as they keep growing in a lightning-fast manner!! (no wonder, [Nx is about to hit 2.5 million downloads / week](https://twitter.com/NxDevTools/status/1559540784730292224?s=20&t=lawBciDmuc4ojkz_OZNmlQ))
+We’re soon having a page on [nx.app](/nx-cloud) where you can inspect the live numbers as they keep growing in a lightning-fast manner!! (no wonder, [Nx is about to hit 2.5 million downloads / week](https://twitter.com/NxDevTools/status/1559540784730292224?s=20&t=lawBciDmuc4ojkz_OZNmlQ))
 
 ## The Effect on the Environment
 
@@ -56,13 +56,13 @@ Example: Run tests only for changed projects in a given PR.
 nx affected:test
 ```
 
-[Nx affected commands](https://nx.dev/using-nx/affected) allow you to only run commands against projects that changed with respect to a baseline. Usually, this is applied in PRs processed by your CI system. Nx analyzes the Git commits and identifies all projects that got changed with respect to a base branch (usually `main` or `master`). It then makes sure to run the given command only for those projects as well as all projects depending on them since they might be affected by the change too.
+[Nx affected commands](/using-nx/affected) allow you to only run commands against projects that changed with respect to a baseline. Usually, this is applied in PRs processed by your CI system. Nx analyzes the Git commits and identifies all projects that got changed with respect to a base branch (usually `main` or `master`). It then makes sure to run the given command only for those projects as well as all projects depending on them since they might be affected by the change too.
 
 This helps save computation by reducing the set of projects that need to be processed.
 
 ### Local Computation Caching
 
-Nx comes with a so-called [computation caching](https://nx.dev/using-nx/caching) feature. For every cacheable operation, Nx takes a set of input parameters, computes a hash and stores the result.
+Nx comes with a so-called [computation caching](/using-nx/caching) feature. For every cacheable operation, Nx takes a set of input parameters, computes a hash and stores the result.
 
 ![](/blog/images/2022-08-18/0*MusIEMCW5NlEtaaA.avif)
 
@@ -72,7 +72,7 @@ Whenever a hash matches, the computation is not run, but rather the previous res
 
 By default, the Nx computation cache is stored locally (usually within the `node_modules/.cache/nx` folder). The real benefits come from sharing it with others, that being your co-workers or CI agents.
 
-[Nx Cloud](https://nx.dev/nx-cloud/) allows to distribute the Nx computation cache across machines.
+[Nx Cloud](/nx-cloud) allows to distribute the Nx computation cache across machines.
 
 ![](/blog/images/2022-08-18/0*0uisxJ76ycdSZdA1.avif)
 
@@ -82,17 +82,17 @@ Connecting an existing Nx workspace to Nx Cloud can be done with
 nx connect-to-nx-cloud
 ```
 
-[More on the docs](https://nx.dev/nx-cloud/set-up/set-up-caching). Nx Cloud comes with [500 hours of computation time saved per month](https://nx.app/pricing) which is plenty for most workspaces. If you go over, you can buy more, or in the worst case, caching simply stops until the next month.
+[More on the docs](/nx-cloud/set-up/set-up-caching). Nx Cloud comes with [500 hours of computation time saved per month](https://nx.app/pricing) which is plenty for most workspaces. If you go over, you can buy more, or in the worst case, caching simply stops until the next month.
 
 ## Bonus! Lerna can do this too!!
 
-[Nrwl](/company), the company behind [Nx](https://nx.dev/), recently [took over stewardship of Lerna](https://dev.to/nrwl/lerna-is-dead-long-live-lerna-3jal). Meanwhile, Lerna 5.4 just got released which features a nice integration with Nx, allowing existing Lerna users to keep using the very same commands, but still benefit from the improved task scheduling and caching abilities Nx comes with.
+[Nrwl](/company), the company behind Nx, recently [took over stewardship of Lerna](https://dev.to/nrwl/lerna-is-dead-long-live-lerna-3jal). Meanwhile, Lerna 5.4 just got released which features a nice integration with Nx, allowing existing Lerna users to keep using the very same commands, but still benefit from the improved task scheduling and caching abilities Nx comes with.
 
 How to enable it? [Read more on the Lerna docs](https://lerna.js.org/docs/features/cache-tasks)
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)

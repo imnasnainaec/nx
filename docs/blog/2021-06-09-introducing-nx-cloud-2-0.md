@@ -6,7 +6,7 @@ cover_image: '/blog/images/2021-06-09/0*nygtBNy1HVP4ZAHk.png'
 tags: [nx, nx-cloud]
 ---
 
-Introducing Nx Cloud 2.0 — a cloud companion for your [Nx](https://nx.dev) monorepo helping ensure you are enabling your teams to work as efficiently as possible.
+Introducing Nx Cloud 2.0 — a cloud companion for your Nx monorepo helping ensure you are enabling your teams to work as efficiently as possible.
 
 This new version of Nx Cloud provides:
 
@@ -76,13 +76,13 @@ nx connect-to-nx-cloud
 Installing with `yarn`
 
 ```shell
-yarn add [@nrwl/nx-cloud](http://twitter.com/nrwl/nx-cloud) && yarn nx g [@nrwl/nx-cloud](http://twitter.com/nrwl/nx-cloud):init
+yarn add @nrwl/nx-cloud && yarn nx g @nrwl/nx-cloud:init
 ```
 
 Installing with `npm`
 
 ```shell
-npm install [@nrwl/nx-cloud](http://twitter.com/nrwl/nx-cloud) && npx nx g [@nrwl/nx-cloud](http://twitter.com/nrwl/nx-cloud):init
+npm install @nrwl/nx-cloud && npx nx g @nrwl/nx-cloud:init
 ```
 
 Next, click the provided link to connect your workspace to Nx Cloud.
@@ -91,4 +91,4 @@ This gives you a fully hosted/managed Nx Cloud organization to use. View your ru
 
 We also have [**Nx Private Cloud**](https://nx.app/private-cloud) that can be deployed internally within our organization with the same assurances and security of the hosted/managed Nx Cloud.
 
-Visit [nx.app](https://nx.dev/nx-cloud) to learn more about Nx Cloud and how it can enhance your usage of Nx.
+Visit [our docs](/nx-cloud) to learn more about Nx Cloud and how it can enhance your usage of Nx.

@@ -174,10 +174,9 @@ As we continue to improve and refine the Nx Ecosystem CI, we remain committed to
 
 ## Learn more
 
-\- 🧠 [Nx Docs](https://nx.dev)  
 \- 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)  
 \- 💬 [Nx Community Slack](https://go.nx.dev/community)  
 \- 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)  
-\- 🚀 [Speed up your CI](https://nx.dev/nx-cloud)
+\- 🚀 [Speed up your CI](/nx-cloud)
 
 Also, if you liked this, click the 👏and make sure to follow [Katerina](https://twitter.com/psybercity) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

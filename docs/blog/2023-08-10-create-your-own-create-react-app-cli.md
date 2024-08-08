@@ -8,14 +8,14 @@ tags: [nx, react]
 
 Most technologies have a CLI to create a new workspace. In fact, it is so prevalent that NPM and other package managers support it natively. For example:
 
-- Nx has [create-nx-workspace](https://nx.dev/getting-started/installation)
+- Nx has [create-nx-workspace](/getting-started/installation)
 - React has, well, had [create-react-app](https://create-react-app.dev/)
 - Angular has [Angular CLI](https://angular.io/cli)
 - Vite has [create-vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 
 Having a CLI to quickly scaffold a starting project is great for onboarding new people, but it can also be a burden for framework authors as they want to rather focus on building the framework. Additionally, building **and supporting** a good CLI is another beast to tackle. And this is where Nx comes in.
 
-Nx has had support for [creating custom “presets”](https://nx.dev/plugins/recipes/create-preset) for a while, allowing plugin authors to fully customize the workspace structure from the ground up. To use them you had to go via the `create-nx-workspace` command though, passing the name of your plugin as the `--preset` . This works, but you might want to have a more “branded command” experience, like `npx create-my-own-app` .
+Nx has had support for [creating custom “presets”](/plugins/recipes/create-preset) for a while, allowing plugin authors to fully customize the workspace structure from the ground up. To use them you had to go via the `create-nx-workspace` command though, passing the name of your plugin as the `--preset` . This works, but you might want to have a more “branded command” experience, like `npx create-my-own-app` .
 
 And this is exactly what we’re going to explore in this article. We will write our own CLI. And out of nostalgia, let’s build our own version of Create-React-App.
 
@@ -181,7 +181,7 @@ The preset generator does 2 things:
 ![[object HTMLElement]](/blog/images/2023-08-10/1*38RvkLIwUAvVDDrEp5sFPQ.avif)
 _preset generator_
 
-The `addProjectConfiguration` and `generateFiles` functions are from [@nx/devkit](https://nx.dev/packages/devkit/documents/nrwl_devkit), a library that contains utility functions for writing plugins for Nx. For the future, see the [complete list of utility functions](https://nx.dev/packages/devkit/documents/nx_devkit).
+The `addProjectConfiguration` and `generateFiles` functions are from [@nx/devkit](/packages/devkit/documents/nrwl_devkit), a library that contains utility functions for writing plugins for Nx. For the future, see the [complete list of utility functions](/packages/devkit/documents/nx_devkit).
 
 1.  Change the project which is created with `addProjectConfiguration`:
 
@@ -304,7 +304,7 @@ And finally, another file to host the actual HTML template: `src/generators/pres
 </html>
 ```
 
-3\. Our application uses some npm dependencies so add those to the workspace as well with the [addDependenciesToPackageJson](https://nx.dev/packages/devkit/documents/nrwl_devkit#adddependenciestopackagejson) function to the end of the export default function in `src/generators/preset/generator.ts`:
+3\. Our application uses some npm dependencies so add those to the workspace as well with the [addDependenciesToPackageJson](/packages/devkit/documents/nrwl_devkit#adddependenciestopackagejson) function to the end of the export default function in `src/generators/preset/generator.ts`:
 
 ```
 import {
@@ -624,17 +624,17 @@ Recap:
 
 This should give you a good insight into how to get started. But there’s more to explore:
 
-- We could provide more [generators](https://nx.dev/plugins/recipes/local-generators\) to our users that help with setting up new components, adding unit tests, configuring the React Router etc.
+- We could provide more [generators](/plugins/recipes/local-generators\) to our users that help with setting up new components, adding unit tests, configuring the React Router etc.
 - Add a generator to add other Nx plugins such as Jest, ESLint, or Cypress
-- We could also include “[executors](https://nx.dev/plugins/recipes/local-executors)”, which are wrappers around tasks to abstract the lower-level details of it
+- We could also include “[executors](/plugins/recipes/local-executors)”, which are wrappers around tasks to abstract the lower-level details of it
 - etc.
 
-Now clearly this was a simple example of how you could build your own CRA using Nx. If you want to see a real-world React setup powered by Nx, check out our React Tutorial: [https://nx.dev/getting-started/tutorials/react-standalone-tutorial](https://nx.dev/getting-started/tutorials/react-standalone-tutorial)
+Now clearly this was a simple example of how you could build your own CRA using Nx. If you want to see a real-world React setup powered by Nx, check out our React Tutorial: [/getting-started/tutorials/react-standalone-tutorial](/getting-started/tutorials/react-standalone-tutorial)
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+- 🚀 [Speed up your CI](/nx-cloud)

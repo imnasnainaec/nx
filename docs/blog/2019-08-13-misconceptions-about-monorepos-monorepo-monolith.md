@@ -19,7 +19,7 @@ In this article, **I will show the difference between code-collocation tools (e.
 
 Monorepos are not a silver bullet. Nothing is. But hopefully **at the end of this article,** **you will have a clear understanding of the benefits a monorepo brings, what _actual_ challenges you will face, and if it is the right approach for your organization.**
 
-_For example in this post, I will use a set of extensible dev tools for monorepos called_ [_Nx_](https://nx.dev/)_. But the post is not about Nx. Almost everything applies to any monorepo tool._
+_For example in this post, I will use a set of extensible dev tools for monorepos called Nx. But the post is not about Nx. Almost everything applies to any monorepo tool._
 
 ## Lerna and Monorepos
 
@@ -167,7 +167,9 @@ But they force you to think through large-scale changes more and make some of th
 
 Nx is an open-source extensible set of dev tools for monorepos. It works well with any JavaScript or TypeScript technology but has first-class support for Web Components, Angular, React, Express, Nest.
 
-Check out [nx.dev](https://nx.dev/), or watch this video to learn more:
+Watch this video to learn more:
+
+{% youtube src="https://youtu.be/Jxh_--FeJeY?si=kZgoCuVKP3XYeZ8i" %}
 
 You can find a Japanese translation of this blog post [here](https://www.graat.co.jp/blogs/ck1099bcoeud60830rf0ej0ix).
 

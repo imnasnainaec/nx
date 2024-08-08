@@ -73,7 +73,7 @@ npx lerna add-caching
 
 By using Nx as the task scheduler for Lerna it inherits all the capabilities Nx comes with. That not only just includes local caching, but also the possibility of having **remote caching** and **distributed task execution**.
 
-Remote caching allows you to distribute your local cache with your co-workers and your CI system. This is done via [Nx Cloud](https://nx.dev/nx-cloud/). But distributed caching is just one aspect. Nx Cloud also comes with a “run view” that visualizes your CI run with easy grouping and filtering capabilities, but in particular, it comes with the ability to distribute your tasks dynamically across multiple machines. All by optimizing for the best parallelization and machine utilization.
+Remote caching allows you to distribute your local cache with your co-workers and your CI system. This is done via [Nx Cloud](/nx-cloud). But distributed caching is just one aspect. Nx Cloud also comes with a “run view” that visualizes your CI run with easy grouping and filtering capabilities, but in particular, it comes with the ability to distribute your tasks dynamically across multiple machines. All by optimizing for the best parallelization and machine utilization.
 
 ![](/blog/images/2022-10-12/0*CtvU5Me27YRidzG1.avif)
 
@@ -83,7 +83,7 @@ All you need to set this up is to run..
 npx nx connect-to-nx-cloud
 ```
 
-..in your Lerna workspace, which will guide you through a couple of questions and set you up with an [Nx Cloud](https://nx.dev/nx-cloud/).
+..in your Lerna workspace, which will guide you through a couple of questions and set you up with an [Nx Cloud](/nx-cloud).
 
 Read more [on the docs](https://lerna.js.org/docs/features/cache-tasks#distributed-computation-caching).
 

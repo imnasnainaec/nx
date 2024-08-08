@@ -38,13 +38,13 @@ This creates a pre-configured setup with React, TypeScript, ESLint, Jest (option
 
 All the usual Nx features, such as
 
-- [affected commands](https://nx.dev/concepts/affected)
-- [computation caching](https://nx.dev/core-features/cache-task-results)
-- remote caching with [Nx Cloud](https://nx.dev/nx-cloud/)
+- [affected commands](/concepts/affected)
+- [computation caching](/core-features/cache-task-results)
+- remote caching with [Nx Cloud](/nx-cloud)
 
 ..work out of the box.
 
-But not just the “speed features”. All the code generators, automate code migrations, and [code editor extensions](https://nx.dev/core-features/integrate-with-editors) work too.
+But not just the “speed features”. All the code generators, automate code migrations, and [code editor extensions](/core-features/integrate-with-editors) work too.
 
 ## Rspack in an Nx Monorepo
 
@@ -67,16 +67,16 @@ This creates a new application in your Nx monorepo that uses Rspack as the bundl
 Go and learn more on the
 
 - official Rspack website: [https://rspack.dev](https://rspack.dev/)
-- learn about the Nx Rspack plugin: [https://nx.dev/packages/rspack](https://nx.dev/packages/rspack)
+- learn about the Nx Rspack plugin: [/packages/rspack](/packages/rspack)
 
 ## Learn more
 
-- 🦀 [Rspack and Nx docs](https://nx.dev/packages/rspack)
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🦀 [Rspack and Nx docs](/packages/rspack)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+- 🚀 [Speed up your CI](/nx-cloud)
 
 Also, if you liked this, click the ❤️ and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

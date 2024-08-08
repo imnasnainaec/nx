@@ -46,7 +46,7 @@ While it may seem that storing multiple projects in a single repository requires
 
 {% youtube src="https://www.youtube.com/embed/E188J7E_MDU?si=ZZt807HV_9MkI8uB" %}
 
-In this article, we will use Nx to demonstrate how to implement a microfrontend architecture within a monorepo. [Nx](https://nx.dev/react) is a set of extensible dev tools for monorepos. It has first-class support for many frontend and backend technologies such as React, Angular, Express, and Nest.
+In this article, we will use Nx to demonstrate how to implement a microfrontend architecture within a monorepo. [Nx](/nx-api/react) is a set of extensible dev tools for monorepos. It has first-class support for many frontend and backend technologies such as React, Angular, Express, and Nest.
 
 ## Microfrontends with Monorepos
 

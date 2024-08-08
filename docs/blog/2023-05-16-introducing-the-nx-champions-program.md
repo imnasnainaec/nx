@@ -14,7 +14,7 @@ Champion is both a noun and a verb and the champion in Nx Champions is intended 
 
 ### Who are the Nx Champions?
 
-A full list of Nx Champions is available at [https://nx.dev/community](https://nx.dev/community).
+A full list of Nx Champions is available at [/community](/community).
 
 ![[object HTMLElement]](/blog/images/2023-05-16/1*j58ocCsWEnDe4-8ZMsQd5g.avif)
 _List of Nx Champions_
@@ -23,7 +23,7 @@ We appreciate everyone who was part of the initial group of Nx Champions, but ac
 
 ## Learn more about Nx
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 🐥 [Nx Twitter Handle](https://twitter.com/NxDevTools)

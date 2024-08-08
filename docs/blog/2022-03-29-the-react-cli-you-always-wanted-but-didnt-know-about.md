@@ -6,7 +6,7 @@ cover_image: '/blog/images/2022-03-29/1*YR6QUEZel3nlNcTo6Pdlwg.png'
 tags: [nx, react]
 ---
 
-_In this article, I’d like to specifically talk about developer tooling, why it is so massively important and how you might have missed out on_ [_Nx_](https://nx.dev/) _as your main React CLI for kickstarting new awesome projects._
+_In this article, I’d like to specifically talk about developer tooling, why it is so massively important and how you might have missed out on Nx as your main React CLI for kickstarting new awesome projects._
 
 It is awesome to be a JavaScript developer nowadays. The JavaScript ecosystem has evolved a lot in recent years. For the better! Speed has become a major focus, both from the framework perspective of running the app in production, as well as the speed of developing, testing, and building JavaScript/TypeScript from a developer tooling point of view. Frameworks and libraries such as Next.js, Astro, Qwik and Remix (just to name a few) have brought some great innovations to push the web even further.
 
@@ -18,7 +18,7 @@ While speed is of major importance, developer ergonomics shouldn’t be left beh
 
 This article walks you through how to setup a new Nx monorepo workspace with React. If you rather prefer starting with a single-project setup (also named “standalone”) then you might want to have a look at this tutorial (including video):
 
-[https://nx.dev/getting-started/tutorials/react-standalone-tutorial](https://nx.dev/getting-started/tutorials/react-standalone-tutorial)
+[/getting-started/tutorials/react-standalone-tutorial](/getting-started/tutorials/react-standalone-tutorial)
 
 ## Why use a devtool CLI?
 
@@ -103,9 +103,9 @@ This should build the app into `dist/apps/happynrwl`, which we can then take and
 ![[object HTMLElement]](/blog/images/2022-03-29/1*JvmIPkyEijF7akQwgr201w.avif)
 _Output folder assets when building the React app_
 
-Nx has another nice feature that basically comes for free: [computation caching](https://nx.dev/using-nx/caching). For every command Nx runs, it computes a unique hash that contains information about the involved source code, environment variables and the command itself. Next time the same conditions are met, the command is not executed again, but rather pulled out of a cache. As you can imagine, this drammatically speeds up things.
+Nx has another nice feature that basically comes for free: [computation caching](/using-nx/caching). For every command Nx runs, it computes a unique hash that contains information about the involved source code, environment variables and the command itself. Next time the same conditions are met, the command is not executed again, but rather pulled out of a cache. As you can imagine, this drammatically speeds up things.
 
-If you’re curious and want to learn more, check out the docs page on [computation caching](https://nx.dev/using-nx/caching) and how to leverage [Nx Cloud](https://nx.dev/nx-cloud/) to store the cache remotely for sharing it with your team members. Also, Nx Cloud pricing recently changed, which [makes it basically free for everyone](https://medium.com/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca).
+If you’re curious and want to learn more, check out the docs page on [computation caching](/using-nx/caching) and how to leverage [Nx Cloud](/nx-cloud) to store the cache remotely for sharing it with your team members. Also, Nx Cloud pricing recently changed, which [makes it basically free for everyone](https://medium.com/more-time-saved-for-free-with-nx-cloud-d7079b95f7ca).
 
 ## Code Generators!
 
@@ -128,7 +128,7 @@ Many of these generators come with a rich set of flags. For example, passing `--
 
 **How do we find all these generators though?** There are different options:
 
-- **Nx documentation** — use the search function there or just navigate the docs. All the reference pages are structured like `nx.dev/packages/<packagename>`. As an example for React that would look like: [https://nx.dev/packages/react](https://nx.dev/packages/react).
+- **Nx documentation** — use the search function there or just navigate the docs. All the reference pages are structured like `nx.dev/packages/<packagename>`. As an example for React that would look like: [/packages/react](/packages/react).
 - `npx nx list` - lists a set of installed plugins as well as other available plugins that can be installed. To get a list of generators for a specific plugin - say for the `@nrwl/react` plugin - run `npx nx list @nrwl/react`. Similarly, you can then run `npx nx g @nrwl/react:lib --help` to get help for a particular generator
 
 However, the absolute easiest way to explore the potential and even use Nx if you are not the “terminal type of person” is [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)! I’ll go a bit deeper into that in a later section.
@@ -149,9 +149,9 @@ Let’s have a closer look.
 
 ## TypeScript as a first-class citizen!
 
-The Nx core team strongly believes in the benefits of TypeScript (in fact, check out the [new Nx and TypeScript setup](https://nx.dev/getting-started/nx-and-typescript)). As such, by default every project is automatically set up and configured to use TypeScript, making sure builds, as well as IDEs, are able to properly pick up TypeScript definitions. All without you having to worry about it.
+The Nx core team strongly believes in the benefits of TypeScript (in fact, check out the [new Nx and TypeScript setup](/getting-started/nx-and-typescript)). As such, by default every project is automatically set up and configured to use TypeScript, making sure builds, as well as IDEs, are able to properly pick up TypeScript definitions. All without you having to worry about it.
 
-Now, if you really want to use pure JavaScript you totally can. Just pass the `--js` when running a generator. Read [more on the docs](https://nx.dev/guides/js-and-ts).
+Now, if you really want to use pure JavaScript you totally can. Just pass the `--js` when running a generator. Read [more on the docs](/guides/js-and-ts).
 
 ## ESLint preconfigured!
 
@@ -232,7 +232,7 @@ npx nx format
 
 ![](/blog/images/2022-03-29/1*1gRcDUmEkjOn6DR8vO9MHA.avif)
 
-Nx really is an advanced CLI based development tool. But regardless of whether you are a command line person or not, if you happen to use [VSCode](https://code.visualstudio.com/) make sure you install the [Nx Console extension](https://nx.dev/using-nx/console) from the [marketplace](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console).
+Nx really is an advanced CLI based development tool. But regardless of whether you are a command line person or not, if you happen to use [VSCode](https://code.visualstudio.com/) make sure you install the [Nx Console extension](/using-nx/console) from the [marketplace](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console).
 
 > _For_ [_Webstorm_](https://www.jetbrains.com/webstorm/) _there are two community extensions that can be used:_ [_nx-webstorm_](https://plugins.jetbrains.com/plugin/15000-nx-webstorm) _and_ [_Nx Console Idea_](https://plugins.jetbrains.com/plugin/15101-nx-console-idea)_._
 
@@ -245,7 +245,7 @@ A couple of things:
 
 - (2) is the panel where you see a fixed command “Generate” to invoke the Nx generator for creating new projects, libraries etc as we mentioned before. In addition you see a list of available commands to run.
 - (3) shows additional commands that are commonly used in an Nx workspace. Feel free to click and explore them.
-- (4) shows a list of projects in your workspace. We really just have our React app and Cypress e2e application, but potentially you could add more. See [Nx applications and libraries](https://nx.dev/structure/applications-and-libraries) for more.
+- (4) shows a list of projects in your workspace. We really just have our React app and Cypress e2e application, but potentially you could add more. See [Nx applications and libraries](/structure/applications-and-libraries) for more.
 
 Let’s take the example of generating a new React component, just as we did before, but this time using Nx Console. This is how you’d do that:
 
@@ -261,7 +261,7 @@ Whenever you change something in the form (1), you’ll automatically see a dry-
 
 As you can see this approach is also really powerful for exploring different commands and their corresponding options.
 
-Besides running generators, Nx Console also adds [VSCode Code Lens](https://code.visualstudio.com/blogs/2017/02/12/code-lens-roundup) abilities to the configuration files that help you navigate more quickly across the workspace. This is particularly useful if you happen to add more [apps and libraries](https://nx.dev/structure/applications-and-libraries) to the workspace at some point.
+Besides running generators, Nx Console also adds [VSCode Code Lens](https://code.visualstudio.com/blogs/2017/02/12/code-lens-roundup) abilities to the configuration files that help you navigate more quickly across the workspace. This is particularly useful if you happen to add more [apps and libraries](/structure/applications-and-libraries) to the workspace at some point.
 
 ![[object HTMLElement]](/blog/images/2022-03-29/1*WIbxp7um-f4CK2-N-zRing.avif)
 _Nx Console Code Lens support to navigate easily among config files_
@@ -272,7 +272,7 @@ One of the advantages of using Nx over — say CRA or a custom starter template 
 
 Just to mention an example: when upgrading Nx to v13, all Nx users automatically got migrated to Webpack 5.
 
-This is possible with Nx’s [migrate command](https://nx.dev/cli/migrate) that allows you to keep up to date with your framework in a mostly automated fashion. Whenever you upgrade Nx, you run
+This is possible with Nx’s [migrate command](/cli/migrate) that allows you to keep up to date with your framework in a mostly automated fashion. Whenever you upgrade Nx, you run
 
 ```shell
 npx nx migrate latest
@@ -343,22 +343,22 @@ Here’s the `project.json` for our `happynrwl` React application. I clipped out
 }
 ```
 
-As you can see, all these “targets” (`build`, `serve`,...) have a so-called `options` property that allows you to configure how the target behaves. The actual configuration is abstracted behind the “[Nx Executor](https://nx.dev/executors/using-builders#executor-definitions)”, in our case `@nrwl/web:webpack`. You can find the details of how to configure that on the Nx docs in the CLI reference for the `@nrwl/web` package: [https://nx.dev/web/build](https://nx.dev/web/build).
+As you can see, all these “targets” (`build`, `serve`,...) have a so-called `options` property that allows you to configure how the target behaves. The actual configuration is abstracted behind the “[Nx Executor](/executors/using-builders#executor-definitions)”, in our case `@nrwl/web:webpack`. You can find the details of how to configure that on the Nx docs in the CLI reference for the `@nrwl/web` package: [/web/build](/web/build).
 
-To read more about how the `project.json`, its executors, and configuration options are structured, check out the official docs: [https://nx.dev/configuration/projectjson](https://nx.dev/configuration/projectjson).
+To read more about how the `project.json`, its executors, and configuration options are structured, check out the official docs: [/configuration/projectjson](/configuration/projectjson).
 
-> _Note, Nx is also able to just pick up NPM scripts registered in the_ `_package.json_` _of your project root. This scenario is most useful if you’re adding Nx to an existing monorepo (see_ [_add-nx-to-monorepo_](https://www.npmjs.com/package/add-nx-to-monorepo)_). Read more here:_ [_https://nx.dev/configuration/packagejson_](https://nx.dev/configuration/packagejson)
+> _Note, Nx is also able to just pick up NPM scripts registered in the_ `_package.json_` _of your project root. This scenario is most useful if you’re adding Nx to an existing monorepo (see_ [_add-nx-to-monorepo_](https://www.npmjs.com/package/add-nx-to-monorepo)_). Read more here:_ [_/configuration/packagejson_](/configuration/packagejson)
 
 Nx’s extensibility and customizability have really no limits, allowing it to really adapt to your needs. Here are some resources to learn more if you need some advanced features.
 
-- [Custom workspace executors](https://nx.dev/executors/creating-custom-builders#creating-custom-executors)
-- [Custom workspace generators](https://nx.dev/generators/workspace-generators)
-- [Create Nx plugins](https://nx.dev/nx-plugin/overview)
-- Control the entire workspace setup with [custom presets](https://nx.dev/nx-plugin/overview#preset)
+- [Custom workspace executors](/executors/creating-custom-builders#creating-custom-executors)
+- [Custom workspace generators](/generators/workspace-generators)
+- [Create Nx plugins](/nx-plugin/overview)
+- Control the entire workspace setup with [custom presets](/nx-plugin/overview#preset)
 
 ## Q: Can I customize my Webpack config used to build my React app?
 
-As mentioned previously, the underlying build machinery is usually hidden by a so-called [Nx Executor](https://nx.dev/executors/using-builders#executor-definitions). As we have seen you can customize its behavior via the corresponding `options` property. By abstracting the underlying build tool, Nx is able to fulfill its evergreen promise as mentioned previously and allows to seamlessly upgrade workspaces to the latest versions of the build tooling that is being used.
+As mentioned previously, the underlying build machinery is usually hidden by a so-called [Nx Executor](/executors/using-builders#executor-definitions). As we have seen you can customize its behavior via the corresponding `options` property. By abstracting the underlying build tool, Nx is able to fulfill its evergreen promise as mentioned previously and allows to seamlessly upgrade workspaces to the latest versions of the build tooling that is being used.
 
 If the available `options` are not enough, you can further customize the Webpack configuration using the `webpackConfig` property:
 
@@ -398,7 +398,7 @@ Notice how the default Nrwl provided Webpack configuration is invoked first to n
 
 Sure! Nx allows to host multiple applications and libraries in a single workspace: a monorepo scenario basically. In fact, even in our simple setup we have two applications: `happynrwl` and the corresponding e2e application, `happynrwl-e2e`.
 
-In a default setup Nx generates an `apps` folder for hosting applications, and `libs` folder for hosting libraries. Read more about [“Apps and Libs” on the Nx docs](https://nx.dev/structure/applications-and-libraries).
+In a default setup Nx generates an `apps` folder for hosting applications, and `libs` folder for hosting libraries. Read more about [“Apps and Libs” on the Nx docs](/structure/applications-and-libraries).
 
 You can change this setup in `nx.json` by adjustijng the `workspaceLayout` property which has an `appsDir` and `libsDir` configuration.
 
@@ -415,11 +415,11 @@ You can change this setup in `nx.json` by adjustijng the `workspaceLayout` prope
 
 ## Q: Is there a way to migrate from CRA?
 
-Absolutely. Check out this guide on the Nx docs that has all the details (including a video walkthrough): [https://nx.dev/migration/migration-cra](https://nx.dev/migration/migration-cra)
+Absolutely. Check out this guide on the Nx docs that has all the details (including a video walkthrough): [/migration/migration-cra](/migration/migration-cra)
 
 ## Q: This looks like a lot 🤯. Do I really need it from the get go?
 
-Agreed. Luckily Nx is plugin based, so you can start with the bare minimum (see using [Nx without plugins](https://nx.dev/getting-started/nx-core)) and then slowly add them as you need them. Similarly you can add Nx to an existing workspace (say a Yarn workspace) by using the [add-nx-to-monorepo](https://www.npmjs.com/package/add-nx-to-monorepo) package.
+Agreed. Luckily Nx is plugin based, so you can start with the bare minimum (see using [Nx without plugins](/getting-started/nx-core)) and then slowly add them as you need them. Similarly you can add Nx to an existing workspace (say a Yarn workspace) by using the [add-nx-to-monorepo](https://www.npmjs.com/package/add-nx-to-monorepo) package.
 
 From my own experience, what usually happens is that teams start light and then over time end up with a similar stack, but hand-woven and therefore loosing out on a lot of the benefits Nx comes with.
 
@@ -433,7 +433,7 @@ From my experience, I’ve often seen teams start with a single application, whi
 
 ## Q: Isn’t Nx just for Angular projects?
 
-This is a common but understandable misconception. Although Nx was heavily inspired by the Angular CLI initially, it is now a completely independent build system and CLI with first-class support for Angular, React, Node, Next.js, TypeScript and more. And with tons of [community plugins](https://nx.dev/community) that extend Nx beyond that.
+This is a common but understandable misconception. Although Nx was heavily inspired by the Angular CLI initially, it is now a completely independent build system and CLI with first-class support for Angular, React, Node, Next.js, TypeScript and more. And with tons of [community plugins](/community) that extend Nx beyond that.
 
 ## Conclusion
 
@@ -444,6 +444,5 @@ Where to go from here?
 - [join the community Slack](https://go.nx.dev/community)
 - [follow me on Twitter](https://twitter.com/juristr)
 - [follow Nx on Twitter](https://twitter.com/nxdevtools)
-- learn more about Nx on [https://nx.dev](https://nx.dev/)
 - subscribe on the [Nx Youtube channel](https://youtube.com/c/Nrwl_io)
 - join more than 200+ developers and [take the free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038) on how to scale React development with Nx.

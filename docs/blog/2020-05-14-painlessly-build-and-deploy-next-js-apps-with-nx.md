@@ -6,7 +6,7 @@ cover_image: '/blog/images/2020-05-14/1*jf5YrKObqqmui7e8StHmrA.png'
 tags: [nx, next-js]
 ---
 
-_Update (2022–02–23): Also check out our new guide for_ [_deploying Next.js to to the Vercel platform_](https://nx.dev/guides/deploy-nextjs-to-vercel)_. This is the recommended way to deploy you Nx + Next.js apps._
+_Update (2022–02–23): Also check out our new guide for_ [_deploying Next.js to to the Vercel platform_](/guides/deploy-nextjs-to-vercel)_. This is the recommended way to deploy you Nx + Next.js apps._
 
 Nx a next generation build system with first class monorepo support, which we developed at Nrwl based on our experience working at Google and helping Fortune 500 enterprises build ambitious applications at scale.
 
@@ -134,7 +134,7 @@ You can also run the _generated E2E tests_ that correspond with the demo app. By
 
 To recap, so far we’ve seen how we can generate a new Nx workspace with a Next app. We also saw how easy it is to generate new pages and components using the `generate` command.
 
-**Pro-tip:** The `generate` command runs [_schematics_](https://nx.dev/react/cli/generate) in Nx, while targets such as `serve` uses [_builders_](https://nx.dev/react/cli/run) to perform a task. To see a full list of available schematics and builders, run `nx list @nrwl/next`.
+**Pro-tip:** The `generate` command runs [_schematics_](/react/cli/generate) in Nx, while targets such as `serve` uses [_builders_](/react/cli/run) to perform a task. To see a full list of available schematics and builders, run `nx list @nrwl/next`.
 
 ## Building and Deploying with Nx
 
@@ -191,15 +191,15 @@ Once the image has been pushed and released on Heroku, you can browse to your ap
 
 Next is a great framework for building modern websites and applications. By using Nx with Next, you gain access even more powerful tools and abstractions that can greatly improve your development workflow.
 
-The Nx features presented here are only the tip of the iceberg. There are a lot more awesome features to discover — such as the [distributed cache](https://medium.com/how-to-never-build-or-test-the-same-code-twice-2dc58e413279) to greatly increase productivity. To learn more about Nx, please check out [nx.dev](https://nx.dev/react).
+The Nx features presented here are only the tip of the iceberg. There are a lot more awesome features to discover — such as the [distributed cache](https://medium.com/how-to-never-build-or-test-the-same-code-twice-2dc58e413279) to greatly increase productivity. To learn more about Nx, please check out [nx.dev](/nx-api/react).
 
-Also check out our guide for deploying your [Next.js apps to Vercel](https://nx.dev/guides/deploy-nextjs-to-vercel).
+Also check out our guide for deploying your [Next.js apps to Vercel](/guides/deploy-nextjs-to-vercel).
 
 ## Addendum: Working in a Monorepo
 
 You may be wondering why our `demo` app lives in the `apps` folder rather being at the root of the repo like a normal Next project. As you may have guessed, Nx sets the workspace up as a monorepo.
 
-There are many benefits of using a monorepo; including code sharing, tooling consistency, and being able to commit changes to multiple related projects at once. The [_Getting Started guide_](https://nx.dev/react/getting-started/why-nx) provides more information on this, and how Nx can help you manage your monorepo.
+There are many benefits of using a monorepo; including code sharing, tooling consistency, and being able to commit changes to multiple related projects at once. The [_Getting Started guide_](/react/getting-started/why-nx) provides more information on this, and how Nx can help you manage your monorepo.
 
 Imagine that you have two Next apps with a common UI library, and an express backend. Your workspace stucture may look something like this:
 
@@ -224,7 +224,7 @@ nx g @nrwl/react:lib ui --style=css
 nx g @nrwl/node:app backend
 ```
 
-The `generate` commands above now have a package prefixed before the schematic name. In our previous examples we relied on the workspace’s default schematic (i.e. `@nrwl/next` so we could leave the package out). These packages are Nx plugins, and there are officially maintained ones, as well as some blessed community plugins. For more information on plugins you can run `nx list`, and read the [plugins docs](https://nx.dev/react/plugins/overview).
+The `generate` commands above now have a package prefixed before the schematic name. In our previous examples we relied on the workspace’s default schematic (i.e. `@nrwl/next` so we could leave the package out). These packages are Nx plugins, and there are officially maintained ones, as well as some blessed community plugins. For more information on plugins you can run `nx list`, and read the [plugins docs](/react/plugins/overview).
 
 Another useful feature of Nx is the ability to visualize your project dependency graph by running the `nx dep-graph` command.
 

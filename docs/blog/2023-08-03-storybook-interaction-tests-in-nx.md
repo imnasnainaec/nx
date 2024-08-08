@@ -22,7 +22,7 @@ You write a story to set up the component’s initial state, simulate user behav
 
 ## Setting Up Storybook Interaction Tests on Nx
 
-You can read our detailed guide on how to set up Storybook interaction tests on Nx, here: [https://nx.dev/packages/storybook/documents/storybook-interaction-tests](https://nx.dev/packages/storybook/documents/storybook-interaction-tests).
+You can read our detailed guide on how to set up Storybook interaction tests on Nx, here: [/packages/storybook/documents/storybook-interaction-tests](/packages/storybook/documents/storybook-interaction-tests).
 
 ## Writing Interaction Tests in Storybook
 
@@ -60,14 +60,14 @@ Moreover, since Storybook isolates each component, you can ensure that the tests
 ## Useful Links
 
 - [https://storybook.js.org/docs/react/writing-tests/interaction-testing](https://storybook.js.org/docs/react/writing-tests/interaction-testing)
-- [https://nx.dev/packages/storybook/documents/storybook-interaction-tests](https://nx.dev/packages/storybook/documents/storybook-interaction-tests)
+- [/packages/storybook/documents/storybook-interaction-tests](/packages/storybook/documents/storybook-interaction-tests)
 
 ## Learn more
 
-\- 🧠 [Nx Docs](https://nx.dev/)  
+\- 🧠 [Nx Docs](/getting-started/intro)  
 \- 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)  
 \- 💬 [Nx Community Slack](https://go.nx.dev/community)  
 \- 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)  
-\- 🚀 [Speed up your CI](https://nx.dev/nx-cloud/)
+\- 🚀 [Speed up your CI](/nx-cloud)
 
 Also, if you liked this, click the 👏and make sure to follow [Katerina](https://twitter.com/psybercity) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

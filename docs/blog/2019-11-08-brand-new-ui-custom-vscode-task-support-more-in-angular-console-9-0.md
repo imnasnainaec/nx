@@ -6,7 +6,7 @@ cover_image: '/blog/images/2019-11-08/1*iCu-DaUaRn9txX9vhY1UJQ.png'
 tags: [nx, nx-console]
 ---
 
-Today I am happy to announce some new improvements for [Angular Console](https://nx.dev/getting-started/editor-setup), a tool that the team at [Nrwl](/company) hopes will be useful for every Angular developer.
+Today I am happy to announce some new improvements for [Angular Console](/getting-started/editor-setup), a tool that the team at [Nrwl](/company) hopes will be useful for every Angular developer.
 
 In this post, I’ll be going over all the new features of our new release for Angular Console on Visual Studio Code. I’ll also inform you about Angular Console’s future.
 

@@ -59,11 +59,11 @@ If we run `wdio run ./wdio.conf.ts` again, we will see that WDIO is using the ca
 
 ![](/blog/images/2022-11-11/0*cIswwkZN58b6pcHi.avif)
 
-Of course, we wanted to take advantage of Nx’s powerful features like [the task graph](https://nx.dev/core-features/explore-graph), [computation caching](https://nx.dev/core-features/cache-task-results) and [distributed task execution](https://nx.dev/core-features/distribute-task-execution). If you’re working on an [integrated style Nx repo](https://nx.dev/concepts/integrated-vs-package-based), you get access to many official and community plugins that allow for instant integration with popular dev tools. Jest, ESLint, Cypress and many more have executors ([more on that here](https://nx.dev/plugin-features/use-task-executors)) that allow you to run them through Nx. This isn’t the case for WebdriverIO, so we had two options: Create a custom plugin and WDIO executor or simply use `[nx:run-commands](https://nx.dev/packages/workspace/generators/run-commands)` to wrap arbitrary commands with Nx. If WDIO became widely used in our repo, writing a custom plugin isn’t too much effort and could definitely be worth it! But for this one-time usage, we went with the quicker option. Let’s set up an `e2e` target like this:
+Of course, we wanted to take advantage of Nx’s powerful features like [the task graph](/core-features/explore-graph), [computation caching](/core-features/cache-task-results) and [distributed task execution](/core-features/distribute-task-execution). If you’re working on an [integrated style Nx repo](/concepts/integrated-vs-package-based), you get access to many official and community plugins that allow for instant integration with popular dev tools. Jest, ESLint, Cypress and many more have executors ([more on that here](/plugin-features/use-task-executors)) that allow you to run them through Nx. This isn’t the case for WebdriverIO, so we had two options: Create a custom plugin and WDIO executor or simply use `[nx:run-commands](/packages/workspace/generators/run-commands)` to wrap arbitrary commands with Nx. If WDIO became widely used in our repo, writing a custom plugin isn’t too much effort and could definitely be worth it! But for this one-time usage, we went with the quicker option. Let’s set up an `e2e` target like this:
 
 Now, if we run `nx run vscode-e2e:e2e` , we will see WDIO run inside Nx!
 
-While the output doesn’t look too different, this enables some amazing features! If we run the tests again, they will complete in a few milliseconds because the result could be [retrieved from cache](https://nx.dev/concepts/how-caching-works). Also, because we defined `dependsOn` and `implicitDependencies` , Nx will always make sure that up-to-date versions of Nx Console and the nxls are built before E2E tests run. All this with just a few lines of config!
+While the output doesn’t look too different, this enables some amazing features! If we run the tests again, they will complete in a few milliseconds because the result could be [retrieved from cache](/concepts/how-caching-works). Also, because we defined `dependsOn` and `implicitDependencies` , Nx will always make sure that up-to-date versions of Nx Console and the nxls are built before E2E tests run. All this with just a few lines of config!
 
 ## Setting up CI
 
@@ -71,7 +71,7 @@ Another important step in getting the maximum value out of automated E2E testing
 
 `run: yarn exec nx affected --target=e2e --parallel=3`
 
-> `_nx affected_` _analyzes your code changes in order to compute the minimal set of projects that need to be retested. Learn more about it here:_ [_How Affected Works_](https://nx.dev/concepts/affected)
+> `_nx affected_` _analyzes your code changes in order to compute the minimal set of projects that need to be retested. Learn more about it here:_ [_How Affected Works_](/concepts/affected)
 
 This will fail, however, because WebdriverIO tries to open VSCode and expects a screen — which action runners obviously don’t have. If we were testing on a simple Chrome or Firefox instance, this could be solved by adding `--headless` to the browser’s launch options. VSCode doesn’t support a headless mode, though, so we had to find another solution: `xvfb`.
 
@@ -109,7 +109,7 @@ github.com
 
 ## Learn more
 
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx Console GitHub](https://github.com/nrwl/nx-console)
 - 🤖 [WebdriverIO Docs](https://webdriver.io/)
 - 👨‍💻 [wdio-vscode-service GitHub](https://github.com/webdriverio-community/wdio-vscode-service)

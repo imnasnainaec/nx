@@ -112,9 +112,9 @@ Communication with whatever is running in the browser works by **_injecting_** j
 
 ## Glueing it together
 
-One of the unique aspects of the Nx Console for IntelliJ is that it combines different technologies in a polyglot monorepo. While Nx is often used for Typescript- or Javascript-based repos, it’s actually technology-agnostic and can host apps and libraries in any language. With the newly released [**_Encapsulated Nx_**](https://nx.dev/more-concepts/encapsulated-nx-and-the-wrapper) setting, this is even taken a step further! Now you don’t need a `package.json` or `node_modules` to run Nx.
+One of the unique aspects of the Nx Console for IntelliJ is that it combines different technologies in a polyglot monorepo. While Nx is often used for Typescript- or Javascript-based repos, it’s actually technology-agnostic and can host apps and libraries in any language. With the newly released [**_Encapsulated Nx_**](/more-concepts/encapsulated-nx-and-the-wrapper) setting, this is even taken a step further! Now you don’t need a `package.json` or `node_modules` to run Nx.
 
-The codebase contains both Typescript code for the VSCode extension and Kotlin code for the IntelliJ plugin. Currently, all the Kotlin code resides in a single app. Targets defined in `project.json` are available that wrap different gradle tasks like running a development instance, building or formatting the plugin using the `[nx:run-commands](https://nx.dev/packages/nx/executors/run-commands)` executor.  
+The codebase contains both Typescript code for the VSCode extension and Kotlin code for the IntelliJ plugin. Currently, all the Kotlin code resides in a single app. Targets defined in `project.json` are available that wrap different gradle tasks like running a development instance, building or formatting the plugin using the `[nx:run-commands](/packages/nx/executors/run-commands)` executor.  
 Since the plugin depends on artifacts provided by other Nx apps (namely the `nxls` and `generate-ui`), we have also created gradle tasks that call Nx to build these dependencies under the hood. This roundabout way of calling one tool from the other (and back again) could definitely be improved and we might look into having a more straightforward integration later.
 
 For the generate UI, we were able to keep it as a single app. Using different configurations for the `build` target, we’re including the different stylesheets needed for each configuration and copying the files to where they need to be.
@@ -130,7 +130,7 @@ We are also looking into automatic type generation for both TypeScript and Kotli
 - 🎮 [Nx Console GitHub](https://github.com/nrwl/nx-console)
 - 🚀 [Nx Console JetBrains plugin](https://plugins.jetbrains.com/plugin/21060-nx-console)
 - 🤖 [Nx Console VSCode extension](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
-- 🧠 [Nx Docs](https://nx.dev/)
+- 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)
 - 📹 [Nx Youtube Channel](https://www.youtube.com/@nxdevtools)

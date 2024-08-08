@@ -309,7 +309,7 @@ Whatever we call it, it is faster, more scalable, and more maintainable.
 
 ## Learn More
 
-*   🧠 [Nx Docs](https://nx.dev/)
+*   🧠 [Nx Docs](/getting-started/intro)
 *   👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 *   💬 [Nrwl Community Slack](https://go.nx.dev/community)
 *   📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)

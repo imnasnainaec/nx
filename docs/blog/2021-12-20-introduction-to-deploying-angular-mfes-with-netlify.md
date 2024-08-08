@@ -6,7 +6,7 @@ cover_image: '/blog/images/2021-12-20/1*pOWiZcC6kbhpD2tBw2qD7A.png'
 tags: [nx, angular, microfrontends]
 ---
 
-This series of articles will aim to showcase the process of scaffolding and deploying a Micro Frontend Architecture using [Nx](https://nx.dev/) and [Netlify](https://netlify.com/).
+This series of articles will aim to showcase the process of scaffolding and deploying a Micro Frontend Architecture using Nx and [Netlify](https://netlify.com/).
 
 ### Articles in this series
 

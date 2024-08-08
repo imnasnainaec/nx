@@ -91,13 +91,13 @@ Again, it’s a simple solution that provides a lot of value:
 
 There are many more things Nx helps with. One of them, for instance, is upgrading existing AngularJS apps. Nx gives you a command to set up a hybrid app in seconds.
 
-[See documentation to learn more.](https://nx.dev/getting-started/intro)
+[See documentation to learn more.](/getting-started/intro)
 
 ## Give It a Try
 
 We hope you are excited about Nx, and you are eager to try it out. Even if you work on a small team, building one application, we believe you will still find valuable.
 
-Go to [our docs](https://nx.dev/getting-started/intro) to get started!
+Go to [our docs](/getting-started/intro) to get started!
 
 ## Victor Savkin is a co-founder of Nrwl. We help companies develop like Google since 2016. We provide consulting, engineering and tools.
 

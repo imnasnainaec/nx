@@ -8,7 +8,7 @@ tags: [nx, angular, tailwind]
 
 [**Tailwind CSS**](https://tailwindcss.com/) is a utility-first CSS framework packed with a lot of good functionality out of the box while providing a high level of customization. It has gained a lot of attention since it came out and it’s a good option when it comes to styling our applications.
 
-In this blog post, we are going to see how we can use **Tailwind CSS** with [**Angular**](https://angular.io/) in an [**Nx**](https://nx.dev/) monorepo. We are going to be looking at different scenarios and how to approach them.
+In this blog post, we are going to see how we can use **Tailwind CSS** with [**Angular**](https://angular.io/) in an **Nx** monorepo. We are going to be looking at different scenarios and how to approach them.
 
 Let’s get started!
 
@@ -32,7 +32,7 @@ At that point, we’ll create the second application using the components expose
 
 The idea is to show how different applications can still use the same components and have them styled differently using **Tailwind CSS**. Both applications in this blog post will share the same layout, but the approach explained here would apply to applications with different layouts sharing the same UI components.
 
-> Discussing the different types of libraries and the motivation to use them goes beyond the scope of this blog post. We’ll use the three different types just to showcase how to use **Tailwind CSS** with each of them. To know more about them, please check [https://nx.dev/structure/creating-libraries](https://nx.dev/structure/creating-libraries) and [https://nx.dev/structure/buildable-and-publishable-libraries](https://nx.dev/structure/buildable-and-publishable-libraries).
+> Discussing the different types of libraries and the motivation to use them goes beyond the scope of this blog post. We’ll use the three different types just to showcase how to use **Tailwind CSS** with each of them. To know more about them, please check [/structure/creating-libraries](/structure/creating-libraries) and [/structure/buildable-and-publishable-libraries](/structure/buildable-and-publishable-libraries).
 
 ## Setting up the Nx workspace
 
@@ -48,7 +48,7 @@ First things first! We start by creating a new **Nx** workspace where our applic
 
 > Passing the `--packageManager` (or `--pm`) flag allows us to change the package manager. If not passed, it defaults to `npm`.
 
-The above command creates a workspace called `angular-tailwind-nx` and asks us a few questions to help us set up the workspace. We chose the `angular` preset, provided `app1` for the initial **Angular** application name, chose `css` as the stylesheet to use, and this time chose not to use [**Nx Cloud**](https://nx.dev/nx-cloud/) but feel free to opt-in to use the **Nx Cloud** free tier to benefit from distributing the computation caching of your projects.
+The above command creates a workspace called `angular-tailwind-nx` and asks us a few questions to help us set up the workspace. We chose the `angular` preset, provided `app1` for the initial **Angular** application name, chose `css` as the stylesheet to use, and this time chose not to use [**Nx Cloud**](/nx-cloud) but feel free to opt-in to use the **Nx Cloud** free tier to benefit from distributing the computation caching of your projects.
 
 > Any of the stylesheet options can be used. Also, using **Nx Cloud** or not doesn’t affect setting up **Tailwind CSS**.
 
@@ -175,7 +175,7 @@ At this point, if we serve again the application, everything should still be wor
 
 Similar to the previous section we are going to start by creating a new library to add the card component to. The only difference is that this library is going to be buildable.
 
-> If you are not aware of what buildable libraries are or what problem do they intend to solve, please make sure to read [https://nx.dev/ci/incremental-builds](https://nx.dev/ci/incremental-builds) and particularly pay attention to [when should they be used](https://nx.dev/ci/incremental-builds#when-should-i-use-incremental-builds).
+> If you are not aware of what buildable libraries are or what problem do they intend to solve, please make sure to read [/ci/incremental-builds](/ci/incremental-builds) and particularly pay attention to [when should they be used](/ci/incremental-builds#when-should-i-use-incremental-builds).
 
 Run the following command to generate the library:
 
@@ -209,7 +209,7 @@ And finally, replace the existing markup for the cards in the `apps/app1/src/app
 
 With that in place, we can serve the application and it should be working exactly as before, but our application is still not fully set up to consume the library build output. As it stands right now, when the application that’s consuming it is built, the library will be built together with it and its files will be processed as part of the application build pipeline.
 
-To finish the buildable library setup, we can follow the instructions in [https://nx.dev/ci/setup-incremental-builds-angular#adjust-the-app-executor](https://nx.dev/ci/setup-incremental-builds-angular#adjust-the-app-executor). We need to install the `@nrwl/web` package, change the application `build` target executor to `@nrwl/angular:webpack-browser`, and change the application `serve` target executor to `@nrwl/web:file-server`:
+To finish the buildable library setup, we can follow the instructions in [/ci/setup-incremental-builds-angular#adjust-the-app-executor](/ci/setup-incremental-builds-angular#adjust-the-app-executor). We need to install the `@nrwl/web` package, change the application `build` target executor to `@nrwl/angular:webpack-browser`, and change the application `serve` target executor to `@nrwl/web:file-server`:
 
 ```shell
 yarn add -D @nrwl/web@latest
@@ -277,7 +277,7 @@ We now only have to maintain our theme in a single place as opposed to keeping i
 
 This happens because the file server is watching for changes under the `apps` and `libs` folders. The preset configuration is not under those directories, it’s in the root of the workspace.
 
-It would be better if we place the preset configuration in a small shared library. By doing that, we not only solve the issue regarding detecting changes on it, but we also make its library appear on the [**Nx** project graph](https://nx.dev/using-nx/mental-model#the-project-graph), and with that, we benefit from all the goodies associated with the project graph (affected commands, enforcing module boundaries constraints, etc.).
+It would be better if we place the preset configuration in a small shared library. By doing that, we not only solve the issue regarding detecting changes on it, but we also make its library appear on the [**Nx** project graph](/using-nx/mental-model#the-project-graph), and with that, we benefit from all the goodies associated with the project graph (affected commands, enforcing module boundaries constraints, etc.).
 
 This library is only going to contain the `tailwind.config.js` file and no targets in the project configuration. There’s no generator among the **Nx** core plugins that generate such an empty library. We could use one of the library generators and remove some content, but let’s create it manually.
 

@@ -156,7 +156,7 @@ Finally, let’s wire everything up in the application module.
 
 If you haven’t used NgRx, setting it all up can be a bit intimidating. Thankfully there a few tools that make it easier. In this post, we use Nx, which comes with first-class NgRx support. Simply run `ng g ngrx talks` and you will get most of it set up for you.
 
-Learn more about it [here](https://nx.dev/angular/guides/misc-ngrx).
+Learn more about it [here](/nx-api/angular/generators/ngrx).
 
 ## Fixing Router and Client-State Synchronization
 
@@ -275,7 +275,7 @@ In this post I wanted to show that if you add a handful of utilities, the amount
 
 - [NgRx Entity](https://blog.angular-university.io/ngrx-entity/) is a great way to manage immutable collections.
 - [Creator functions](https://medium.com/ngrx/announcing-ngrx-version-8-ngrx-data-create-functions-runtime-checks-and-mock-selectors-a44fac112627) reduce boilerpate.
-- [Nx](https://nx.dev/angular) is a set of extensible dev tools for monorepos that extends the Angular CLI. Nx comes with a set of utilities that help writing effects dealing with the router and server communication simpler
+- Nx is a set of extensible dev tools for monorepos that extends the Angular CLI. Nx comes with a set of utilities that help writing effects dealing with the router and server communication simpler
 
 ### Victor Savkin is a co-founder of Nx. We help companies develop like Google since 2016.
 

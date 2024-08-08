@@ -27,17 +27,17 @@ Nx 15.4 brings in the latest Vite major version following the Vite 4 release ear
 
 As the [Vite launch article](https://vitejs.dev/blog/announcing-vite4.html) mentions, we are investing in the Vite ecosystem, and now officially support a first-party Vite plugin. Nx 15.4 continues this investment with timely support for Vite 4, and we’re excited to be a part of the Vite ecosystem and a part of bringing more value to our devs through Vite support!
 
-Projects already using our [@nrwl/vite plugin](https://nx.dev/packages/vite) will be automatically upgraded to Vite 4 when they upgrade to the latest Nx version with the `nx migrate` command, and we've also simplified the configuration required to support Vite.
+Projects already using our [@nrwl/vite plugin](/packages/vite) will be automatically upgraded to Vite 4 when they upgrade to the latest Nx version with the `nx migrate` command, and we've also simplified the configuration required to support Vite.
 
 We’ve also spent some effort into making the conversion of existing projects to use Vite simpler, including:
 
 - the ability to choose which targets you want to convert
 - enhanced `vite.config.ts` file configuration
 - better DX with detailed messages during conversion
-- [better documentation around converting using our generator](https://nx.dev/packages/vite/generators/configuration)
-- [adding a guide to our docs for converting manually](https://nx.dev/packages/vite/documents/set-up-vite-manually)
+- [better documentation around converting using our generator](/packages/vite/generators/configuration)
+- [adding a guide to our docs for converting manually](/packages/vite/documents/set-up-vite-manually)
 
-You can check out more details about our Vite plugin including how to add Vite and Vitest to your existing Nx workspace by visiting our docs at [nx.dev/packages/vite](https://nx.dev/packages/vite)
+You can check out more details about our Vite plugin including how to add Vite and Vitest to your existing Nx workspace by visiting our docs at [nx.dev/packages/vite](/packages/vite)
 
 ## Nx Watch
 
@@ -70,7 +70,7 @@ npx -c 'nx watch –all – npx nx affected --target=test --files=\\$NX\_FILE\_C
 
 To link in `nx watch` with the `nx affected` command to have a single watch command to run all my affected tests on save as they are affected!
 
-Check out [our docs](https://nx.dev/recipes/other/workspace-watching) for more details.
+Check out [our docs](/recipes/other/workspace-watching) for more details.
 
 ## Webpack-less Cypress Support for Our React Standalone preset
 
@@ -91,7 +91,7 @@ Our existing `host` and `remote` Module Federation generators have an added `--s
 
 We’ve also added a new executor to allow you to serve the host server locally, along with all remote servers from a single command.
 
-Learn more about this new feature [in our docs](https://nx.dev/recipes/module-federation/module-federation-with-ssr)!
+Learn more about this new feature [in our docs](/recipes/module-federation/module-federation-with-ssr)!
 
 ## Running Multiple Targets in Parallel for Multiple Projects
 
@@ -113,7 +113,7 @@ npx nx run-many --target test build lint --projects "domain-products-\*"
 
 Last but not least, we’ve added support for interactive prompts for Custom Presets!
 
-In Nx, [presets](https://nx.dev/packages/nx-plugin#custom-preset) are special code generation scripts that can be used to create a brand new Nx Workspace, using our `create-nx-workspace` command.
+In Nx, [presets](/packages/nx-plugin#custom-preset) are special code generation scripts that can be used to create a brand new Nx Workspace, using our `create-nx-workspace` command.
 
 ![](/blog/images/2022-12-22/0*d4gI6k61RAEU_XfF.avif)
 
@@ -151,7 +151,7 @@ npx nx migrate --run-migrations
 
 ## Learn more
 
-- [🧠 Nx Docs](https://nx.dev/)
+- [🧠 Nx Docs](/getting-started/intro)
 - [👩‍💻 Nx GitHub](https://github.com/nrwl/nx)
 - [💬 Nrwl Community Slack](https://go.nx.dev/community)
 - [📹 Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
