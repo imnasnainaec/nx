@@ -55,7 +55,7 @@ Moreover, since Storybook isolates each component, you can ensure that the tests
 
 ## Screenshare
 
-> > > GO GET VIDEO FROM https://blog.nrwl.io/storybook-interaction-tests-in-nx-135fdaabc944
+{% youtube src="https://www.youtube.com/embed/QvD3hJDa_1Q" %}
 
 ## Useful Links
 

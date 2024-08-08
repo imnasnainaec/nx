@@ -14,7 +14,7 @@ This blog will show you:
 - How to create a new Nx workspace with Playwright support
 - How to add Playwright to an existing Nx workspace
 
-> > > GO GET VIDEO FROM https://blog.nrwl.io/introducing-playwright-support-for-nx-d8108ee11d46
+{% youtube src="https://youtu.be/k1U3PuBrZFQ?si=AVyXfyMJz4q6OJ70" %}
 
 ## What is Playwright?
 

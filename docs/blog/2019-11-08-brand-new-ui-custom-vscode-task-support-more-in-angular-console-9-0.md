@@ -60,7 +60,26 @@ With this new release of Angular Console, you can now register Angular CLI with 
 
 As an example, let’s say that my team, the `Super-Narwhals` have a development server which requires that we first run some NPM script which bootstraps our workspace. You can now declare that orchestration via:
 
-> > > GO GET VIDEO FROM https://blog.nrwl.io/brand-new-ui-custom-vscode-task-support-more-in-angular-console-9-0-5e4d3a109fb9![](/blog/images/2019-11-08/1*Q6cF3TpODdQSPjkAnGsSig.avif)
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "super-narwhal-devserver",
+      "type": "ng",
+      "command": "serve",
+      "project": "super-awesome-app",
+      "flags": ["--aot=false"],
+      "dependsOn": ["my-npm-task-that-runs-first"]
+    },
+    {
+      "label": "my-npm-task-that-runs-first",
+      "type": "npm",
+      "script": "my-npm-task",
+    }
+  ]
+}
+```
 
 ## Remote Shell Support (aka WSL / SSH support)
 

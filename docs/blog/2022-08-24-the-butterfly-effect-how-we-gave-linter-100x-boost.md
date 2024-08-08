@@ -83,7 +83,13 @@ And then **Stefan**, who helped with the performance investigation, had a **bril
 
 The code now looked like this:
 
-> > > GO GET VIDEO FROM https://blog.nrwl.io/the-butterfly-effect-how-we-gave-linter-100x-boost-71a516750d19
+```typescript
+for (let i = 0; i < nodes.length; i++) {
+  const node = nodes[i];
+  adjList[node] = [];
+  matrix[node] = {};
+}
+```
 
 ## Conclusion
 
