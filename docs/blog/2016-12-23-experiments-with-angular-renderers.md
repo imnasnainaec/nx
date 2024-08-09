@@ -83,5 +83,3 @@ I encourage you to experiment: build renderers using canvas and WebGL, and share
 ### Victor Savkin is a co-founder of Nx.
 
 ![](/blog/images/2016-12-23/1*s76h75v7CB7g4EuxVNaGkg.avif)
-
-

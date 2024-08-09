@@ -1,6 +1,6 @@
 ---
 title: 'From Bootstrapped to Venture-Backed: Nx Raises $8.6M'
-slug: 'from-bootstrapped-to-venture-backed-nx-raises-8-6m'
+slug: 'from-bootstrapped-to-venture-backed'
 authors: ['Jeff Cross']
 cover_image: '/blog/images/2022-11-17/0*a3eT-mjLsXTiHU5m.png'
 tags: [nx]
@@ -15,7 +15,7 @@ When Victor Savkin and I left Google to start this company in December 2016, we 
 
 ![](/blog/images/2022-11-17/1*WIkl00uLsSt6p6dmQbIA0g.avif)
 
-[Nx Cloud](/nx-cloud) has also seen a significant uptake in adoption, thanks in large part due to the addition of [Distributed Task Execution](/concepts/dte) last year. With the combination of Distributed Task Execution and Distributed Caching, Nx Cloud is having a massive impact on the time it takes to validate and merge pull requests, drastically reducing product time-to-market. There are now more than 100k connected Nx Workspaces on nx.app. With Nx Cloud, Nx and Lerna workspaces can drastically reduce build times by letting Nx Cloud manage task cache distribution, and optimal distribution of tasks across many machines using Nx’s deep understanding of project relationships and task timings. We’ve determined that Nx and Nx Cloud have [saved over 250 years of compute time](https://medium.com/helping-the-environment-by-saving-two-centuries-of-compute-time-feea8e1ce22) since we started measuring.
+[Nx Cloud](/nx-cloud) has also seen a significant uptake in adoption, thanks in large part due to the addition of [Distributed Task Execution](/ci/concepts/parallelization-distribution) last year. With the combination of Distributed Task Execution and Distributed Caching, Nx Cloud is having a massive impact on the time it takes to validate and merge pull requests, drastically reducing product time-to-market. There are now more than 100k connected Nx Workspaces on nx.app. With Nx Cloud, Nx and Lerna workspaces can drastically reduce build times by letting Nx Cloud manage task cache distribution, and optimal distribution of tasks across many machines using Nx’s deep understanding of project relationships and task timings. We’ve determined that Nx and Nx Cloud have [saved over 250 years of compute time](https://medium.com/helping-the-environment-by-saving-two-centuries-of-compute-time-feea8e1ce22) since we started measuring.
 
 ![](/blog/images/2022-11-17/1*ysWZ8fn2K3m3GjCNGRwshw.avif)
 

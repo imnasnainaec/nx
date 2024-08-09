@@ -38,13 +38,13 @@ This creates a pre-configured setup with React, TypeScript, ESLint, Jest (option
 
 All the usual Nx features, such as
 
-- [affected commands](/concepts/affected)
-- [computation caching](/core-features/cache-task-results)
+- [affected commands](/ci/features/affected)
+- [computation caching](/features/cache-task-results)
 - remote caching with [Nx Cloud](/nx-cloud)
 
 ..work out of the box.
 
-But not just the “speed features”. All the code generators, automate code migrations, and [code editor extensions](/core-features/integrate-with-editors) work too.
+But not just the “speed features”. All the code generators, automate code migrations, and [code editor extensions](/getting-started/editor-setup) work too.
 
 ## Rspack in an Nx Monorepo
 
@@ -67,11 +67,11 @@ This creates a new application in your Nx monorepo that uses Rspack as the bundl
 Go and learn more on the
 
 - official Rspack website: [https://rspack.dev](https://rspack.dev/)
-- learn about the Nx Rspack plugin: [/packages/rspack](/packages/rspack)
+- learn about the Nx Rspack plugin: [/nx-api/rspack](/nx-api/rspack)
 
 ## Learn more
 
-- 🦀 [Rspack and Nx docs](/packages/rspack)
+- 🦀 [Rspack and Nx docs](/nx-api/rspack)
 - 🧠 [Nx Docs](/getting-started/intro)
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nx Community Slack](https://go.nx.dev/community)

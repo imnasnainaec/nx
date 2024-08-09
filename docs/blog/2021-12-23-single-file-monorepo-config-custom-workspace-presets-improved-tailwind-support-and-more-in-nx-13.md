@@ -27,7 +27,7 @@ npx add-nx-to-monorepo
 
 > [Victor Savkin](https://medium.com/u/76fc1db4149b?source=post_page-----1bc88da334c9--------------------------------) demoed the flexibility of Nx by migrating Meta’s (Facebook) React repository: [video link](https://youtu.be/XLP2RAOwfLQ)
 
-Learn more in our guide of [adding Nx to an existing workspace](/l/a/migration/adding-to-monorepo) and the config inside the [**nx.json**](/l/n/core-concepts/configuration#nx-json)**.**
+Learn more in our guide of [adding Nx to an existing workspace](/recipes/adopting-nx/adding-to-monorepo) and the config inside the [**nx.json**](/reference/project-configuration)**.**
 
 ## Custom Workspace Presets 🎨
 
@@ -47,7 +47,7 @@ Nx has always shipped with great TypeScript support. In version 13.4 we improve 
 
 This is particularly useful if you have framework-agnostic TS/JS packages within an existing Nx workspace but also for those scenarios where you want to build and publish a TS/JS-based library to some package registry. The setup is very lightweight, but still provides all benefits you’d expect from an Nx-based setup such as Jest, ESLint, Prettier etc.
 
-Read all the details on [our new TypeScript guide](/l/r/getting-started/nx-and-typescript) or check out the video walkthrough below.
+Read all the details on [our new TypeScript guide](/getting-started/intro) or check out the video walkthrough below.
 
 ## Improved Tailwind support for Angular 💅
 
@@ -60,7 +60,7 @@ Tailwind is a utility-first CSS framework packed with classes that can be compos
 nx g @nrwl/angular:app my-app --addTailwind
 ```
 
-Read more about Angular and Tailwind in our [docs](/l/a/angular/setup-tailwind).
+Read more about Angular and Tailwind in our [docs](/nx-api/angular/generators/setup-tailwind).
 
 ### Other Highlights 🗒
 
@@ -91,4 +91,3 @@ nx migrate --run-migrations
 - Purchase our premium video course on advanced practices for Nx workspaces: [here](https://nxplaybook.com/p/advanced-nx-workspaces)!
 
 Be sure to click the 👏 so other people will see it. Follow us [on Twitter](https://twitter.com/NxDevTools), and subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), Nx, and more!
-

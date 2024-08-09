@@ -15,7 +15,7 @@ Most technologies have a CLI to create a new workspace. In fact, it is so preval
 
 Having a CLI to quickly scaffold a starting project is great for onboarding new people, but it can also be a burden for framework authors as they want to rather focus on building the framework. Additionally, building **and supporting** a good CLI is another beast to tackle. And this is where Nx comes in.
 
-Nx has had support for [creating custom “presets”](/plugins/recipes/create-preset) for a while, allowing plugin authors to fully customize the workspace structure from the ground up. To use them you had to go via the `create-nx-workspace` command though, passing the name of your plugin as the `--preset` . This works, but you might want to have a more “branded command” experience, like `npx create-my-own-app` .
+Nx has had support for [creating custom “presets”](/extending-nx/recipes/create-preset) for a while, allowing plugin authors to fully customize the workspace structure from the ground up. To use them you had to go via the `create-nx-workspace` command though, passing the name of your plugin as the `--preset` . This works, but you might want to have a more “branded command” experience, like `npx create-my-own-app` .
 
 And this is exactly what we’re going to explore in this article. We will write our own CLI. And out of nostalgia, let’s build our own version of Create-React-App.
 
@@ -181,7 +181,7 @@ The preset generator does 2 things:
 ![[object HTMLElement]](/blog/images/2023-08-10/1*38RvkLIwUAvVDDrEp5sFPQ.avif)
 _preset generator_
 
-The `addProjectConfiguration` and `generateFiles` functions are from [@nx/devkit](/packages/devkit/documents/nrwl_devkit), a library that contains utility functions for writing plugins for Nx. For the future, see the [complete list of utility functions](/packages/devkit/documents/nx_devkit).
+The `addProjectConfiguration` and `generateFiles` functions are from [@nx/devkit](/nx-api/devkit/documents/nx_devkit), a library that contains utility functions for writing plugins for Nx. For the future, see the [complete list of utility functions](/nx-api/devkit/documents/nx_devkit).
 
 1.  Change the project which is created with `addProjectConfiguration`:
 
@@ -304,7 +304,7 @@ And finally, another file to host the actual HTML template: `src/generators/pres
 </html>
 ```
 
-3\. Our application uses some npm dependencies so add those to the workspace as well with the [addDependenciesToPackageJson](/packages/devkit/documents/nrwl_devkit#adddependenciestopackagejson) function to the end of the export default function in `src/generators/preset/generator.ts`:
+3\. Our application uses some npm dependencies so add those to the workspace as well with the [addDependenciesToPackageJson](/nx-api/devkit/documents/nx_devkit) function to the end of the export default function in `src/generators/preset/generator.ts`:
 
 ```
 import {
@@ -626,7 +626,7 @@ This should give you a good insight into how to get started. But there’s more 
 
 - We could provide more [generators](/plugins/recipes/local-generators\) to our users that help with setting up new components, adding unit tests, configuring the React Router etc.
 - Add a generator to add other Nx plugins such as Jest, ESLint, or Cypress
-- We could also include “[executors](/plugins/recipes/local-executors)”, which are wrappers around tasks to abstract the lower-level details of it
+- We could also include “[executors](/extending-nx/recipes/local-executors)”, which are wrappers around tasks to abstract the lower-level details of it
 - etc.
 
 Now clearly this was a simple example of how you could build your own CRA using Nx. If you want to see a real-world React setup powered by Nx, check out our React Tutorial: [/getting-started/tutorials/react-standalone-tutorial](/getting-started/tutorials/react-standalone-tutorial)

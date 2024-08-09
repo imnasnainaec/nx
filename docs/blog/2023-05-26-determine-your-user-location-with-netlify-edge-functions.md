@@ -99,7 +99,7 @@ By following these steps, you’ve successfully used `@nx/netlify` serverless fu
 ### Wrapping up
 
 Never used Nx before? Learn more about Nx [here](/getting-started/why-nx).  
-[Official recipe from Nx](/recipes/deployment/node-serverless-functions-netlify#configure-your-netlify-deploy-settings)  
+[Official recipe from Nx](/recipes/node/node-serverless-functions-netlify)  
 [Github example](https://github.com/ndcunningham/nx-netlify-serverless)
 
 ### Learn more

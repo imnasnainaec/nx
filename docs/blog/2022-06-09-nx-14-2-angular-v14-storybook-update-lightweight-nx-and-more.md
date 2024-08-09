@@ -50,7 +50,7 @@ Nx is not only for large monorepos, but works really well for single-project Ang
 - you get faster builds, test runs, linting etc powered by Nx’s task scheduling and caching
 - more schematics (we call them generators in Nx) with specific support for SCAM, NgRX setup, module federation and micro frontend setup and much more to come (looking at you Standalone Components)
 - better, out of the box integration with community tools such as Jest for unit testing, ESLint, Cypress, Storybook,…
-- improved developer experience powered by the [Nx Console VSCode extension](/using-nx/console)
+- improved developer experience powered by the [Nx Console VSCode extension](/getting-started/editor-setup)
 - …
 
 In the last couple of weeks we’ve been working hard on making an automated migration from the Angular CLI to Nx as seamless as it can possibly get. And this can be tricky, believe us. We always had automated migrations, but we improved our existing ones and in addition also added support for multi-project Angular CLI workspaces.
@@ -69,7 +69,7 @@ Here’s Nrwlian Colum tweeting about it
 
 When you setup a new Nx workspace you can choose from a variety of presets (templates) that preconfigure your workspace in the best possible way, already setting up tool like Prettier, Jest, ESLint and Cypress. For some folks however, this might seem too much.
 
-For that, Nx always already had the — what we call — “Nx Core” setup. You can read more about [that on our guide](/getting-started/nx-core), but it basically allows Nx to be used without its plugins, just for the fast, powerful task scheduling and caching capabilities.
+For that, Nx always already had the — what we call — “Nx Core” setup. You can read more about [that on our guide](/getting-started/intro), but it basically allows Nx to be used without its plugins, just for the fast, powerful task scheduling and caching capabilities.
 
 In v14 we already simplified Nx (we have a whole section in [our release blog post](https://medium.com/nx-v14-is-out-here-is-all-you-need-to-know-af4cb501e030?sk=ba6fe338201b54092ee0d97186c0159e)) and in v14.2 we even go a step further: **we made** `**nx.json**` **optional**, providing some reasonable defaults. Now, if you want to add Nx’s powerful task scheduler to an existing repository, all you need to do is to add the `nx` package as a dependency and you’re all set up.
 
@@ -111,7 +111,7 @@ Here’s the result of running our benchmark using the latest version of Nx 14.2
 
 ## Dedicated Linting support for Nx Plugins
 
-Only the possibility of being able to tailor and customize the processes and behavior of your monorepo tooling to your own needs, makes working with it pleasant and allows you to get most out of it. Whether it is to customize the code generation aspect to your company coding styleguide and best practices, to automate the setup of new projects or even add support for languages such as Go, .Net or Flutter. [Nx Plugins](/community#create-nx-plugin) enable such support and really help you make Nx work in the best possible way for your current scenario.
+Only the possibility of being able to tailor and customize the processes and behavior of your monorepo tooling to your own needs, makes working with it pleasant and allows you to get most out of it. Whether it is to customize the code generation aspect to your company coding styleguide and best practices, to automate the setup of new projects or even add support for languages such as Go, .Net or Flutter. [Nx Plugins](/community) enable such support and really help you make Nx work in the best possible way for your current scenario.
 
 Nx plugin support has been around for a while. Just have a look at our [Nx community plugins page](/community). And we keep improving it. We added support for [Nx Plugin presets](https://www.youtube.com/watch?v=yGUrF0-uqaU) and [lately also the ability for local plugins](https://medium.com/nx-v14-is-out-here-is-all-you-need-to-know-af4cb501e030?sk=ba6fe338201b54092ee0d97186c0159e). In this release, we add proper **linting support for Nx Plugin development**.
 
@@ -160,5 +160,3 @@ Makes sure you don’t miss anything by
 - Following us [on Twitter](https://twitter.com/NxDevTools), and
 - Subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), Nx, and more!
 - Subscribing to [our newsletter](https://go.nx.dev/nx-newsletter)!
-
-

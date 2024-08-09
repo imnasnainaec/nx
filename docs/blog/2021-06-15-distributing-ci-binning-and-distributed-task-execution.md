@@ -16,7 +16,7 @@ Binning is an approach to distribution where the planning job divides the work i
 
 ![](/blog/images/2021-06-15/0*92NTlO7eM7-mc9WD.avif)
 
-Nx has always provided affordances to do that, and many workspaces took advantage of it. Most of the setups look similar. This is an [example of implementing binning using Azure Pipelines](/latest/react/ci/monorepo-ci-azure).
+Nx has always provided affordances to do that, and many workspaces took advantage of it. Most of the setups look similar. This is an [example of implementing binning using Azure Pipelines](/ci/recipes/set-up/monorepo-ci-azure).
 
 The planning job invokes _print-affected_. This command executes the same logic as _“affected:\*”_ but instead of running the tasks, it returns the tasks’ descriptions. The job invokes this command for each target such as build/test/lint/e2e. After that, each worker agent runs the tasks assigned to it.
 

@@ -114,7 +114,7 @@ The CODEOWNERS file tells us who owns every node of the dependency graph, but it
 
 ![](/blog/images/2019-09-03/0*aDJ0CvgVAjw59XYQ.avif)
 
-Read more about it [here](/react/guides/monorepo-tags).
+Read more about it [here](/features/enforce-module-boundaries).
 
 ## Building Only What is Affected
 
@@ -140,7 +140,7 @@ nx affected:test --parallel _\# runs tests for \`api-interfaces\`, \`api\`, and 
 
 We can also easily distribute the tests across a grid of machines on CI.
 
-Read more about it [here](/react/guides/monorepo-affected).
+Read more about it [here](/ci/features/affected).
 
 ## Variability
 

@@ -46,9 +46,9 @@ The problem with both of these tools is that any code they generate for you is i
 
 Nx has an elegant solution to this dilemma. There are three key parts.
 
-1.  Use [code generators](/plugin-features/use-code-generators) to create configuration files that you can safely ignore
+1.  Use [code generators](/features/generate-code) to create configuration files that you can safely ignore
 2.  Modify those configuration files whenever your application needs some custom setting
-3.  Run [migration generators](/core-features/automate-updating-dependencies) to maintain state of the art defaults
+3.  Run [migration generators](/features/automate-updating-dependencies) to maintain state of the art defaults
 
 If you never think about a configuration file is it still technical debt? Some people are put off by the number of configuration files that Nx generates when creating a new application. Perhaps these developers have been burned by starter repos burdening them with instant technical debt that must be maintained. These config files are created only for the eventuality that some day you’ll need to modify them.
 

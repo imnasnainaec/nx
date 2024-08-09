@@ -22,7 +22,7 @@ This includes an upgrade script to automatically migrate Nx users using Cypress 
 nx g @nrwl/cypress:migrate-to-cypress-10
 ```
 
-…your workspace will be automatically upgraded to the latest Cypress version. See our [docs for more](/packages/cypress/generators/migrate-to-cypress-10)
+…your workspace will be automatically upgraded to the latest Cypress version.
 
 Cypress v10 also comes with a beta version of [Component Testing](https://docs.cypress.io/guides/component-testing/writing-your-first-component-test). Nx v14.5 comes with an integrated generator to add component testing support to React-based project:
 
@@ -36,7 +36,7 @@ You can also append the `--generate-tests` to automatically generate Cypress com
 nx g @nrwl/react:cypress-component-configuration --project=my-react-project --generate-tests
 ```
 
-Check out our [generator docs](/packages/react/generators/cypress-component-configuration) for more info.
+Check out our [generator docs](/nx-api/react/generators/cypress-component-configuration) for more info.
 
 ## Globs for Task Outputs
 
@@ -99,11 +99,11 @@ Sometimes that’s not feasible though. In that case, globs come in handy:
 }
 ```
 
-More [on our docs](/configuration/packagejson#outputs).
+More [on our docs](/reference/project-configuration).
 
 ## Parameter Forwarding when building dependent projects
 
-Besides the speed aspect, one key feature of Nx is the ability to build dependent projects automatically. Let’s say you have `project-a` which depends on `project-b`, then whenever you run the build for `project-a`, thanks to its project graph, Nx will automatically run the build for `project-b` first. You can define such dependencies either directly in your [project.json](/configuration/projectjson) or [package.json](/configuration/packagejson) file, or globally for an entire workspace in `nx.json`:
+Besides the speed aspect, one key feature of Nx is the ability to build dependent projects automatically. Let’s say you have `project-a` which depends on `project-b`, then whenever you run the build for `project-a`, thanks to its project graph, Nx will automatically run the build for `project-b` first. You can define such dependencies either directly in your [project.json](/reference/project-configuration) or [package.json](/reference/project-configuration) file, or globally for an entire workspace in `nx.json`:
 
 ```
 // nx.json
@@ -158,8 +158,8 @@ What happens to parameters when invoking the target on a project’s dependencie
 
 More on our docs:
 
-- [/configuration/projectjson#dependson](/configuration/projectjson#dependson)
-- [/configuration/packagejson#dependson](/configuration/packagejson#dependson)
+- [/reference/project-configuration](/reference/project-configuration)
+- [/reference/project-configuration](/reference/project-configuration)
 
 ## Linting Performance
 
@@ -169,7 +169,7 @@ Replacing `Sets`, `foreach`, `reduce` with plain `for` loops can often have quit
 
 ## Support for banned external imports lint checks on transitive dependencies
 
-The [Nx Module Boundary lint rule](/structure/monorepo-tags) is a powerful concept especially when it comes to the maintainability aspect of projects and monorepos. Learn more in our blog article on [Taming Code Organization with Module Boundaries in Nx](https://medium.com/mastering-the-project-boundaries-in-nx-f095852f5bf4).
+The [Nx Module Boundary lint rule](/features/enforce-module-boundaries) is a powerful concept especially when it comes to the maintainability aspect of projects and monorepos. Learn more in our blog article on [Taming Code Organization with Module Boundaries in Nx](https://medium.com/mastering-the-project-boundaries-in-nx-f095852f5bf4).
 
 The Module Boundary rule allows for much more though. It also allows to ban external imports. Say you have a frontend project where you want to make sure none of the “backend-type” dependencies accidentally get imported. Or vice-versa, a backend project where you wouldn’t necessarily want to depend on any “frontend-type” package references. You can use the `bannedExternalImports` for that. For example:
 
@@ -199,7 +199,7 @@ The Module Boundary rule allows for much more though. It also allows to ban exte
 }
 ```
 
-Note, the `frontend` and `backend` `sourceTag` definition is something you define. You could have easily named it differently. It is a string that can be attached to a project by adding it to the `tag` property of its `project.json` configuration file. Read more about banned external imports [in our docs](/structure/monorepo-tags#banning-external-imports).
+Note, the `frontend` and `backend` `sourceTag` definition is something you define. You could have easily named it differently. It is a string that can be attached to a project by adding it to the `tag` property of its `project.json` configuration file. Read more about banned external imports [in our docs](/features/enforce-module-boundaries).
 
 Starting with 14.5 we now support such checks also on transitive dependencies. Assume we have `project-a` and `project-b`, both of which are tagged as `framework-agnostic` and have `react` in their banned external imports. Also, assume there's a relationship like `project-a -> project-b`. If `project-b` imports `react` and we run linting, it fails correctly. However, if we run linting on `project-a`, it succeeds as `project-a` is not importing `react` at all, thus not breaking the lint rule. In most situations, this is fine because linting happens at a project level, but sometimes you might want to have a "transitive" behavior where linting would also fail for `project-a` because it imports `project-a` which imports `react`.
 
@@ -302,6 +302,5 @@ npx nx migrate --run-migrations
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
-
 
 Also, if you liked this, click the 👏 and make sure to follow [Nx](https://twitter.com/nxdevtools) on Twitter for more!

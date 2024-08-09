@@ -101,5 +101,3 @@ This article is based on the Upgrading Angular Applications book, which you can 
 ### Victor Savkin is a co-founder of Nx.
 
 ![](/blog/images/2017-05-16/1*s76h75v7CB7g4EuxVNaGkg.avif)
-
-

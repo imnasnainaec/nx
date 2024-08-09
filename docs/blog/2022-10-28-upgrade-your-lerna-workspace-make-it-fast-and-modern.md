@@ -72,5 +72,4 @@ Join the [Nrwl Community Slack](https://go.nx.dev/community), in particular, the
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community) (join the `#lerna` channel)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 
-
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Lerna](https://twitter.com/lernajs) on Twitter for more!

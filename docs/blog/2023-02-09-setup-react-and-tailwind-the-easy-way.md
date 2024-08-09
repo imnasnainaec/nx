@@ -34,7 +34,7 @@ And so did also [Fireship](https://youtu.be/2OTq15A5s0Y) and ultimately [Dan Abr
 
 Code generators speed up such configuration tasks. They are valuable for scaffolding the initial project structure and adding new features to the app setup, such as Tailwind.
 
-Nx has such generators. To use them, you need an Nx-based React setup. If you’re starting new, you can create an [Nx Standalone React project](/getting-started/react-standalone-tutorial) easily using the following command
+Nx has such generators. To use them, you need an Nx-based React setup. If you’re starting new, you can create an [Nx Standalone React project](/getting-started/tutorials/react-standalone-tutorial) easily using the following command
 
 ````shell
 $ npx create-nx-workspace reactapp --preset=react-standalone
@@ -48,11 +48,11 @@ Alternatively, **if you happen to use CRA already**, you can easily convert to a
 $ npx nx@latest init
 ````
 
-You can pass `--vite=false` if you still want to keep the Webpack configuration or pass `--integrated` if you already plan to have a monorepo instead of a single-project setup. The [Nx docs go into more detail here](/recipes/adopting-nx/migration-cra).
+You can pass `--vite=false` if you still want to keep the Webpack configuration or pass `--integrated` if you already plan to have a monorepo instead of a single-project setup. The [Nx docs go into more detail here](/recipes/adopting-nx/adding-to-existing-project).
 
 ## Generating a Tailwind Setup
 
-Once you have a [Nx-based React](/getting-started/react-standalone-tutorial) setup, adding Tailwind is as easy as running:
+Once you have a [Nx-based React](/getting-started/tutorials/react-standalone-tutorial) setup, adding Tailwind is as easy as running:
 
 ```shell
 $ npx nx g @nrwl/react:setup-tailwind
@@ -72,10 +72,10 @@ You’ll get
 
 You should be all setup and ready now! Here are some related resources to explore:
 
-- [Nx docs: React Standalone tutorial](/getting-started/react-standalone-tutorial)
-- [Nx docs: React Monorepo tutorial](/react-tutorial/1-code-generation)
+- [Nx docs: React Standalone tutorial](/getting-started/tutorials/react-standalone-tutorial)
+- [Nx docs: React Monorepo tutorial](/getting-started/tutorials/react-monorepo-tutorial)
 - [Youtube: Is CRA Dead](https://youtu.be/fkTz6KJxhhE)
-- [Nx docs: Migrate CRA to React and Vite](/recipes/adopting-nx/migration-cra)
+- [Nx docs: Migrate CRA to React and Vite](/recipes/adopting-nx/adding-to-existing-project)
 
 ## Learn more
 

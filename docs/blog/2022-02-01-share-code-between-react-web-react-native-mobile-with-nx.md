@@ -236,7 +236,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';cons
 
 ### Environment Variables
 
-Nx comes with a set of different options for [handling environment variables](/guides/environment-variables). In our workspace, we have a simple `.env` file at the workspace root:
+Nx comes with a set of different options for [handling environment variables](/reference/environment-variables). In our workspace, we have a simple `.env` file at the workspace root:
 
 ```
 NX\_REQUEST\_BASE\_URL=://ghibliapi.herokuapp.com

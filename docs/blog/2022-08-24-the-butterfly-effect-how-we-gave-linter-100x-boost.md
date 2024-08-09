@@ -113,5 +113,4 @@ Thanks to [Stefan Van de Vooren](https://www.linkedin.com/in/stefanvandevooren),
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/nrwl_io)
 - 🥚 [Free Egghead course](https://egghead.io/courses/scale-react-development-with-nx-4038)
 
-
 If you liked this article, click the ❤️ and follow [Miro](https://twitter.com/meeroslav) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

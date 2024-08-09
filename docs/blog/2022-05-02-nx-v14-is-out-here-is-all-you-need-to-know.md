@@ -28,7 +28,7 @@ We saw that coming and made it easy for people to migrate to Nx.
 npx add-nx-to-monorepo
 ```
 
-There’s a detailed guide helping with some of the doubts and misconceptions which commonly come up with Lerna users: [/guides/lerna-and-nx](/guides/lerna-and-nx)
+There’s a detailed guide helping with some of the doubts and misconceptions which commonly come up with Lerna users: [https://lerna.js.org/](https://lerna.js.org/)
 
 The future for monorepo tools looks bright as the awareness of monorepos, especially in the JS ecosystem, has grown a lot in recent months. Nx is doing great compared to those tools. But this movement excites us and we are more than ever committed to keep pushing forward and making Nx even better.
 
@@ -55,7 +55,7 @@ You can check and run the benchmarks by yourself: [https://github.com/vsavkin/la
 
 How can Nx be so fast? One thing we did introduce after v13 and [recently enabled by default](https://medium.com/what-is-new-in-nx-13-10-a58d2051d73) is the **Nx Daemon**. There is a fixed amount of computation that needs to happen in every workspace and which increases as the workspace grows. In order to still keep operations fast, we can now use the Nx Daemon to precompute a lot of the operations in the background. Then whenever some Nx operation is triggered, they can directly benefit from that.
 
-> **_Running into a performance issue?_** _Try to debug it by using_ `_NX_PERF_LOGGING=true_` _in combination with your Nx command:_ `_NX_PERF_LOGGING=true nx build crew_`_. Alternatively, you can also have Nx generate a_ `_profile.json_` _and import it into Chrome Devtools._ [_Read more about that here_](/guides/performance-profiling)_._
+> **_Running into a performance issue?_** _Try to debug it by using_ `_NX_PERF_LOGGING=true_` _in combination with your Nx command:_ `_NX_PERF_LOGGING=true nx build crew_`_. Alternatively, you can also have Nx generate a_ `_profile.json_` _and import it into Chrome Devtools._ [_Read more about that here_](/troubleshooting/performance-profiling)_._
 
 While a lot of the above improvements help with local development, one of the biggest pain points of having a large monorepo can be CI times. This is where **distributed task execution (DTE)** makes all the difference\*_._\* Nx Cloud’s DTE understands which commands your CI is running, how many agents are typically being used, and how long a given task typically takes. It leverages that information along with task dependencies to create an execution plan that prioritizes builds of shared libraries first to unblock upstream builds. This results in a more even utilization of CI agents, optimizing the overall running time of your CI.
 
@@ -69,13 +69,13 @@ Also see this example repository with some more information: [https://github.com
 
 ## Simplifying Nx
 
-Nx follows a modular plugin architecture. There is the core part of Nx which has the main logic around managing the project graph, computation caching, hashing and more. On top of that we have a series of Nx provided plugins for some of the most common frameworks and libraries out there, like [TypeScript/Javascript](/packages/js), [Angular](/packages/angular), [React](/packages/react) & [React Native](/packages/react-native), [Next.js](/packages/next), [Nest.js](/packages/nest), [Node](/packages/node) and many more, not to forget about [all the community plugins](/community). We also have a [labs project section](https://github.com/nrwl/nx-labs) which is our incubator for potentially new, natively supported Nx plugins.
+Nx follows a modular plugin architecture. There is the core part of Nx which has the main logic around managing the project graph, computation caching, hashing and more. On top of that we have a series of Nx provided plugins for some of the most common frameworks and libraries out there, like [TypeScript/Javascript](/nx-api/js), [Angular](/nx-api/angular), [React](/nx-api/react) & [React Native](/nx-api/react-native), [Next.js](/nx-api/next), [Nest.js](/nx-api/nest), [Node](/nx-api/node) and many more, not to forget about [all the community plugins](/community). We also have a [labs project section](https://github.com/nrwl/nx-labs) which is our incubator for potentially new, natively supported Nx plugins.
 
-This modular structure allows you to just use [Nx core without plugins](/getting-started/nx-core). An ideal approach if you want to add Nx to an [existing Lerna/Yarn/NPM/PNPM workspace](/migration/adding-to-monorepo). With v14 we made it even simpler s.t. now you only have a single `nx` package in your dependencies with the core setup.
+This modular structure allows you to just use [Nx core without plugins](/getting-started/intro). An ideal approach if you want to add Nx to an [existing Lerna/Yarn/NPM/PNPM workspace](/recipes/adopting-nx/adding-to-monorepo). With v14 we made it even simpler s.t. now you only have a single `nx` package in your dependencies with the core setup.
 
 From there you can go ahead and add new plugins as you need them, thus gradually enhancing the capabilities of your Nx workspace.
 
-Nx is also able now to directly pick up your `package.json` scripts which are common in NPM/Yarn workspaces. Read more here: [/configuration/packagejson](/configuration/packagejson)
+Nx is also able now to directly pick up your `package.json` scripts which are common in NPM/Yarn workspaces. Read more here: [/reference/project-configuration](/reference/project-configuration)
 
 ## Terminal Output
 
@@ -128,7 +128,7 @@ Ever struggled with setting up CI? Especially in a large monorepo? We got your b
 npx nx generate @nrwl/workspace:ci-workflow --ci=github
 ```
 
-Or just use [Nx Console](/using-nx/console), as always.
+Or just use [Nx Console](/getting-started/editor-setup), as always.
 
 ![](/blog/images/2022-05-02/0*XFXDdGUWc3dF9ZMC.avif)
 
@@ -156,7 +156,7 @@ and they will automatically show up in the Nx Cloud viewer. 🤫 you don’t eve
 
 ## Module Federation for Faster Builds
 
-For many workspaces it is enough to leverage [Nx affected commands](/using-nx/affected), [computation caching](/using-nx/caching) and [distributed task execution](https://nx.app/docs/distributed-execution).
+For many workspaces it is enough to leverage [Nx affected commands](/ci/features/affected), [computation caching](/concepts/how-caching-works) and [distributed task execution](https://nx.app/docs/distributed-execution).
 
 However, if you have a huge monorepo, this might not be enough. You can add incremental builds and benefit from caching, but still, you might run into the issue of the final linking process taking a long time, which can hardly be optimized further. Unless you can split up your app into smaller pieces. No, we’re not talking about micro frontends necessarily (more on that in the next section). Rather we can leverage Webpack’s Module Federation support.
 
@@ -170,7 +170,7 @@ nx g @nrwl/react:host shell --remotes=shop,cart,about
 nx g @nrwl/angular:host shell --remotes=shop,cart,about
 ```
 
-By specifying the `implicitDependencies` in Nx ([see docs](/configuration/projectjson#implicitdependencies)) Nx knows what the relation between the various apps is, even though there are not direct imports
+By specifying the `implicitDependencies` in Nx ([see docs](/reference/project-configuration)) Nx knows what the relation between the various apps is, even though there are not direct imports
 
 ![](/blog/images/2022-05-02/0*1VDr0oYKNn4j4gWm.avif)
 
@@ -192,14 +192,14 @@ This can be a game-changer when building huge apps. Stay tuned for more content 
 
 We recommend this approach if you want to speed up local serve and build times, but you still deploy the application as a whole.
 
-Read more on our docs: [/module-federation/faster-builds](/module-federation/faster-builds)
+Read more on our docs: [/concepts/module-federation/faster-builds-with-module-federation](/concepts/module-federation/faster-builds-with-module-federation)
 
 ## Micro Frontend Architecture with Nx
 
 As mentioned in the previous section, Nx v14 comes with out-of-the-box for Webpack Module Federation. The Micro Frontend architecture builds on top of that and adds the ability for independent deployability. While Module Federation enables faster builds by vertically slicing your application into smaller ones, the MFE architecture layers _independent deployments_  
 on top of federation. Teams should only choose MFEs if they want to deploy their host and remotes on different cadences.
 
-Read more on our docs: [/module-federation/micro-frontend-architecture](/module-federation/micro-frontend-architecture)
+Read more on our docs: [/concepts/module-federation/micro-frontend-architecture](/concepts/module-federation/micro-frontend-architecture)
 
 ## Dark mode for Project Graph as well as path tracking
 
@@ -237,7 +237,7 @@ In version 13.4 we released a brand new dedicated package for developing pure Ja
 
 We kept improving it, adding SWC support (including an easy migration between TSC → SWC using an Nx generator) and we’re currently looking into automated publishing support.
 
-Read all the details on our docs: [/getting-started/nx-and-typescript](/getting-started/nx-and-typescript)
+Read all the details on our docs: [/getting-started/intro](/getting-started/intro)
 
 ## React
 
@@ -245,7 +245,7 @@ Nx v14 ships with React 18 support for React DOM and React Native. The latter ha
 
 In addition to that, Expo and Expo Application Service support has been added which has lead already to some drastic speed improvements with some of our clients.
 
-Finally, it is the first version which ships the built-in module federation support for React as we’ve mentioned a couple of sections above. Check out the React package docs page and search for the `host` and `remote` generator: [/packages/react](/packages/react)
+Finally, it is the first version which ships the built-in module federation support for React as we’ve mentioned a couple of sections above. Check out the React package docs page and search for the `host` and `remote` generator: [/nx-api/react](/nx-api/react)
 
 ## Angular
 
@@ -253,7 +253,7 @@ There have been a lot of highlights for the Nx Angular plugin since v13. Here ar
 
 - Support and migrations for Angular 13 (Angular v14 coming soon. We will release that as a minor upgrade in Nx once the Angular team releases v14)
 - Tailwind CSS support (generators, added support to library executors). Read [our blog detailed post](https://medium.com/set-up-tailwind-css-with-angular-in-an-nx-workspace-6f039a0f4479).
-- Single Component Application Modules (SCAM) generators for components, directives and pipes ([see our docs](/packages/angular))
+- Single Component Application Modules (SCAM) generators for components, directives and pipes ([see our docs](/nx-api/angular))
 - Improved Angular CLI to Nx migration support. We invested quite some time refactoring our current migration support from the Angular CLI which not only will allow us to implement more migration scenarios in the future but it also provides better error messages and hints during the migration process. This also allowed us to add support for multi-project Angular CLI workspaces which can now be seamlessly migrated. Multi-application Angular CLI workspace support will be added soon.
 
 Finally, similar to React also Angular gets built-in support for Webpack Module federation and hence also Microfrontends within Nx. See the sections about Module Federation and Microservices for more info and links to the docs.
@@ -303,5 +303,3 @@ Make sure you don’t miss anything by
 - Following us [on Twitter](https://twitter.com/NxDevTools), and
 - Subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), Nx, and more!
 - Subscribing to [our newsletter](https://go.nx.dev/nx-newsletter)!
-
-

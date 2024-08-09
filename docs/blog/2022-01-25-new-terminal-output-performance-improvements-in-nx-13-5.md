@@ -47,14 +47,14 @@ Use the `NX_PROFILE=<filename>` environment variable attached to your Nx CLI com
 NX\_PROFILE=profile.json nx build cart
 ```
 
-It’ll produce a JSON file which you can then open with Chrome’s devtools. [Read more about it on the Nx Docs](/guides/performance-profiling).
+It’ll produce a JSON file which you can then open with Chrome’s devtools. [Read more about it on the Nx Docs](/troubleshooting/performance-profiling).
 
 Thanks [Jason](https://twitter.com/FrozenPandaz) for working on this feature!
 
 ### React Native now supports Environment Variables
 
 Whenever you set up React Native support within an Nx workspace, it should now automatically come with the [react-native-config](https://github.com/luggit/react-native-config) package installed. That allows you to have a `.env` file in the React Native app folder which can then be loaded from within your React Native application.  
-You can find all the details on the [Nx docs](/guides/react-native#environment-variables).
+You can find all the details on the [Nx docs](/recipes/react/react-native).
 
 Thanks [Emily Xiong](https://twitter.com/xiongemily) for implementing this!
 
@@ -108,5 +108,3 @@ nx migrate --run-migrations
 - Purchase our premium video course on advanced practices for Nx workspaces: [here](https://nxplaybook.com/p/advanced-nx-workspaces)!
 
 Be sure to click the 👏 so other people will see it. Follow us [on Twitter](https://twitter.com/NxDevTools), and subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), Nx, and more!
-
-

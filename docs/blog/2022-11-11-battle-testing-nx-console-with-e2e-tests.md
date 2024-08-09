@@ -59,7 +59,7 @@ If we run `wdio run ./wdio.conf.ts` again, we will see that WDIO is using the ca
 
 ![](/blog/images/2022-11-11/0*cIswwkZN58b6pcHi.avif)
 
-Of course, we wanted to take advantage of Nx’s powerful features like [the task graph](/core-features/explore-graph), [computation caching](/core-features/cache-task-results) and [distributed task execution](/core-features/distribute-task-execution). If you’re working on an [integrated style Nx repo](/concepts/integrated-vs-package-based), you get access to many official and community plugins that allow for instant integration with popular dev tools. Jest, ESLint, Cypress and many more have executors ([more on that here](/plugin-features/use-task-executors)) that allow you to run them through Nx. This isn’t the case for WebdriverIO, so we had two options: Create a custom plugin and WDIO executor or simply use `[nx:run-commands](/packages/workspace/generators/run-commands)` to wrap arbitrary commands with Nx. If WDIO became widely used in our repo, writing a custom plugin isn’t too much effort and could definitely be worth it! But for this one-time usage, we went with the quicker option. Let’s set up an `e2e` target like this:
+Of course, we wanted to take advantage of Nx’s powerful features like [the task graph](/features/explore-graph), [computation caching](/features/cache-task-results) and [distributed task execution](/ci/features/distribute-task-execution). If you’re working on an [integrated style Nx repo](/concepts/integrated-vs-package-based), you get access to many official and community plugins that allow for instant integration with popular dev tools. Jest, ESLint, Cypress and many more have executors ([more on that here](/concepts/executors-and-configurations)) that allow you to run them through Nx. This isn’t the case for WebdriverIO, so we had two options: Create a custom plugin and WDIO executor or simply use `[nx:run-commands](/packages/workspace/generators/run-commands)` to wrap arbitrary commands with Nx. If WDIO became widely used in our repo, writing a custom plugin isn’t too much effort and could definitely be worth it! But for this one-time usage, we went with the quicker option. Let’s set up an `e2e` target like this:
 
 Now, if we run `nx run vscode-e2e:e2e` , we will see WDIO run inside Nx!
 
@@ -71,7 +71,7 @@ Another important step in getting the maximum value out of automated E2E testing
 
 `run: yarn exec nx affected --target=e2e --parallel=3`
 
-> `_nx affected_` _analyzes your code changes in order to compute the minimal set of projects that need to be retested. Learn more about it here:_ [_How Affected Works_](/concepts/affected)
+> `_nx affected_` _analyzes your code changes in order to compute the minimal set of projects that need to be retested. Learn more about it here:_ [_How Affected Works_](/ci/features/affected)
 
 This will fail, however, because WebdriverIO tries to open VSCode and expects a screen — which action runners obviously don’t have. If we were testing on a simple Chrome or Firefox instance, this could be solved by adding `--headless` to the browser’s launch options. VSCode doesn’t support a headless mode, though, so we had to find another solution: `xvfb`.
 

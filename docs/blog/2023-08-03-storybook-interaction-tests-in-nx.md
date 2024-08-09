@@ -22,7 +22,7 @@ You write a story to set up the component’s initial state, simulate user behav
 
 ## Setting Up Storybook Interaction Tests on Nx
 
-You can read our detailed guide on how to set up Storybook interaction tests on Nx, here: [/packages/storybook/documents/storybook-interaction-tests](/packages/storybook/documents/storybook-interaction-tests).
+You can read our detailed guide on how to set up Storybook interaction tests on Nx, here: [/recipes/storybook/storybook-interaction-tests](/recipes/storybook/storybook-interaction-tests).
 
 ## Writing Interaction Tests in Storybook
 
@@ -60,7 +60,7 @@ Moreover, since Storybook isolates each component, you can ensure that the tests
 ## Useful Links
 
 - [https://storybook.js.org/docs/react/writing-tests/interaction-testing](https://storybook.js.org/docs/react/writing-tests/interaction-testing)
-- [/packages/storybook/documents/storybook-interaction-tests](/packages/storybook/documents/storybook-interaction-tests)
+- [/recipes/storybook/storybook-interaction-tests](/recipes/storybook/storybook-interaction-tests)
 
 ## Learn more
 

@@ -16,7 +16,7 @@ You can take advantage of Vite’s speed in Storybook right now. We are going to
 
 [Here is a repo with the changes](https://github.com/mandarini/nx-storybook-vite-swc/commit/92f1fb91715c3a89cb2f66cb00a9b297aa7ef2ae).
 
-You can easily add Storybook configuration to your project (application or library) using the [Storybook configuration generator](/packages/storybook/generators/configuration) for Nx. This will generate the Storybook configuration files for you, and in the project’s `.storybook/main.js` it will set the `builder` to `webpack5`. If your project is using Angular or React, our generator will also generate Stories for you (`*.stories.*`) based on your components and your components’ inputs/props.
+You can easily add Storybook configuration to your project (application or library) using the [Storybook configuration generator](/nx-api/storybook/generators/configuration) for Nx. This will generate the Storybook configuration files for you, and in the project’s `.storybook/main.js` it will set the `builder` to `webpack5`. If your project is using Angular or React, our generator will also generate Stories for you (`*.stories.*`) based on your components and your components’ inputs/props.
 
 After you have generated your Storybook configuration for your project, you can follow the steps described above to switch to Vite.
 
@@ -70,7 +70,7 @@ nx storybook my-app
 
 SWC (speedy web compiler) is a compiler written in Rust that can be used for both compilation and bundling.
 
-[Nx supports SWC](/getting-started/nx-and-typescript#use-swc-as-the-compiler). Also, the [Next.js compiler](https://nextjs.org/docs/advanced-features/compiler), starting with [version 12](https://nextjs.org/blog/next-12), uses SWC. So, if you’re using SWC in your project, or if you have a Next.js application, then you can use SWC for your Storybook as well.
+[Nx supports SWC](/getting-started/intro). Also, the [Next.js compiler](https://nextjs.org/docs/advanced-features/compiler), starting with [version 12](https://nextjs.org/blog/next-12), uses SWC. So, if you’re using SWC in your project, or if you have a Next.js application, then you can use SWC for your Storybook as well.
 
 ## How to use SWC for existing Storybook configurations
 
@@ -136,5 +136,3 @@ Also, make sure you don’t miss anything by
 - Following us [on Twitter](https://twitter.com/NxDevTools), and
 - Subscribe to the [YouTube Channel](https://youtube.com/nrwl_io?sub_confirmation=1) for more information on [Angular](https://angular.io/), [React](https://reactjs.org/), Nx, and more!
 - Subscribing to [our newsletter](https://go.nx.dev/nx-newsletter)!
-
-

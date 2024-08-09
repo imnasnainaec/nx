@@ -74,7 +74,7 @@ As well as generators to help you scaffold out
 
 ## Caching
 
-Angular’s caching solution is built on top of Webpack’s incremental build cache. This helps speed up rebuilds as the cache is persisted onto disk. Nx doesn’t change that. It leverages Angular’s builder but in addition, also adds [Nx’s own computation cache on top](/using-nx/caching#computation-caching).
+Angular’s caching solution is built on top of Webpack’s incremental build cache. This helps speed up rebuilds as the cache is persisted onto disk. Nx doesn’t change that. It leverages Angular’s builder but in addition, also adds [Nx’s own computation cache on top](/concepts/how-caching-works).
 
 See the graphic below where we compare the result of getting a cache hit on the Angular CLI with the result of getting a cache hit on the Nx CLI.
 
@@ -87,8 +87,8 @@ Being tied to Webpack, Angular’s cache is just local to your workstation and o
 
 By integrating with [Nx Cloud](/nx-cloud) you also get the opportunity to
 
-- [distribute the cache remotely](/nx-cloud/set-up/set-up-caching) such that other co-workers, as well as your CI system, can leverage it to speed up operations
-- [automatically distribute your task execution](/nx-cloud/set-up/set-up-dte) across multiple agents on CI
+- [distribute the cache remotely](/ci/features/remote-cache) such that other co-workers, as well as your CI system, can leverage it to speed up operations
+- [automatically distribute your task execution](/ci/features/distribute-task-execution) across multiple agents on CI
 
 ## Migrations
 
@@ -102,7 +102,7 @@ By creating a `migrations.json` file that contains each of the migrations to be 
 
 This can also be helpful when we have teams that have long-lived feature branches and we need to reduce the impact of changes and risk of merge conflicts. It also allows these teams to re-run migrations on their own branches.
 
-You can read more about our approach to [updating and migrations here](/using-nx/updating-nx) or watch this [Egghead video on leveraging Nx migrations](https://egghead.io/lessons/javascript-update-your-nx-workspace-with-nx-migrations).
+You can read more about our approach to [updating and migrations here](/features/automate-updating-dependencies) or watch this [Egghead video on leveraging Nx migrations](https://egghead.io/lessons/javascript-update-your-nx-workspace-with-nx-migrations).
 
 ## Configuration
 
@@ -131,13 +131,13 @@ In addition, Nx comes with tooling such as custom lint rules which can also enfo
 
 The Angular CLI can be extended with schematics and builders that aim to allow library authors to provide opinionated code generation and different approaches to executing code in the workspace. An example of this would be `ngx-build-plus` which allows for an additional Webpack configuration to be taken into account when building the Angular application. However, the Angular CLI isn’t fully pluggable and the Angular Devkit, which utilizes RxJS, can be difficult to approach if you ever do find the need to offer schematics as part of your package.
 
-The Nx CLI is fully pluggable and embraces the idea of Nx Plugins that can be used to enhance your development experience. Nx offers some official plugins, but it also has a large listing of community plugins ([/community#plugin-directory](/community#plugin-directory)) that aim to provide support for many tools and integrations!
+The Nx CLI is fully pluggable and embraces the idea of Nx Plugins that can be used to enhance your development experience. Nx offers some official plugins, but it also has a large listing of community plugins ([/community](/community)) that aim to provide support for many tools and integrations!
 
 Nx Plugins can be built with the Nx Devkit, which uses Async Generators and provides many helper functions to make it super easy to build your own code generators and code executors.
 
 Nx even understands the concept of local plugins, which allows you to build a plugin in the same workspace as your application. This provides the opportunity to create opinionated code generators for your full organization to maintain consistency in development practices across all teams working on the application.
 
-You can read more about the Nx Devkit here: [/guides/nx-devkit-angular-devkit](/guides/nx-devkit-angular-devkit)
+You can read more about the Nx Devkit here: [/nx-api/angular/documents/nx-devkit-angular-devkit](/nx-api/angular/documents/nx-devkit-angular-devkit)
 
 ## Switching from the Angular CLI to the Nx CLI
 
@@ -151,7 +151,7 @@ npx nx init
 
 Note: You need to ensure you use the correct command based on the version of Angular your workspace is using. The easiest way would be to ensure your Angular workspace is at the latest Angular version and then run the command!
 
-Otherwise, you can read more about migrating to Nx here, including the command to run based on your version of Angular: [/migration/migration-angular](/migration/migration-angular)
+Otherwise, you can read more about migrating to Nx here, including the command to run based on your version of Angular: [/recipes/angular/migration/angular](/recipes/angular/migration/angular)
 
 ## Conclusion
 

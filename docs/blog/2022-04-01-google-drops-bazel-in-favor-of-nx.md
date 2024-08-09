@@ -12,13 +12,13 @@ Nx has been around for more than 5 years having gained not only a high level of 
 
 ![](/blog/images/2022-04-01/1*bl-VAHTmPm-2u7sQz6Mj5w.avif)
 
-[Nx’s plugin system and developer kit](/using-nx/nx-devkit) have proven to be lightweight and still flexible enough to adapt to a variety of different ecosystems. Such extensibility is massively important for Google’s environment, allowing Nx to work beyond just pure JavaScript-based frontend development and potentially also leveraging the [vast set of community plugins](/community) that are already available.
+[Nx’s plugin system and developer kit](/extending-nx/intro/getting-started) have proven to be lightweight and still flexible enough to adapt to a variety of different ecosystems. Such extensibility is massively important for Google’s environment, allowing Nx to work beyond just pure JavaScript-based frontend development and potentially also leveraging the [vast set of community plugins](/community) that are already available.
 
 > _🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡_  
 > It’s **April Fool’s day**, so guess we got you _😅_. Sorry for that, but definitely keep reading. While Google is probably not dropping Blaze/Bazel (although Google, if you wanna reach out, we’re all ears), the rest of the article is actually 100% the truth, promise _🙂_.  
 > _🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡_
 
-Now, while extensibility is important, Google was searching for something that could match its massive scale, allowing it to cope with the thousands of developers that daily commit to its monorepo and which should not suffer any productivity drain. Nx’s [distributed computation cache](/using-nx/caching) helps with that and while Google’s scale will probably outgrow Nx Cloud’s free 500 hours per month offer, they can still benefit from [hosting Nx Private Cloud](https://nx.app/private-cloud) in their massive data centers.
+Now, while extensibility is important, Google was searching for something that could match its massive scale, allowing it to cope with the thousands of developers that daily commit to its monorepo and which should not suffer any productivity drain. Nx’s [distributed computation cache](/concepts/how-caching-works) helps with that and while Google’s scale will probably outgrow Nx Cloud’s free 500 hours per month offer, they can still benefit from [hosting Nx Private Cloud](https://nx.app/private-cloud) in their massive data centers.
 
 ![[object HTMLElement]](/blog/images/2022-04-01/0*odpETKdlY3ZejNd2.avif)
 _Nx’s distributed caching powered by Nx Cloud_

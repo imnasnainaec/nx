@@ -26,7 +26,7 @@ Prefer **a video version?**
 
 ## Funding — Nx raises $8.6M
 
-In case you missed it, we raised $8.6 million a couple of weeks ago. Here’s the official blog post from our CEO Jeff: [/blog/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76](/blog/from-bootstrapped-to-venture-backed-nx-raises-8-6m-2ae2228eff76)
+In case you missed it, we raised $8.6 million a couple of weeks ago. Here’s the official blog post from our CEO Jeff: [/blog/from-bootstrapped-to-venture-backed](/blog/from-bootstrapped-to-venture-backed)
 
 It is exciting for us as we can now have more employees focused on pushing Nx and Nx Cloud forward, which will significantly boost development speed!  
 For most of our workforce, working on Nx and Nx Cloud was only part of their “20% project”. Yet we released terrific features over the last years and have seen tremendous growth with Nx (which brings us to the next section)
@@ -192,9 +192,9 @@ If you are currently using the NxExt based Vite plugin, or even a Webpack based 
 npx nx g @nrwl/vite:configuration
 ```
 
-This will adjust the NxExt Vite plugin configuration to match the one provided by our core team. Check out our docs for more info: [/packages/vite/generators/configuration](/packages/vite/generators/configuration)
+This will adjust the NxExt Vite plugin configuration to match the one provided by our core team. Check out our docs for more info: [/nx-api/vite/generators/configuration](/nx-api/vite/generators/configuration)
 
-You can also find all the details about the new Vite package on our docs: [/packages/vite](/packages/vite)
+You can also find all the details about the new Vite package on our docs: [/nx-api/vite](/nx-api/vite)
 
 ## Adopting Nx has never been easier
 
@@ -220,8 +220,8 @@ Check out our docs for all the details on
 
 - [adding Nx to an existing monorepo](/recipes/adopting-nx/adding-to-monorepo)
 - [adding Nx to any non-monorepo setup](/recipes/adopting-nx/adding-to-existing-project)
-- [migrating your CRA project to Nx](/recipes/adopting-nx/migration-cra)
-- [migrating your Angular CLI app to Nx](/recipes/adopting-nx/migration-angular)
+- [migrating your CRA project to Nx](/recipes/adopting-nx/adding-to-existing-project)
+- [migrating your Angular CLI app to Nx](/recipes/angular/migration/angular)
 
 Oh..you’re wondering why you would want to add Nx to an existing non-monorepo project? Then keep reading 👇
 
@@ -300,9 +300,9 @@ You can then run it with
 npx nx docs
 ```
 
-As the next steps you might obviously want to add `docs` to the [cacheable operations](/nx-cloud/reference/config) and [fine-tune it's cache inputs](/more-concepts/customizing-inputs).
+As the next steps you might obviously want to add `docs` to the [cacheable operations](/ci/reference/config) and [fine-tune it's cache inputs](/recipes/running-tasks/configure-inputs).
 
-Read more about it on our docs: [/recipes/other/root-level-scripts](/recipes/other/root-level-scripts)
+Read more about it on our docs: [/recipes/running-tasks/root-level-scripts](/recipes/running-tasks/root-level-scripts)
 
 ## Simplified Nx run-commands
 
@@ -332,9 +332,9 @@ Nx can automatically detect your scripts in `package.json`. But if you have an i
 }
 ```
 
-The task itself is handled by an [Nx executor](/recipes/executors) that comes with the plugin, in this case `@nrwl/vite:build` to build a Vite project.
+The task itself is handled by an [Nx executor](/extending-nx/recipes/local-executors) that comes with the plugin, in this case `@nrwl/vite:build` to build a Vite project.
 
-To add a custom command, like invoking a node script, Nx has the so-called [“run-commands”](/recipes/executors/run-commands-executor). So far you had to wrap those commands as follows:
+To add a custom command, like invoking a node script, Nx has the so-called [“run-commands”](/recipes/running-tasks/run-commands-executor). So far you had to wrap those commands as follows:
 
 ```
 // project.json
@@ -377,7 +377,7 @@ For simple commands this was a huge overhead, so we simplified it to just this:
 
 Simple, isn’t it! Obviously the expanded form is still there and also useful for when you need more options, run multiple commands or features such as argument forwarding.
 
-You can read all about it on our docs: [/recipes/executors/run-commands-executor](/recipes/executors/run-commands-executor)
+You can read all about it on our docs: [/recipes/running-tasks/run-commands-executor](/recipes/running-tasks/run-commands-executor)
 
 ## Coming up
 
@@ -409,6 +409,5 @@ npx nx migrate --run-migrations
 - 👩‍💻 [Nx GitHub](https://github.com/nrwl/nx)
 - 💬 [Nrwl Community Slack](https://go.nx.dev/community)
 - 📹 [Nrwl Youtube Channel](https://www.youtube.com/@nxdevtools)
-
 
 Also, if you liked this, click the 👏 and make sure to follow [Juri](https://twitter.com/juristr) and [Nx](https://twitter.com/nxdevtools) on Twitter for more!

@@ -233,7 +233,6 @@ You should see a browser pop up to run the Protractor tests and then green succe
 - Get our [**free basic Nx workspaces course on youtube**](https://youtu.be/2mYLe9Kp9VM)**!**
 - **Purchase our** **premium video course on advanced practices for Nx workspaces:** [**here!**](https://nxplaybook.com/p/advanced-nx-workspaces)
 
-
 ![](/blog/images/2020-06-17/0*svF6tvmpOmRUnjhP.avif)
 
 _If you liked this, click the_ 👏 _below so other people will see this here on Medium. Follow_ [_@nrwl_io_](https://medium.com/@nrwl_io) _to read more about Nx and Nrwl. Also follow_ [_Nx_](https://www.twitter.com/NxDevtools)_, and_ [_Nrwl_](https://www.twitter.com/nrwl_io) _on Twitter!_

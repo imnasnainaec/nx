@@ -44,14 +44,14 @@ or [subscribe to the newsletter](https://go.nx.dev/nx-newsletter) to get notifie
 In order to create a new Next.js application, we have two options mainly:
 
 - use the [Next.js CLI](https://nextjs.org/docs/getting-started)
-- use a [Nx workspace](/latest/react/guides/nextjs)
+- use a [Nx workspace](/nx-api/next)
 
 We’re going to use Nx for this setup because it provides a series of advantages:
 
 - support for multiple apps (we can easily add more apps to our workspace and share common logic)
-- structure our code as [workspace libraries](/latest/react/structure/creating-libraries), thus facilitating a cleaner architecture, code reuse and responsibility segregation
-- improved build and test speed via Nx [affected commands](/latest/react/core-concepts/affected) and [computation caching](/latest/react/core-concepts/computation-caching)
-- out of the box support for code generation, [Storybook](/latest/react/storybook/overview) and [Cypress integration](/latest/react/cypress/overview)
+- structure our code as [workspace libraries](/concepts/decisions/project-size), thus facilitating a cleaner architecture, code reuse and responsibility segregation
+- improved build and test speed via Nx [affected commands](/ci/features/affected) and [computation caching](/features/cache-task-results)
+- out of the box support for code generation, [Storybook](/nx-api/storybook) and [Cypress integration](/nx-api/cypress)
 
 These parts will be covered in more detail in the upcoming articles that are part of this series.
 
@@ -80,7 +80,7 @@ Let’s quickly explore the Nx workspace structure to learn some of the fundamen
 
 An Nx workspace is structured into `apps` and `libs`. Instead of having all the different features of our app just within folders of our application folder, we rather split them up into “workspace libraries”. Most of our business and domain logic should reside in those libraries. The apps can be seen as our “deployables”. They import the functionality in the libs as the building blocks to create a deployable app.
 
-Although the libraries can be built and published (see [Publishable and Buildable Libraries](/latest/react/structure/buildable-and-publishable-libraries/)), they don’t have to. They are referenced via TypeScript path mappings in the \`tsconfig.base.json\` configuration at the root of the Nx workspace. When we build the application, all referenced libraries are built into the app via the used bundler (e.g. Webpack or Rollup etc).
+Although the libraries can be built and published (see [Publishable and Buildable Libraries](/concepts/buildable-and-publishable-libraries)), they don’t have to. They are referenced via TypeScript path mappings in the \`tsconfig.base.json\` configuration at the root of the Nx workspace. When we build the application, all referenced libraries are built into the app via the used bundler (e.g. Webpack or Rollup etc).
 
 ### Config files: workspace.json and nx.json
 
@@ -89,9 +89,9 @@ Let’s give a fast overview of the main configuration files. All the details ca
 The `workspace.json` is the main configuration file of an Nx workspace. It defines
 
 \- the projects in the workspace (e.g. apps and libs)  
-\- the [Nx executor](/latest/react/executors/using-builders) used to run operations on the projects (e.g. serve the app, build it, run Jest tests, Storybook etc..)
+\- the [Nx executor](/concepts/executors-and-configurations) used to run operations on the projects (e.g. serve the app, build it, run Jest tests, Storybook etc..)
 
-The `nx.json` defines mostly additional configuration properties used for the [Nx dependency graph](/latest/react/structure/dependency-graph). Additionally, you can define the base branch (e.g. `master` or `main` or whatever you are using) and the [task runner](/latest/react/core-concepts/configuration#tasks-runner-options) to be used.
+The `nx.json` defines mostly additional configuration properties used for the [Nx dependency graph](/features/explore-graph). Additionally, you can define the base branch (e.g. `master` or `main` or whatever you are using) and the [task runner](/reference/project-configuration) to be used.
 
 ### Serving, building and testing
 
@@ -107,7 +107,7 @@ npx nx run <proj-name>:<target> <options>
 
 So to serve our app we run `nx run cart:serve`, to build it `nx run cart:build` and so on. There are also shortcuts, meaning we can alternatively invoke these commands like `nx serve cart` or `nx build cart`.
 
-> In Nx “targets” are invocable commands. There are predefined commands such as build, serve, test that get set up when you generate a new application. You can also define your custom ones, either by building your own [Nx Executor](/latest/react/executors/using-builders) or use the [Nx Run-Commands](/latest/react/workspace/run-commands-executor).
+> In Nx “targets” are invocable commands. There are predefined commands such as build, serve, test that get set up when you generate a new application. You can also define your custom ones, either by building your own [Nx Executor](/concepts/executors-and-configurations) or use the [Nx Run-Commands](/nx-api/nx/executors/run-commands).
 
 ## Working on our Next App
 

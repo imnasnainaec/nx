@@ -42,7 +42,7 @@ The “why” is pretty straightforward. From the perspective of an open-source 
 
 ![](/blog/images/2023-07-26/0*M7X1nddld2oBJ736.avif)
 
-The distribution of Nx installs by version demonstrates the effectiveness of this approach. For instance, v16.5, which accounts for 19.7% of all versions, has already been adopted by many users, despite [its recent release](/changelog#16.5.0). The latest major accounts for 34.7% already and 41.4% are on the previous v15, a large majority of which is on the latest 15.9 minor. Hence, v16 & v15 make up 3/4 of all Nx installs.
+The distribution of Nx installs by version demonstrates the effectiveness of this approach. For instance, v16.5, which accounts for 19.7% of all versions, has already been adopted by many users, despite [its recent release](/changelog). The latest major accounts for 34.7% already and 41.4% are on the previous v15, a large majority of which is on the latest 15.9 minor. Hence, v16 & v15 make up 3/4 of all Nx installs.
 
 ## How? Database Migration Scripts for Code?
 
@@ -187,7 +187,7 @@ After that, your codebase should have been updated. Run your (ideally automated)
 That’s it! If you want to dive deeper, here are some potentially helpful links:
 
 - [Watch our YT video about Code Migrations](https://youtu.be/Ss6MfcXi0jE)
-- [/core-features/automate-updating-dependencies](/core-features/automate-updating-dependencies)
+- [/features/automate-updating-dependencies](/features/automate-updating-dependencies)
 
 Also, if you haven’t already, give us a ⭐️ on Github: [https://github.com/nrwl/nx](https://github.com/nrwl/nx). We’d appreciate it 😃.
 

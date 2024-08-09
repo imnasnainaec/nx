@@ -1,7 +1,7 @@
 import { workspaceRoot } from '@nx/devkit';
 import { XMLParser } from 'fast-xml-parser';
 import * as glob from 'glob';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as parseLinks from 'parse-markdown-links';
 
@@ -13,12 +13,15 @@ import * as parseLinks from 'parse-markdown-links';
 function readFileContents(path: string): string {
   return readFileSync(path, 'utf-8');
 }
+
 function isLinkInternal(linkPath: string): boolean {
   return linkPath.startsWith('/') || linkPath.startsWith('https://nx.dev');
 }
+
 function isNotAsset(linkPath: string): boolean {
   return !linkPath.startsWith('/assets');
 }
+
 function isNotImage(linkPath: string): boolean {
   return (
     !linkPath.endsWith('.png') &&
@@ -30,30 +33,34 @@ function isNotImage(linkPath: string): boolean {
     !linkPath.endsWith('.avif')
   );
 }
+
 function removeAnchors(linkPath: string): string {
   return linkPath.split('#')[0];
 }
-function extractAllLinks(basePath: string): Record<string, string[]> {
-  // temporarily exclude blog posts from link checker
-  return glob
-    .sync(`${basePath}/*/**/*.md`, { ignore: `${basePath}/blog/**/*.md` })
-    .reduce((acc, path) => {
-      const fileContents = readFileContents(path);
-      const cardLinks = (fileContents.match(/url="(.*?)"/g) || []).map((v) =>
-        v.slice(5, -1)
-      );
-      const links = parseLinks(fileContents)
-        .concat(cardLinks)
-        .filter(isLinkInternal)
-        .filter(isNotAsset)
-        .filter(isNotImage);
-      // .map(removeAnchors);
-      if (links.length) {
-        acc[path.replace(basePath, '')] = links;
-      }
-      return acc;
-    }, {});
+
+function removeQueryParams(linkPath: string): string {
+  return linkPath.split('?')[0];
 }
+
+function extractAllLinks(basePath: string): Record<string, string[]> {
+  return glob.sync(`${basePath}/*/**/*.md`).reduce((acc, path) => {
+    const fileContents = readFileContents(path);
+    const cardLinks = (fileContents.match(/url="(.*?)"/g) || []).map((v) =>
+      v.slice(5, -1)
+    );
+    const links = parseLinks(fileContents)
+      .concat(cardLinks)
+      .filter(isLinkInternal)
+      .filter(isNotAsset)
+      .filter(isNotImage);
+    // .map(removeAnchors);
+    if (links.length) {
+      acc[path.replace(basePath, '')] = links;
+    }
+    return acc;
+  }, {});
+}
+
 function extractImageLinks(basePath: string): Record<string, string[]> {
   return glob.sync(`${basePath}/**/*.md`).reduce((acc, path) => {
     const fileContents = readFileContents(path);
@@ -66,6 +73,7 @@ function extractImageLinks(basePath: string): Record<string, string[]> {
     return acc;
   }, {});
 }
+
 function readSiteMapIndex(directoryPath: string, filename: string): string[] {
   const parser = new XMLParser();
   const sitemapIndex: {
@@ -82,6 +90,7 @@ function readSiteMapIndex(directoryPath: string, filename: string): string[] {
     ),
   ];
 }
+
 function readSiteMapLinks(filePath: string): string[] {
   const parser = new XMLParser();
   const sitemap: {
@@ -103,6 +112,7 @@ const sitemapUrls = readSiteMapIndex(
   join(workspaceRoot, 'dist/nx-dev/nx-dev/public/'),
   'sitemap.xml'
 ).flatMap((path) => readSiteMapLinks(path));
+
 function headerToAnchor(line: string): string {
   return line
     .replace(/[#]+ /, '')
@@ -142,12 +152,51 @@ function readApiJson(manifestFileName: string): string[] {
     });
 }
 
+async function fixLinksforRedirects(
+  basePath: string,
+  errors: Array<{ file: string; link: string }>
+) {
+  const redirectErrors: Array<{
+    file: string;
+    link: string;
+    redirectsTo?: string;
+  }> = [];
+
+  for (let i = 0; i < errors.length; i++) {
+    console.log(`Checking https://nx.dev${errors[i].link} for redirects...`);
+    const response = await fetch(`https://nx.dev${errors[i].link}`);
+    if (response.status !== 404) {
+      const fileContents = readFileContents(
+        join(workspaceRoot, 'docs', errors[i].file)
+      );
+
+      const newFileContents = fileContents.replaceAll(
+        errors[i].link,
+        response.url.replace('https://nx.dev', '')
+      );
+      console.log(`Updating ${errors[i].file}`);
+      writeFileSync(
+        join(workspaceRoot, 'docs', errors[i].file),
+        newFileContents
+      );
+      redirectErrors.push({
+        ...errors[i],
+        redirectsTo: response.url.replace('https://nx.dev', ''),
+      });
+    } else {
+      redirectErrors.push(errors[i]);
+    }
+  }
+
+  return redirectErrors;
+}
+
 const anchorUrls = ['nx.json', 'ci.json', 'extending-nx.json'].flatMap(
   (manifestFileName) => readApiJson(manifestFileName)
 );
-const ignoreAnchorUrls = ['/nx-api', '/blog', '/pricing'];
+const ignoreAnchorUrls = ['/nx-api', '/blog', '/pricing', '/conf'];
 
-const errors: Array<{ file: string; link: string }> = [];
+let errors: Array<{ file: string; link: string; redirectsTo?: string }> = [];
 const localLinkErrors: Array<{ file: string; link: string }> = [];
 for (let file in documentLinks) {
   for (let link of documentLinks[file]) {
@@ -160,11 +209,16 @@ for (let file in documentLinks) {
       ) &&
       !anchorUrls.includes(link)
     ) {
+      console.log('push 1');
       errors.push({ file, link });
     } else if (
       !link.includes('#') &&
-      !sitemapUrls.includes(['https://nx.dev', link].join(''))
+      !sitemapUrls.includes(
+        ['https://nx.dev', removeQueryParams(link)].join('')
+      )
     ) {
+      console.log('push 3');
+
       errors.push({ file, link });
     } else if (
       link.includes('#') &&
@@ -173,6 +227,8 @@ for (let file in documentLinks) {
       ) &&
       !sitemapUrls.includes(['https://nx.dev', removeAnchors(link)].join(''))
     ) {
+      console.log('push 03');
+
       errors.push({ file, link });
     }
   }
@@ -191,10 +247,12 @@ console.log(`i/ Internal Link Check`);
 if (errors.length || localLinkErrors.length) {
   if (errors.length) {
     console.log(`ERROR\n${errors.length} links are pointing to nowhere:`);
+
     errors.forEach((error) => {
       console.error(`⚠ File:${error.file}\n -> ${error.link}\n`);
     });
   }
+
   if (localLinkErrors.length) {
     console.log(
       `ERROR\n${localLinkErrors.length} local links should not include the domain:`

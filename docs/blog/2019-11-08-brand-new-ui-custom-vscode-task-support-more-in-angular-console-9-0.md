@@ -75,7 +75,7 @@ As an example, let’s say that my team, the `Super-Narwhals` have a development
     {
       "label": "my-npm-task-that-runs-first",
       "type": "npm",
-      "script": "my-npm-task",
+      "script": "my-npm-task"
     }
   ]
 }
@@ -104,7 +104,6 @@ Over the coming months we plan to add a number of exciting new features to our e
 Thanks for reading! That’s all folks!
 
 ![](/blog/images/2019-11-08/0*WL5InnWDnAuqfbfZ.avif)
-
 
 ![](/blog/images/2019-11-08/0*sUuN-NoTZiZ4cg22.avif)
 
