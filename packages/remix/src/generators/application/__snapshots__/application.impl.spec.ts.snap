@@ -324,8 +324,7 @@ export default {
 `;
 
 exports[`Remix Application Integrated Repo --projectNameAndRootFormat=as-provided --unitTestRunner should generate the correct files for testing using jest 2`] = `
-"/* eslint-disable */
-export default {
+"export default {
   displayName: 'test',
   preset: '../jest.preset.js',
   transform: {
@@ -835,8 +834,7 @@ export default {
 `;
 
 exports[`Remix Application Integrated Repo --projectNameAndRootFormat=derived --unitTestRunner should generate the correct files for testing using jest 2`] = `
-"/* eslint-disable */
-export default {
+"export default {
   displayName: 'test',
   preset: '../../jest.preset.js',
   transform: {
@@ -1129,8 +1127,7 @@ export default {
 `;
 
 exports[`Remix Application Standalone Project Repo --unitTestRunner should generate the correct files for testing using jest 2`] = `
-"/* eslint-disable */
-export default {
+"export default {
   setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
   displayName: 'test',
   preset: './jest.preset.cjs',
@@ -1385,7 +1382,7 @@ exports[`Remix Application Standalone Project Repo should create the application
 exports[`Remix Application Standalone Project Repo should create the application correctly 6`] = `
 "{
   "root": true,
-  "ignorePatterns": ["!**/*"],
+  "ignorePatterns": ["!**/*", "build", "public/build"],
   "plugins": ["@nx"],
   "overrides": [
     {
