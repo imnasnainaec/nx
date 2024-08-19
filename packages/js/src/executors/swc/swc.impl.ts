@@ -2,7 +2,7 @@ import { ExecutorContext, readJsonFile } from '@nx/devkit';
 import { assetGlobsToFiles, FileInputOutput } from '../../utils/assets/assets';
 import { removeSync } from 'fs-extra';
 import { sync as globSync } from 'fast-glob';
-import { dirname, join, relative, resolve, normalize } from 'path';
+import { dirname, join, relative, resolve, normalize, basename } from 'path';
 import { copyAssets } from '../../utils/assets';
 import { checkDependencies } from '../../utils/check-dependencies';
 import {
@@ -23,6 +23,8 @@ import {
 import { compileSwc, compileSwcWatch } from '../../utils/swc/compile-swc';
 import { getSwcrcPath } from '../../utils/swc/get-swcrc-path';
 import { generateTmpSwcrc } from '../../utils/swc/inline';
+import { fileExists } from 'nx/src/utils/fileutils';
+import { copyFile } from 'fs/promises';
 
 function normalizeOptions(
   options: SwcExecutorOptions,
@@ -174,6 +176,7 @@ export async function* swcExecutor(
         context
       );
       removeTmpSwcrc(options.swcCliOptions.swcrcPath);
+      await copyMainToMainOutputPath(options);
       disposeFn = () => {
         assetResult?.stop();
         packageJsonResult?.stop();
@@ -193,6 +196,7 @@ export async function* swcExecutor(
         },
         context
       );
+      await copyMainToMainOutputPath(options);
       removeTmpSwcrc(options.swcCliOptions.swcrcPath);
       postProcessInlinedDependencies(
         options.outputPath,
@@ -209,6 +213,21 @@ function removeTmpSwcrc(swcrcPath: string) {
     swcrcPath.includes('.generated.swcrc')
   ) {
     removeSync(dirname(swcrcPath));
+  }
+}
+
+// If the main output path is not the same as the output path e.g. it could be nested in a subfolder
+// then copy the main output path to the output path since swc would have created the output path.
+async function copyMainToMainOutputPath(options: NormalizedSwcExecutorOptions) {
+  const mainOutputDir = dirname(options.mainOutputPath);
+  const filName = basename(options.mainOutputPath);
+  if (mainOutputDir !== options.outputPath) {
+    if (fileExists(join(options.outputPath, filName))) {
+      await copyFile(
+        join(options.outputPath, filName),
+        join(resolve(options.mainOutputPath, mainOutputDir), filName)
+      );
+    }
   }
 }
 
