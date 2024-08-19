@@ -155,6 +155,8 @@ export function withAffectedOptions(yargs: Argv) {
       'strip-dashed': true,
       'unknown-options-as-args': true,
       'populate--': true,
+      'parse-numbers': false,
+      'parse-positional-numbers': false,
     })
     .option('files', {
       describe:
@@ -214,6 +216,8 @@ export function withRunManyOptions<T>(
       'strip-dashed': true,
       'unknown-options-as-args': true,
       'populate--': true,
+      'parse-numbers': false,
+      'parse-positional-numbers': false,
     })
     .option('projects', {
       type: 'string',
@@ -291,6 +295,8 @@ export function withRunOneOptions(yargs: Argv) {
       'strip-dashed': true,
       'unknown-options-as-args': true,
       'populate--': true,
+      'parse-numbers': false,
+      'parse-positional-numbers': false,
     })
     .option('project', {
       describe: 'Target project',
