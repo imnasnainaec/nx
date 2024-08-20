@@ -3,7 +3,7 @@ import {
   addDependenciesToPackageJson,
   runTasksInSerial,
 } from '@nx/devkit';
-import { Linter, lintProjectGenerator } from '@nx/eslint';
+import { Linter, LinterType, lintProjectGenerator } from '@nx/eslint';
 import {
   addExtendsToLintConfig,
   addIgnoresToLintConfig,
@@ -17,7 +17,7 @@ import { nuxtEslintConfigVersion } from './versions';
 export async function addLinting(
   host: Tree,
   options: {
-    linter: Linter;
+    linter: Linter | LinterType;
     projectName: string;
     projectRoot: string;
     unitTestRunner?: 'vitest' | 'none';

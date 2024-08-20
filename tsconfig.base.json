@@ -108,6 +108,7 @@
       "@nx/nx-dev/ui-icons": ["nx-dev/ui-icons/src/index.ts"],
       "@nx/nx-dev/ui-markdoc": ["nx-dev/ui-markdoc/src/index.ts"],
       "@nx/nx-dev/ui-member-card": ["nx-dev/ui-member-card/src/index.ts"],
+      "@nx/nx-dev/ui-podcast": ["nx-dev/ui-podcast/src/index.ts"],
       "@nx/nx-dev/ui-pricing": ["nx-dev/ui-pricing/src/index.ts"],
       "@nx/nx-dev/ui-primitives": ["nx-dev/ui-primitives/src/index.ts"],
       "@nx/nx-dev/ui-references": ["nx-dev/ui-references/src/index.ts"],
@@ -129,6 +130,9 @@
       "@nx/storybook": ["packages/storybook"],
       "@nx/storybook/*": ["packages/storybook/*"],
       "@nx/typedoc-theme": ["typedoc-theme/src/index.ts"],
+      "@nx/ui-scrollable-content": [
+        "nx-dev/ui-scrollable-content/src/index.ts"
+      ],
       "@nx/vite": ["packages/vite"],
       "@nx/vite/*": ["packages/vite/*"],
       "@nx/vue": ["packages/vue"],
